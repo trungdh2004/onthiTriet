@@ -12,6 +12,7 @@
       }
     </style>
   </head>
+
   <body>
     <div class="w-full min-h-screen flex items-center justify-center">
       <!-- câu hỏi -->
@@ -104,490 +105,397 @@
 
       const listQuestion = [
         {
-          answers: [
-            "<p>Tài chính nhà nước</p>",
-            "<p>Tài chính Doanh nghiệp</p>",
-            "<p>Hoạt động phi tài chính</p>",
-            "<p>Trung gian tài chính</p>",
+          text: "Câu 1: Chuỗi cung ứng gắn liền với:",
+          answer: ["Một loại sản phẩm"],
+          options: [
+            "Một doanh nghiệp",
+            "Một loại sản phẩm",
+            "Một nhà cung cấp",
+            "Một người tiêu dùng",
           ],
-          question: "<p>Hệ thống các quan hệ tài chính KHÔNG bao gồm</p>",
-          complead: 2,
         },
         {
-          answers: [
-            "<p>Phải là một quan hệ phân phối</p>",
-            "<p>Quan hệ hàng đổi hàng</p>",
-            "<p>Quan hệ này diễn ra dưới dạng giá trị</p>",
-            "<p>Có sự thành lập và sử dụng một quỹ tiền tệ</p>",
+          text: "Câu 2: Lập kế hoạch tác nghiệp trong chuỗi cung ứng nhằm xác định:",
+          answer: ["Đặt mua vật liệu"],
+          options: [
+            "Kế hoạch bán hàng",
+            "Đặt mua vật liệu",
+            "Quan hệ đối tác",
+            "Kế hoạch sản xuất",
           ],
-          question:
-            "<p>Phương án nào KHÔNG PHẢI là đặc trưng của quan hệ tài chính</p>",
-          complead: 1,
         },
         {
-          answers: [
-            "<p>Một loại tín tệ</p>",
-            "<p>Tiền được làm bằng giấy</p>",
-            "<p>Một loại hóa tệ</p>",
-            "<p>Một loại hàng hóa</p>",
+          text: "Câu 3: Xác định mối quan hệ cộng tác phù hợp cần dựa vào:",
+          answer: ["Tất cả a, b và c đều đúng"],
+          options: [
+            "Chiến lược kinh doanh",
+            "Cơ cấu tổ chức",
+            "Hệ thống công nghệ và quy trình của doanh nghiệp",
+            "Tất cả a, b và c đều đúng",
           ],
-          question:
-            "<p><span>Tiền giấy do Ngân hàng nhà nước phát hành hiện nay là:</span></p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>Các công cụ tài chính ngắn hạn</p>",
-            "<p>Các công cụ tài chính trung và dài hạn</p>",
-            "<p>Kỳ phiếu</p>",
-            "<p>Tiền tệ</p>",
+          text: "Câu 4: Dòng tài chính trong chuỗi cung ứng gồm hoạt động:",
+          answer: ["Thanh toán và chuyển giao quyền sở hữu"],
+          options: [
+            "Sản xuất hàng hóa",
+            "Phân phối hàng hóa",
+            "Thanh toán và chuyển giao quyền sở hữu",
+            "Trao đổi thông tin chứng từ hàng hóa",
           ],
-          question:
-            "<p><span>Thị trường vốn là thị trường giao dịch:</span></p>",
-          complead: 1,
         },
         {
-          answers: [
-            "<p>Thị trường tiền tệ và thị trường vốn</p>",
-            "<p>Thị trường tiền tệ và thị trường hối đoái</p>",
-            "<p>Thị trường hối đoái và thị trường vốn</p>",
-            "<p>Thị trường chứng khoán, thị trường tiền tệ, thị trường thuê mua, thị trường bảo hiểm</p>",
-          ],
-          question: "<p><span>Thị trường tài chính bao gồm:</span></p>",
-          complead: 0,
+          text: "Câu 5: Cấu trúc mạng lưới cung ứng không bao gồm:",
+          answer: ["Nhân sự"],
+          options: ["Địa điểm sản xuất", "Dự trữ", "Vận chuyển", "Nhân sự"],
         },
         {
-          answers: [
-            "<p>Khả năng tài sản đó có thể sinh lời</p>",
-            "<p><span>Mức độ dễ dàng mà tài sản đó có thể chuyển đổi thành cổ phiếu&nbsp; thường</span></p>",
-            "<p><span>Mức độ dễ dàng mà tài sản đó có thể chuyển đổi thành tiền mà không mất quá nhiều giá trị</span></p>",
-            "<p><span>Số tiền mà tài sản đó có thể chuyển hoá thành tiền và sinh lời.</span></p>",
+          text: "Câu 6: Mua là một phần trong chiến lược chuỗi cung ứng gồm các hoạt động liên quan đến:",
+          answer: ["Tất cả a, b và c đều đúng"],
+          options: [
+            "Phát triển các nhà cung cấp",
+            "Đàm phán hợp đồng",
+            "Lựa chọn nhà cung cấp",
+            "Tất cả a, b và c đều đúng",
           ],
-          question:
-            "<p><span>Tính thanh khoản của một loại tài sản là:</span></p>",
-          complead: 2,
         },
         {
-          answers: [
-            "<p><span>Vẫn có thể quy đổi ra vàng theo một tỷ lệ nhất định do Ngân hàng Nhà nước quy định</span></p>",
-            "<p>Có giá trị danh nghĩa lớn hơn nhiều so với giá trị thực của nó</p>",
-            "<p>Vẫn có thể đổi ra vàng theo một tỷ lệ nhất định do Nhà nước quy định và có giá trị danh nghĩa lớn hơn nhiều so với giá trị thực của nó</p>",
-            "<p>Là hóa tệ</p>",
+          text: "Câu 7: Phát triển nguồn cung ứng nhằm:",
+          answer: ["Đảm bảo duy trì nguồn cung hiện tại"],
+          options: [
+            "Đảm bảo duy trì nguồn cung hiện tại",
+            "Đảm bảo duy trì nguồn cung tương lai",
+            "Xây dựng và duy trì chính sách mua",
+            "Tất cả a, b và c đều sai",
           ],
-          question:
-            "<p><span>Tiền giấy lưu hành ở Việt Nam hiện nay:</span></p>",
-          complead: 1,
         },
         {
-          answers: [
-            "<p>Lãi suất danh nghĩa sau khi đã loại bỏ tỷ lệ lạm phát</p>",
-            "<p>Lãi suất ghi trên các hợp đồng kinh tế</p>",
-            "<p>Lãi suất công bố tại các ngân hàng</p>",
-            "<p>Lãi suất chiết khấu hay tái chiết khấu</p>",
+          text: "Câu 8: Hoạch định chuỗi cung ứng nhằm:",
+          answer: ["Tất cả a, b và c đều đúng"],
+          options: [
+            "Tối ưu hóa nguồn lực",
+            "Xác định mục tiêu",
+            "Đảm bảo cân bằng cung và cầu",
+            "Tất cả a, b và c đều đúng",
           ],
-          question: "<p><span>Lãi suất thực là:</span></p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>Nền kinh tế thị trường</p>",
-            "<p>Nền kinh tế tri thức</p>",
-            "<p>Nền kinh tế hàng hóa</p>",
-            "<p>Nền kinh tế hàng hóa tiền tệ</p>",
+          text: "Câu 9: Hoạch định chiến lược chuỗi cung ứng nhằm xác định:",
+          answer: ["Cấu trúc chuỗi cung ứng"],
+          options: [
+            "Kế hoạch bán hàng",
+            "Lộ trình giao hàng",
+            "Tiến độ sản xuất",
+            "Cấu trúc chuỗi cung ứng",
           ],
-          question: "<p>Tài chính không thể ra đời nếu thiếu:</p>",
-          complead: 3,
         },
         {
-          answers: [
-            "<p>Phương tiện trao đổi</p>",
-            "<p>Phương tiện lưu trữ giá trị</p>",
-            "<p>Phương tiện thanh toán quốc tế</p>",
-            "<p>Phương tiện đo lường và biểu hiện giá trị</p>",
+          text: "Câu 10: Lập kế hoạch trong mô hình SCOR gồm:",
+          answer: ["Kế hoạch cung cầu"],
+          options: [
+            "Thiết lập đơn hàng",
+            "Đặt mua sản phẩm",
+            "Kế hoạch cung cầu",
+            "Quản lý đơn hàng",
           ],
-          question:
-            "<p>Chức năng nào của tiền tệ được các nhà kinh tế học hiện đại quan niệm là chức năng quan trọng nhất?</p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>Quá trình tiêu dùng hàng hóa, sản xuất và mua bán</p>",
-            "<p>Quá trình sản xuất</p>",
-            "<p>Quá trình chuyển dịch các nguồn vốn</p>",
-            "<p>Quá trình tiêu dùng hàng hóa</p>",
+          text: "Câu 11: Đối tượng thu hồi trong chuỗi cung ứng gồm:",
+          answer: ["Tất cả a, b và c sai"],
+          options: [
+            "Sản phẩm hoàn chỉnh",
+            "Sản phẩm ưa thích",
+            "Sản phẩm đang trong thời gian bảo hành",
+            "Tất cả a, b và c sai",
           ],
-          question: "<p>Xét về thực chất, quan hệ tài chính là</p>",
-          complead: 2,
         },
         {
-          answers: [
-            "<p>Giá trị nội tại của đồng tiền</p>",
-            "<p>Pháp luật quy định</p>",
-            "<p>Sự khan hiếm của tiền giấy</p>",
-            "<p>Giá trị nội tại của đồng tiền, sự khan hiếm của tiền giấy</p>",
+          text: "Câu 12: Cấu trúc hạ tầng hệ thống thông tin chuỗi cung ứng gồm:",
+          answer: ["Phần cứng, phần mềm, cơ sở dữ liệu, mạng truyền thông"],
+          options: [
+            "Phần cứng, phần mềm, marketing, mạng truyền thông",
+            "Phần cứng, phần mềm, cơ sở dữ liệu, mạng truyền thông",
+            "Phần cứng, phần mềm, trung tâm dịch vụ khách hàng, mạng truyền thông",
+            "Phần cứng, phần mềm, marketing, khách hàng",
           ],
-          question: "<p>Giá trị lưu thông của tiền giấy có được là nhờ</p>",
-          complead: 1,
         },
         {
-          answers: [
-            "<p><span>Phải là tiền vàng và ngoại tệ</span></p>",
-            "<p>Phải là ngoại tệ</p>",
-            "<p>Phải là tiền vàng</p>",
-            "<p>Tiền tệ phải có giá trị ổn định</p>",
+          text: "Câu 13: Hiệu ứng roi da (Bullwhip) là hiện tượng:",
+          answer: ["Thông tin về sản phẩm bị bóp méo, bị khuếch đại"],
+          options: [
+            "Thông tin về sản phẩm rõ ràng, không bị khuếch đại",
+            "Thông tin về sản phẩm bị bóp méo, bị khuếch đại",
+            "Thông tin về sản phẩm rõ ràng, bị khuếch đại",
+            "Thông tin về sản phẩm bị bóp méo, không bị khuếch đại",
           ],
-          question:
-            "<p><span>Để thực hiện tốt chức năng cất trữ giá trị</span></p>",
-          complead: 3,
         },
         {
-          answers: [
-            "<p>Quan hệ tài chính có hoàn trả</p>",
-            "<p>Quan hệ tài chính không có hoàn trả</p>",
-            "<p>Quan hệ tài chính hoàn trả có điều kiện</p>",
-            "<p>Quan hệ tài chính luôn luôn bắt buộc</p>",
+          text: "Câu 14: Liên kết ngang trong chuỗi cung ứng nhằm:",
+          answer: ["Kết hợp các nguồn lực về sản xuất, tài chính và tiếp thị"],
+          options: [
+            "Tăng hiệu quả theo quy mô trong phân phối",
+            "Kết hợp các nguồn lực về sản xuất, tài chính và tiếp thị",
+            "Tăng khả năng tiếp cận thị trường/khách hàng",
+            "Tất cả a, b và c đều đúng",
           ],
-          question: "<p><span>Bảo hiểm thuộc loại</span></p>",
-          complead: 2,
         },
         {
-          answers: [
-            "<p>Tăng</p>",
-            "<p>Không thay đổi</p>",
-            "<p>Tăng mạnh</p>",
-            "<p>Giảm</p>",
+          text: "Câu 15: Thành phần cơ bản của thước đo ngoài trong chuỗi cung ứng gồm:",
+          answer: ["Khách hàng, nhà cung cấp dịch vụ, hợp đồng thuê ngoài"],
+          options: [
+            "Người tiêu dùng, khách hàng, nhà sản xuất",
+            "Khách hàng, nhà cung cấp dịch vụ, hợp đồng thuê ngoài",
+            "Cơ quan quản lý nhà nước, khách hàng, hợp đồng thuê ngoài",
+            "Khách hàng, nhà cung cấp dịch vụ, cơ quan quản lý nhà nước",
           ],
-          question:
-            "<p><span>Khi lãi suất thị trường tăng lên, giá trái phiếu sẽ:</span></p>",
-          complead: 3,
         },
         {
-          answers: [
-            "<p>Quan hệ tài chính hoàn trả có điều kiện</p>",
-            "<p>Quan hệ tài chính nội bộ</p>",
-            "<p>Quan hệ tài chính không hoàn trả</p>",
-            "<p>Quan hệ tài chính mang tính bắt buộc</p>",
+          text: "Câu 16: Hiệu suất đo lường trong chuỗi cung ứng nhằm xác định:",
+          answer: ["Năng suất lao động"],
+          options: [
+            "Thị phần",
+            "Dịch vụ khách hàng",
+            "Năng suất lao động",
+            "Mức tăng trưởng",
           ],
-          question: "<p><span>Tài chính doanh nghiệp thuộc loại</span></p>",
-          complead: 1,
         },
         {
-          answers: [
-            "<p>Không là quỹ tiền tệ của nhà nước</p>",
-            "<p>Là quỹ tiền tệ của nhà nước</p>",
-            "<p>Không có mối liên hệ với ngân sách nhà nước</p>",
-            "<p>Được tạo lập và sử dụng trong cân đối ngân sách nhà nước</p>",
+          text: "Câu 17: Thứ tự trong quy trình hoạch định của mô hình tham chiếu hoạt động chuỗi cung ứng (SCOR):",
+          answer: [
+            "Lập kế hoạch, Tìm nguồn cung ứng, Sản xuất, Phân phối và Thu hồi",
           ],
-          question:
-            "<p><span>Các quỹ tài chính công ngoài ngân sách nhà nước</span></p>",
-          complead: 1,
+          options: [
+            "Lập kế hoạch, Sản xuất, Phân phối, Tìm nguồn cung ứng và Thu hồi",
+            "Lập kế hoạch, Tìm nguồn cung ứng, Sản xuất, Phân phối và Thu hồi",
+            "Tìm nguồn cung ứng, Lập kế hoạch, Sản xuất, Phân phối và Thu hồi",
+            "Lập kế hoạch, Tìm nguồn cung ứng, Sản xuất, Thu hồi và Phân phối",
+          ],
         },
         {
-          answers: [
-            "<p>Phát hành tiền</p>",
-            "<p>Quản lý hệ thống thanh toán</p>",
-            "<p>Kiểm soát chính sách tài khóa</p>",
-            "<p>Kiểm soát lưu lượng tiền</p>",
+          text: "Câu 18: Giá trị khách hàng trong chuỗi cung ứng hiểu là:",
+          answer: ["Giá trị sản phẩm mà khách hàng mua"],
+          options: [
+            "Lợi nhuận của doanh nghiệp",
+            "Giá trị sản phẩm mà khách hàng mua",
+            "Chi phí của DN đáp ứng nhu cầu khách hàng",
+            "Tất cả a, b và c đúng",
           ],
-          question:
-            "<p><span>Ngân hàng trung ương KHÔNG có chức năng nào trong các chức năng sau đây:</span></p>",
-          complead: 2,
         },
         {
-          answers: [
-            "<p>Giảm tỷ lệ dự trữ bắt buộc</p>",
-            "<p>Tăng tỷ lệ dự trữ bắt buộc</p>",
-            "<p>Duy trì tỷ lệ dự trữ bắt buộc</p>",
-            "<p>Dỡ bỏ quy định yêu cầu tỷ lệ dự trữ bắt buộc</p>",
+          text: "Câu 20: Quy trình hợp tác hoạch định trong mô hình CPFR không bao gồm:",
+          answer: ["Lựa chọn nhà cung cấp"],
+          options: [
+            "Hợp tác hoạch định",
+            "Lựa chọn nhà cung cấp",
+            "Hợp tác với các đối tác tham gia",
+            "Hợp tác đặt hàng",
           ],
-          question:
-            "<p>Khi vận hành công cụ dự trữ bắt buộc để thực thi chính sách tiền tệ và khi muốn mở rộng chính sách khối tiền trong lưu thông, Ngân hàng Trung ương sẽ:</p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>Góp phần ổn định thị trường và giá cả hàng hóa</p>",
-            "<p>Sử dụng các quỹ tiền tệ nhằm mục tiêu sinh lời cho người quản lý ngân sách</p>",
-            "<p>Góp phần tăng trưởng kinh tế</p>",
-            "<p>Góp phần gia tăng vị thế của các doanh nghiệp có trong nền kinh tế</p>",
+          text: "Câu 1: Ma trận quy trình trong mô hình tham chiếu hoạt động chuỗi cung ứng (SCOR) gồm:",
+          answer: [
+            "Lập kế hoạch, tìm nguồn cung ứng, sản xuất, phân phối và thu hồi",
           ],
-          question:
-            "<p><span>Vai trò nào KHÔNG PHẢI là vai trò của tài chính công:</span></p>",
-          complead: 1,
+          options: [
+            "Lập kế hoạch, tìm nguồn cung ứng, sản xuất, phân phối và thu hồi",
+            "Lập kế hoạch, tìm nguồn cung ứng, sản xuất và thu hồi",
+            "Lập kế hoạch, sản xuất, phân phối và thu hồi",
+            "Lập kế hoạch, hợp tác bổ sung, sản xuất, phân phối và thu hồi",
+          ],
         },
         {
-          answers: [
-            "<p>Được phép thu một số khoản thu nhất định theo quy định của pháp luật</p>",
-            "<p>Không được phép thu bất kỳ một khoản thu nào</p>",
-            "<p>Được phép tự xác định một số khoản thu theo nhu cầu hoạt động</p>",
-            "<p>Có số thu lớn đảm bảo kinh phí hoạt động thường xuyên</p>",
+          text: "Câu 2: Dòng thông tin trong chuỗi cung ứng gồm:",
+          answer: ["Đơn đặt hàng, cung cầu thị trường, tuyến đường"],
+          options: [
+            "Thành phẩm, nguyên vật liệu, linh kiện",
+            "Thanh toán, tạm ứng, bảo lãnh thực hiện hợp đồng",
+            "Đơn đặt hàng, cung cầu thị trường, tuyến đường",
+            "Tất cả a, b và c đều đúng",
           ],
-          question: "<p><span>Cơ quan nhà nước:</span></p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>Sử dụng nhằm mục đích hạn chế nhu cầu tiêu dùng của các thành phần kinh tế</p>",
-            "<p>Không thực hiện các biện pháp giảm thuế</p>",
-            "<p>Không tác động đến tổng cầu</p>",
-            "<p>Sử dụng với mục tiêu thúc đẩy tổng cầu để bù đắp cho những thiếu hụt trong nhu cầu tư nhân</p>",
+          text: "Câu 3: Sản phẩm từ các nguồn cung khác nhau góp thành lô lớn tại một trung tâm trước khi chuyển đến cho khách hàng thuộc mô hình phân phối và giao hàng nào dưới đây:",
+          answer: ["Nhà sản xuất dự trữ và hợp nhất giao hàng trực tiếp"],
+          options: [
+            "Nhà sản xuất dự trữ và hợp nhất giao hàng trực tiếp",
+            "Nhà sản xuất dự trữ và giao hàng trực tiếp",
+            "Nhà phân phối dự trữ, nhà vận chuyển giao hàng theo kiện",
+            "Nhà phân phối dự trữ và giao hàng chặng cuối",
           ],
-          question:
-            "<p>Điều nào sau đây là ĐÚNG về tỷ lệ chính sách tài khoá mở rộng:</p>",
-          complead: 3,
         },
         {
-          answers: [
-            "<p>Tối đa hóa lợi nhuận</p>",
-            "<p>Tìm mọi biện pháp tăng doanh thu, giảm chi phí</p>",
-            "<p>Tăng thu nhập của người lao động, tăng nộp thuế</p>",
-            "<p>Tối đa hóa giá trị công ty cho các cổ đông</p>",
+          text: "Câu 4: Ưu điểm của việc sử dụng một nhà cung cấp trong chiến lược số lượng nguồn cung là:",
+          answer: ["Chất lượng hàng hóa ổn định"],
+          options: [
+            "Chất lượng hàng hóa ổn định",
+            "Tạo sự cạnh tranh giữa các nhà cung cấp",
+            "Phân tán rủi ro",
+            "Tất cả a, b và c đều sai",
           ],
-          question:
-            "<p><span>Mục tiêu về tài chính của công ty cổ phần:</span></p>",
-          complead: 3,
         },
         {
-          answers: [
-            "<p>Tham gia vào 1 chu kỳ sản xuất kinh doanh</p>",
-            "<p>Tham gia vào nhiều chu kỳ sản xuất kinh doanh</p>",
-            "<p>Được luân chuyển dần từng phần trong các chu kỳ sản xuất</p>",
-            "<p>Chu chuyển toàn bộ giá trị của nó vào trong giá trị sản phẩm mới</p>",
+          text: "Câu 5: Mục tiêu liên kết của bậc chiến thuật trong chuỗi cung ứng nhằm:",
+          answer: ["Tối ưu hóa nguồn lực"],
+          options: [
+            "Đáp ứng nhanh",
+            "Tối ưu hóa nguồn lực",
+            "Chi phí giảm",
+            "Gia tăng giá trị",
           ],
-          question: "<p><span>Đặc điểm của vốn lưu động:</span></p>",
-          complead: 3,
         },
         {
-          answers: [
-            "<p>Doanh nghiệp phát hành thêm cổ phiếu thường</p>",
-            "<p>Doanh nghiệp phát hành thêm trái phiếu</p>",
-            "<p>Doanh nghiệp góp vốn liên doanh liên kết</p>",
-            "<p>Doanh nghiệp chia cổ tức cho cổ đông</p>",
+          text: "Câu 6: Nhà cung ứng trong chuỗi cung ứng tốt có đặc điểm:",
+          answer: ["Đảm bảo độ tin cậy"],
+          options: [
+            "Đảm bảo độ tin cậy",
+            "Mức giá cao",
+            "Không hỗ trợ về mặt kỹ thuật",
+            "Tất cả a, b và c đúng",
           ],
-          question:
-            "<p><span>Hoạt động nào sau đây làm tăng vốn chủ sở hữu của doanh nghiệp:</span></p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>Doanh thu từ bán hàng và cung cấp dịch vụ trừ đi giá vốn hàng bán</p>",
-            "<p>Doanh thu thuần chính là doanh thu bán hàng và cung cấp dịch vụ</p>",
-            "<p>Doanh thu từ bán hàng và cung cấp dịch vụ trừ đi các khoản giảm trừ doanh thu</p>",
-            "<p>Lợi nhuận trước lãi vay và thuế trừ đi thuế</p>",
+          text: "Câu 7: Các thành phần chính của mô hình hoạch định hợp tác, dự báo và bổ sung (CPFR) gồm:",
+          answer: ["Hợp tác hoạch định, dự báo và hợp tác bổ sung"],
+          options: [
+            "Hợp tác hoạch định, dự báo, sản xuất và hợp tác bổ sung",
+            "Hợp tác hoạch định, dự báo và hợp tác bổ sung",
+            "Lập kế hoạch, tìm nguồn cung ứng, sản xuất, phân phối và thu hồi",
+            "Hợp tác hoạch định, tìm nguồn cung ứng, sản xuất, phân phối và thu hồi",
           ],
-          question:
-            "<p><span>Doanh thu thuần từ bán hàng và cung cấp dịch vị được tính như thế nào:</span></p>",
-          complead: 2,
         },
         {
-          answers: [
-            "<p>Một món vay mua nhà 48 tháng</p>",
-            "<p>Tín phiếu kho bạc</p>",
-            "<p>Thương phiếu</p>",
-            "<p>Vay tiêu dùng cá nhân 9 tháng</p>",
+          text: "Câu 8: Điều kiện đối với doanh nghiệp trung tâm trong chuỗi cung ứng là:",
+          answer: ["Tất cả a, b và c đều đúng"],
+          options: [
+            "Có quyền lực lớn về tài chính",
+            "Có công nghệ",
+            "Chiếm giá trị cao trong việc đáp ứng đơn hàng",
+            "Tất cả a, b và c đều đúng",
           ],
-          question:
-            "<p><span>Công cụ nào dưới đây là công cụ nợ trung hạn ở Việt Nam</span></p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>Giảm chi phí giao dịch, tăng khả năng thanh toán</p>",
-            "<p>Đa dạng hóa sản phẩm và giảm rủi ro, tăng khả năng thanh toán</p>",
-            "<p>Tăng khả năng thanh toán</p>",
-            "<p>Giảm chi phí giao dịch, đa dạng hóa sản phẩm, giảm rủi ro và tăng khả năng thanh toán</p>",
+          text: "Câu 9: Mục tiêu phát triển nguồn cung trong chuỗi cung ứng nhằm:",
+          answer: ["Tất cả a, b và c đều đúng"],
+          options: [
+            "Đảm bảo nguồn cung hiện tại và tiềm năng",
+            "Phát triển mối quan hệ với nhà cung ứng",
+            "Cải thiện nguồn cung không cạnh tranh",
+            "Tất cả a, b và c đều đúng",
           ],
-          question:
-            "<p><span>Các trung gian tài chính cung cấp cho khách hàng của mình những lợi ích nào sau đây:</span></p>",
-          complead: 3,
         },
         {
-          answers: [
-            "<p>Quyết định đầu tư dài hạn</p>",
-            "<p>Quyết định huy động vốn</p>",
-            "<p>Quyết định phân phối lợi nhuận</p>",
-            "<p>Quyết định huy động vốn, đầu tư dài hạn và phân phối lợi nhuận</p>",
+          text: "Câu 10: Hiệu ứng roi da (Bullwhip) trong chuỗi cung ứng là hiện tượng thông tin:",
+          answer: ["Phản ánh không chính xác nhu cầu thị trường"],
+          options: [
+            "Phản ánh chính xác nhu cầu thị trường",
+            "Phản ánh không chính xác nhu cầu thị trường",
+            "Phản ánh rủi ro và lợi nhuận của doanh nghiệp",
+            "Tất cả a, b và c đều sai",
           ],
-          question:
-            "<p><span>Quyết định liên quan đến việc mua sắm máy móc thiết bị, xây dựng nhà máy trong doanh nghiệp được xác định là thuộc phạm vi của quyết định:</span></p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>Có thể làm tăng tính thanh khoản của chứng khoán</p>",
-            "<p>Kênh huy động vốn</p>",
-            "<p>Kênh huy động vốn. Có thể làm tăng tính thanh khoản của chứng khoán</p>",
-            "<p>Có thể sinh lời từ kinh doanh chênh lệch giá</p>",
+          text: "Câu 11: Trong chiến lược cạnh tranh của doanh nghiệp dựa vào chất lượng, cấu trúc chuỗi cung ứng sẽ là:",
+          answer: ["Kiểm soát chất lượng"],
+          options: [
+            "Nhà cung cấp tham gia vào quá trình thiết kế sản phẩm",
+            "Kiểm soát chất lượng",
+            "Tiêu chuẩn hóa sản phẩm",
+            "Kiểm soát chi phí",
           ],
-          question:
-            "<p><span>Chức năng sơ cấp của thị trường sơ cấp là:</span></p>",
-          complead: 1,
         },
         {
-          answers: [
-            "<p>23.025.000 VND</p>",
-            "<p>23.035.000 VND</p>",
-            "<p>23.050.000 VND</p>",
-            "<p>23.300.000 VND</p>",
+          text: "Câu 12: Nhu cầu thông tin cho lập kế hoạch chiến thuật trong chuỗi cung ứng nhằm:",
+          answer: [
+            "Phát triển các kế hoạch phối hợp hành động với nhà cung cấp",
           ],
-          question:
-            "<p><span>Ngày 25/4/2023 Ngân Hàng Vietcombank thông báo tỷ giá USD/ VND như sau: Tỷ giá mua là 23.025 và tỷ giá bán là 23.305. Vậy khi bạn đến ngân hàng Vietcombank để bán 1000 USD đổi lấy VND, bạn sẽ được bao nhiêu VND?</span></p>",
-          complead: 0,
+          options: [
+            "Xây dựng kế hoạch chiến lược",
+            "Thực hiện và kiểm soát dòng vật chất",
+            "Phát triển các kế hoạch phối hợp hành động với nhà cung cấp",
+            "Hỗ trợ ra quyết định hàng ngày",
+          ],
         },
         {
-          answers: [
-            "<p>Mang tính toàn cầu</p>",
-            "<p>Hoạt động mua bán ngoại tệ diễn ra suốt 24h, mang tính toàn cầu và được tiêu chuẩn hóa cao</p>",
-            "<p>Mang tính chuẩn hóa cao</p>",
-            "<p>Hoạt động mua bán ngoại tệ diễn ra suốt 24h</p>",
+          text: "Câu 13: Đặc điểm của nhóm mặt hàng trở ngại trong hoạt động mua hàng là:",
+          answer: ["Công nghệ mới hoặc quy trình chưa kiểm tra"],
+          options: [
+            "Công suất thị trường lớn",
+            "Thực hiện và kiểm soát công nghệ mới",
+            "Công nghệ mới hoặc quy trình chưa kiểm tra",
+            "Nhiều nguồn cung cấp",
           ],
-          question:
-            "<p><span>Chọn phương án chính xác nhất.</span></p><p><span> Đặc điểm của thị trường ngoại hối là:</span></p>",
-          complead: 1,
         },
         {
-          answers: [
-            "<p>Cán cân tổng thể</p>",
-            "<p>Cán cân vốn thương mại</p>",
-            "<p>Cán cân thương mại</p>",
-            "<p>Cán cân bù đắp chính thức</p>",
+          text: "Câu 14: Nguyên nhân dẫn đến rủi ro chuỗi cung ứng gồm:",
+          answer: ["Tất cả a, b và c đều đúng"],
+          options: [
+            "Quy định của chính phủ",
+            "Mạng lưới nhà cung cấp hàng hóa và dịch vụ phức tạp",
+            "Toàn cầu hóa",
+            "Tất cả a, b và c đều đúng",
           ],
-          question:
-            "<p><span>Cán cân nào sau đây thuộc vào tài khoản vãng lai:</span></p>",
-          complead: 2,
         },
         {
-          answers: [
-            "<p>0,7647</p>",
-            "<p>0,1747</p>",
-            "<p>0,7676</p>",
-            "<p>0,1778</p>",
+          text: "Câu 15: Cấu trúc dọc trong chuỗi cung ứng đề cập đến:",
+          answer: ["Số lượng nhà cung cấp"],
+          options: [
+            "Số bậc trong chuỗi cung ứng",
+            "Khách hàng",
+            "Số lượng nhà cung cấp",
+            "Doanh nghiệp trung tâm",
           ],
-          question:
-            "<p><span>Tại thời điểm 27/4/2023 có các cặp tỷ giá sau: </span></p><p><span>1EUR = 1,3 USD và 1 GBP = 1,7USD</span></p><p><span> thì giá EUR/GBP là:</span></p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>0,062%</p>",
-            "<p>0,006%</p>",
-            "<p>0,002%</p>",
-            "<p>0,065%</p>",
+          text: "Câu 16: Chỉ tiêu phí tài chính đo lường kết quả của chuỗi cung ứng gồm:",
+          answer: ["Dịch vụ khách hàng"],
+          options: [
+            "Chi phí sản xuất",
+            "Chi phí vận chuyển",
+            "Dịch vụ khách hàng",
+            "Chi phí lưu kho",
           ],
-          question:
-            "<p><span>Yết giá giao ngay của hợp đồng EUR là EUR /USD = 1.1267/74 </span></p><p><span>Vậy % chênh lệch giá mua bán là:&nbsp;</span></p>",
-          complead: 0,
         },
         {
-          answers: [
-            "<p>Đứng ở vị trí hàng hóa</p>",
-            "<p>Đứng ở vị trí hàng hóa và được lấy là chuẩn có đơn vị tính là 1</p>",
-            "<p>Đồng tiền được lấy là chuẩn có đơn vị tính là 1</p>",
-            "<p>Biểu diễn giá cả của đồng tiền chuẩn</p>",
+          text: "Câu 17: Chi phí vận chuyển cao do quy mô đơn hàng nhỏ là đặc điểm của mô hình phân phối",
+          answer: ["Nhà phân phối dự trữ và giao hàng chặng cuối"],
+          options: [
+            "Nhà sản xuất dự trữ và hợp nhất giao hàng",
+            "Nhà phân phối dự trữ, nhà vận chuyển giao hàng theo kiện",
+            "Nhà phân phối dự trữ và giao hàng chặng cuối",
+            "Nhà sản xuất hoặc phân phối dự trữ và khách hàng đến nhận hàng",
           ],
-          question: "<p><span>Đồng tiền yết giá là đồng tiền:</span></p>",
-          complead: 2,
         },
         {
-          answers: [
-            "<p>Thấp hơn mệnh giá</p>",
-            "<p>Bằng mệnh giá</p>",
-            "<p>Cao hơn mệnh giá</p>",
-            "<p>Không xác định được giá</p>",
+          text: "Câu 18: Lập kế hoạch tác nghiệp trong hoạch định chuỗi cung ứng gồm các hoạt động như:",
+          answer: ["Xây dựng lịch trình sản xuất"],
+          options: [
+            "Lựa chọn nhà cung cấp",
+            "Xây dựng lịch trình sản xuất",
+            "Lựa chọn địa điểm sản xuất",
+            "Xây dựng cấu trúc chuỗi cung ứng",
           ],
-          question:
-            "<p><span>Một trái phiếu có tỷ suất coupon thấp hơn lãi suất trên thị trường sẽ được bán với giá nào?</span></p>",
-          complead: 2,
         },
         {
-          answers: [
-            "<p>Nhà cửa</p>",
-            "<p>Máy móc</p>",
-            "<p>Nhà cửa, thiết bị , máy móc</p>",
-            "<p>Nhãn hiệu</p>",
+          text: "Câu 19: Đặc điểm nhu cầu trong chuỗi cung ứng tinh gọn:",
+          answer: ["Dễ dự báo"],
+          options: [
+            "Dễ dự báo",
+            "Khó dự báo",
+            "Không nhất thiết",
+            "Tất cả a, b và c đều sai",
           ],
-          question: "<p><span>Tài sản cố định vô hình bao gồm:</span></p>",
-          complead: 3,
         },
         {
-          answers: [
-            "<p>Nợ của quốc gia</p>",
-            "<p>Nợ của khu vực công</p>",
-            "<p>Nợ của chính quyền</p>",
-            "<p>Nợ của chính phủ</p>",
+          text: "Câu 20: Công cụ của cơ chế cộng tác trong liên minh tác nghiệp",
+          answer: ["Giá và hợp đồng dài hạn"],
+          options: [
+            "Giá và chất lượng",
+            "Giá và hợp đồng dài hạn",
+            "Chia sẻ mục tiêu và hợp đồng dài hạn",
+            "Kiểm soát như chủ sở hữu",
           ],
-          question:
-            "<p><span>Nợ của chính phủ công với nợ của khu vực tư tạo thành</span></p>",
-          complead: 0,
-        },
-        {
-          answers: [
-            "<p>Được nhà nước cấp kinh phí và tài sản để hoạt động</p>",
-            "<p>Được phép tự xác định các khoản thu, mức thu theo nhu cầu hoạt động của đơn vị</p>",
-            "<p>Được cơ quan nhà nước có thẩm quyền quyết định thành lập</p>",
-            "<p>Được phép thực hiện một số các khoản thu nhất định theo quy định của pháp luật</p>",
-          ],
-          question:
-            "<p><span>Nhận định nào sau đây là KHÔNG chính xác? </span></p><p><span>Đơn vị sự nghiệp nhà nước:</span></p>",
-          complead: 1,
         },
       ];
-
-      const listAnswer = [
-        "C",
-        "B",
-        "A",
-        "B",
-        "A",
-        "C",
-        "B",
-        "A",
-        "D",
-        "A",
-        "C",
-        "B",
-        "D",
-        "C",
-        "D",
-        "B",
-        "B",
-        "C",
-        "A",
-        "B",
-        "A",
-        "D",
-        "D",
-        "D",
-        "A",
-        "C",
-        "A",
-        "D",
-        "A",
-        "B",
-        "A",
-        "B",
-        "C",
-        "A",
-        "A",
-        "C",
-        "C",
-        "D",
-        "A",
-        "B",
-      ];
-
-      const questionFull = listQuestion.map((item, index) => {
-        console.table({
-          index,
-          item,
-          sussess: listAnswer[index],
-        });
-
-        return {
-          ...item,
-          sussess: listAnswer[index],
-        };
-      });
 
       function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -597,7 +505,7 @@
         return array;
       }
 
-      const question = shuffleArray(questionFull);
+      const question = shuffleArray(listQuestion);
 
       let questionIndex = 0;
       let countPoint = 0;
@@ -608,42 +516,25 @@
           .map((item, i) => {
             let index = null;
 
-            if (item.sussess.includes("A")) {
-              index = 1;
-            } else if (item.sussess.includes("B")) {
-              index = 2;
-            } else if (item.sussess.includes("C")) {
-              index = 3;
-            } else if (item.sussess.includes("D")) {
-              index = 4;
-            }
-
             return `<div class="w-full border p-2 border-blue-500">
                     <div class="font-medium">
-                       ${i + 1}: ${item.question}
+                       ${i + 1}: ${item.text}
                     </div>
                     <div class="mt-2 space-y-1">
-                      <div class="w-full border p-1 rounded-sm ${
-                        index === 1 && "success"
-                      }">
-                        ${item.answers[0]}
+                      <div class="w-full border p-1 rounded-sm">
+                        ${item.options[0]}
                       </div>
-                      <div class="w-full border p-1 rounded-sm ${
-                        index === 2 && "success"
-                      }">
-                        ${item.answers[1]}
+                      <div class="w-full border p-1 rounded-sm">
+                        ${item.options[1]}
                       </div>
-                      <div class="w-full border p-1 rounded-sm ${
-                        index === 3 && "success"
-                      }">
-                        ${item.answers[2]}
+                      <div class="w-full border p-1 rounded-sm ">
+                        ${item.options[2]}
                       </div>
-                      <div class="w-full border p-1 rounded-sm ${
-                        index === 4 && "success"
-                      }">
-                       ${item.answers[3]}
+                      <div class="w-full border p-1 rounded-sm ">
+                       ${item.options[3]}
                       </div>
                     </div>
+                    <div>Câu trả lời :${item.answer}</div>
                   </div>`;
           })
           .join("");
@@ -654,26 +545,23 @@
       function hiddenFaildFc() {
         listFaild.style.display = "none";
       }
-      textQuestion.innerHTML = question[questionIndex].question;
-      testAnswer1.innerHTML = question[questionIndex].answers[0];
-      testAnswer2.innerHTML = question[questionIndex].answers[1];
-      testAnswer3.innerHTML = question[questionIndex].answers[2];
-      testAnswer4.innerHTML = question[questionIndex].answers[3];
+      textQuestion.innerHTML = question[questionIndex].text;
+      testAnswer1.innerHTML = question[questionIndex].options[0];
+      testAnswer2.innerHTML = question[questionIndex].options[1];
+      testAnswer3.innerHTML = question[questionIndex].options[2];
+      testAnswer4.innerHTML = question[questionIndex].options[3];
       count.textContent = `${questionIndex + 1} / ${listQuestion?.length}`;
 
       function checkAnswer(value, answer) {
         let check = false;
 
-        if (answer.includes("A") && value === 0) {
-          ++countPoint;
-          check = true;
-        } else if (answer.includes("B") && value === 1) {
-          ++countPoint;
-          check = true;
-        } else if (answer.includes("C") && value === 2) {
-          ++countPoint;
-          check = true;
-        } else if (answer.includes("D") && value === 3) {
+        console.log({
+          value,
+          answer,
+          check: answer?.options[value] === answer.answer[0],
+        });
+
+        if (answer?.options[value] === answer.answer[0]) {
           ++countPoint;
           check = true;
         }
@@ -686,7 +574,7 @@
 
       function onAnwer(value) {
         if (isAnwer) return;
-        console.log("e", value);
+
         if (value === 0) {
           testAnswer1.style.color = "blue";
         } else if (value === 1) {
@@ -697,8 +585,8 @@
           testAnswer4.style.color = "blue";
         }
 
-        textDapan.textContent = `Đáp án đúng: ${question[questionIndex].sussess}`;
-        checkAnswer(value, question[questionIndex].sussess);
+        textDapan.textContent = `Đáp án đúng: ${question[questionIndex].answer}`;
+        checkAnswer(value, question[questionIndex]);
         isAnwer = true;
       }
 
@@ -707,11 +595,11 @@
           return;
         }
         ++questionIndex;
-        textQuestion.innerHTML = question[questionIndex].question;
-        testAnswer1.innerHTML = question[questionIndex].answers[0];
-        testAnswer2.innerHTML = question[questionIndex].answers[1];
-        testAnswer3.innerHTML = question[questionIndex].answers[2];
-        testAnswer4.innerHTML = question[questionIndex].answers[3];
+        textQuestion.innerHTML = question[questionIndex].text;
+        testAnswer1.innerHTML = question[questionIndex].options[0];
+        testAnswer2.innerHTML = question[questionIndex].options[1];
+        testAnswer3.innerHTML = question[questionIndex].options[2];
+        testAnswer4.innerHTML = question[questionIndex].options[3];
 
         textDapan.textContent = "";
 
@@ -722,12 +610,6 @@
 
         count.textContent = `${questionIndex + 1} / ${listQuestion?.length}`;
         isAnwer = false;
-      });
-
-      question.map((item) => {
-        if (item.question == "Kinh tế chính trị Mác - Lênin do ai sáng lập") {
-          console.log("item", item);
-        }
       });
     </script>
   </body>
