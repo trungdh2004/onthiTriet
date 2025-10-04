@@ -44,25 +44,25 @@
 
           <div class="space-y-2">
             <div
-              class="w-full border-2 p-3 rounded-md cursor-pointer hover:bg-gray-50 transition"
+              class="w-full border-2 p-3 rounded-md cursor-pointer transition"
               id="input-1"
             >
               <label class="cursor-pointer" id="answer-1"></label>
             </div>
             <div
-              class="w-full border-2 p-3 rounded-md cursor-pointer hover:bg-gray-50 transition"
+              class="w-full border-2 p-3 rounded-md cursor-pointer transition"
               id="input-2"
             >
               <label class="cursor-pointer" id="answer-2"></label>
             </div>
             <div
-              class="w-full border-2 p-3 rounded-md cursor-pointer hover:bg-gray-50 transition"
+              class="w-full border-2 p-3 rounded-md cursor-pointer transition"
               id="input-3"
             >
               <label class="cursor-pointer" id="answer-3"></label>
             </div>
             <div
-              class="w-full border-2 p-3 rounded-md cursor-pointer hover:bg-gray-50 transition"
+              class="w-full border-2 p-3 rounded-md cursor-pointer transition"
               id="input-4"
             >
               <label class="cursor-pointer" id="answer-4"></label>
@@ -156,7 +156,7 @@
 
       // Gộp và xáo trộn câu hỏi
       const listQuestion = removeDuplicateQuestions([
-        ...questions1,
+        // ...questions1,
         ...questions2,
       ]);
 
@@ -186,7 +186,7 @@
               const correctIndex = item.options.indexOf(item.answer[0]);
               return `<div class="w-full border-2 border-rose-300 p-4 rounded-lg bg-rose-50">
                 <div class="font-medium mb-3">
-                  Câu ${i + 1}: ${item.text}
+                  Câu ${i + 1}: ${item.title}
                 </div>
                 <div class="space-y-2">
                   ${item.options
@@ -220,7 +220,7 @@
 
       function displayQuestion() {
         const currentQuestion = shuffledQuestions[questionIndex];
-        textQuestion.innerHTML = currentQuestion.text;
+        textQuestion.innerHTML = currentQuestion.title;
 
         answerElements.forEach((el, idx) => {
           el.innerHTML = currentQuestion.options[idx];
@@ -236,7 +236,7 @@
         // Reset màu sắc
         inputElements.forEach((el) => {
           el.className =
-            "w-full border-2 p-3 rounded-md cursor-pointer hover:bg-gray-50 transition";
+            "w-full border-2 p-3 rounded-md cursor-pointer  transition";
         });
 
         textAnswer.textContent = "";
@@ -260,7 +260,7 @@
             "Không tìm thấy đáp án đúng trong options:",
             currentQuestion
           );
-          textAnswer.textContent = `⚠ Lỗi: Đáp án không hợp lệ`;
+          textAnswer.textContent = `⚠ Lỗi: Đáp án không hợp lệ: ${correctAnswer}`;
           textAnswer.className = "font-medium text-orange-600";
           return;
         }

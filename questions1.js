@@ -294,7 +294,7 @@ export const questions1 = [
       'Luận điểm: "Nước Việt Nam là một nước dân chủ cộng hoà. Tất cả quyền binh trong nước là của toàn thể nhân dân Việt Nam, không phân biệt nòi giống, gái trai, giàu nghèo, giai cấp, tôn giáo" được trích trong tác phẩm nào?',
     options: [
       "A. Thường thức chính trị.",
-      "B.Hiến pháp năm 1992.",
+      "B. Hiến pháp năm 1992.",
       "C. Hiến pháp năm 1946.",
       "D. Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội.",
     ],
@@ -614,7 +614,8 @@ export const questions1 = [
       "C. Có điều kiện để thực hiện quyền làm chủ, được quyền sở hữu tư liệu sản xuất.",
       "D. Có điều kiện để cải thiện đời sống riêng của minh, phát huy tính cách và sở trường riêng của mình.",
     ],
-    answer: "A sai",
+    answer:
+      "D. Có điều kiện để cải thiện đời sống riêng của minh, phát huy tính cách và sở trường riêng của mình.",
   },
   {
     title:
@@ -640,6 +641,10 @@ export const questions1 = [
       "B. Từ một nước công nghiệp lạc hậu tiến thẳng lên chủ nghĩa xã hội, không phải trải qua giai đoạn phát triển tư bản chủ nghĩa.",
   },
 ].map((data) => {
-  const answer = data.answer.split(". ").splice(1).join(". ");
-  return { ...data, answer };
+  const answer = data.answer.split(".").splice(1).join(".").trim();
+
+  const options = data.options.map((option) =>
+    option.split(".").splice(1).join(".").trim()
+  );
+  return { ...data, answer, options };
 });
