@@ -31,3 +31,38 @@ const listData = questions.map((item) => {
     id,
   };
 });
+
+const data = [];
+
+const listQues = document.querySelectorAll(".quiz_sortable.question_holder");
+
+const questions = Array.from(listQues).filter((item) => {
+  const check = item.querySelector(".answer_arrow.incorrect");
+  console.log(check);
+
+  return !check;
+});
+
+const listData = questions.map((item) => {
+  const text = item.querySelector(".question_text.user_content.enhanced");
+  const id = text ? text.id : null;
+  const answers = item.querySelectorAll(".answer_label");
+
+  let answer = "";
+
+  const findData = data.find((i) => i.text === text.innerText.trim());
+  if (findData) {
+    const options = Array.from(answers).map((opt) => {
+      const find = findData.answer === opt.innerText.trim();
+      if (find) {
+        opt.style.background = "yellow";
+      }
+    });
+    return {
+      text: text.innerText.trim(),
+      options,
+      answer,
+      id,
+    };
+  }
+});

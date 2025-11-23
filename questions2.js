@@ -1713,336 +1713,441 @@ export const questions2 = [
     answer: "Di chúc.",
     id: "question_863838_question_text",
   },
-  [
-    {
-      text: "Theo tư tưởng Hồ Chí Minh, cách mạng giải phóng dân tộc muốn giành thắng lợi phải do ai lãnh đạo?",
-      options: [
-        "Công đoàn.",
-        "Giai cấp nông dân.",
-        "Tầng lớp trí thức.",
-        "Đảng Cộng sản.",
-      ],
-      answer: "Đảng Cộng sản.",
-      id: "question_863781_question_text",
-    },
-    {
-      text: "Theo Hồ Chí Minh, lực lượng của cách mạng giải phóng dân tộc dưa nền tảng nào?",
-      options: [
-        "Giai cấp nông dân.",
-        "Giai cấp công nhân.",
-        "Liên minh công - nông.",
-        "Tầng lớp trí thức.",
-      ],
-      answer: "Liên minh công - nông.",
-      id: "question_863782_question_text",
-    },
-    {
-      text: "Theo Hồ Chí Minh, đặc trưng vè chính trị của chủ nghĩa xã hội là gì?",
-      options: [
-        "Mọi người được hưởng nhân quyền.",
-        "Giai cấp nông dân lãnh đạo.",
-        "Xã hội do nhân dân làm chủ.",
-        "Đảng Cộng sản lãnh đạo.",
-      ],
-      answer: "Xã hội do nhân dân làm chủ.",
-      id: "question_863786_question_text",
-    },
-    {
-      text: "Theo tư tưởng Hồ Chí Minh, độc lập dân tộc phải gắn với những nội dung nào sau đây?",
-      options: [
-        "Gắn với hạnh phúc của nhân dân.",
-        "Gắn với quyền con người.",
-        "Gắn với tự do của nhân dân.",
-        "Gắn với tự do và hạnh phúc của nhân dân.",
-      ],
-      answer: "Gắn với tự do và hạnh phúc của nhân dân.",
-      id: "question_863779_question_text",
-    },
-    {
-      text: "Hình thức của bạo lực cách mạng là gì?",
-      options: [
-        "Đấu tranh vũ trang.",
-        "Đấu tranh chính trị.",
-        "Ngoại giao, đàm phán.",
-        "Kết hợp đấu tranh vũ trang và đấu tranh chính trị.",
-      ],
-      answer: "Kết hợp đấu tranh vũ trang và đấu tranh chính trị.",
-      id: "question_863784_question_text",
-    },
-    {
-      text: "Theo Hồ Chí Minh, ddeer đảm bảo độc lập dân tộc gắn liền với chủ nghĩa xã hội, phải dựa trên những điều kiện nào?",
-      options: [
-        "Vai trò lãnh đạo của Đảng. sức mạnh của nhân dân và phát huy truyền thống dân tộc.",
-        "Vai trò lãnh đạo của Đảng Cộng sản, củng cố tăng cường khối đại đoàn kết dân tộc và đoàn kết với cách mạng thế giới.",
-        "Kinh tế và chính trị",
-        "Vai trò lãnh đạo của Đảng và sức mạnh của quần chúng nhân dân.",
-      ],
-      answer:
-        "Vai trò lãnh đạo của Đảng Cộng sản, củng cố tăng cường khối đại đoàn kết dân tộc và đoàn kết với cách mạng thế giới.",
-      id: "question_863798_question_text",
-    },
-    {
-      text: "Theo Hồ Chí Minh, đặc điểm lớn nhất của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam là gì?",
-      options: [
-        "Từ một nước phong kiến đi lên chủ nghĩa xã hội",
-        "Từ một nước nông nghiệp đi lên chủ nghĩa xã hội",
-        "Từ một nước nông nghiệp lạc hậu tiến thẳng lên chủ nghĩa xã hội, không phải trải qua giai doạn phát triển tư bản chủ nghĩa",
-        "Từ một nước tư bản đi lên chủ nghĩa xã hội",
-      ],
-      answer:
-        "Từ một nước nông nghiệp lạc hậu tiến thẳng lên chủ nghĩa xã hội, không phải trải qua giai doạn phát triển tư bản chủ nghĩa",
-      id: "question_863794_question_text",
-    },
-    {
-      text: "Theo tư tưởng Hồ Chí Minh, nguyên tắc phân phối chủ yếu trong chủ nghĩa xã hội là gì?",
-      options: [
-        "Làm theo năng lực, hưởng theo nhu cầu.",
-        "Làm ít, hưởng vừa đủ.",
-        "Phân phối bình quân cho tất cả mọi người.",
-        "Làm theo năng lực, hưởng theo lao động.",
-      ],
-      answer: "Làm theo năng lực, hưởng theo lao động.",
-      id: "question_863788_question_text",
-    },
-    {
-      text: "Theo Hồ Chí Minh, mục tiêu về kinh tế của chủ nghĩa xã hội ở Việt Nam là gì?",
-      options: [
-        "Nền kinh tế hiện đại.",
-        "Nền kinh tế phát triển cao với khoa học kỹ thuật tiên tiến.",
-        "Nền kinh tế phát triển cao với công nghiệp hiện đại.",
-        "Nền kinh tế phát triển cao với công nghiệp và nông nghiệp hiện đại, khoa học và kỹ thuật tiên tiến.",
-      ],
-      answer:
-        "Nền kinh tế phát triển cao với công nghiệp và nông nghiệp hiện đại, khoa học và kỹ thuật tiên tiến.",
-      id: "question_863791_question_text",
-    },
-    {
-      text: "Theo tư tưởng Hồ Chí Minh, động lực quyết định nhất của chủ nghĩa xã hội là gì?",
-      options: [
-        "Con người.",
-        "Sự hợp tác quốc tế.",
-        "Nguồn tài nguyên, đất đai.",
-        "Cơ sở vật chất - kỹ thuật hiện có.",
-      ],
-      answer: "Con người.",
-      id: "question_863793_question_text",
-    },
-    {
-      text: "Theo quan điểm Hồ Chí Minh, có mấy nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ?",
-      options: ["2", "5", "4", "3"],
-      answer: "4",
-      id: "question_863796_question_text",
-    },
-    {
-      text: "Hồ Chí Minh khẳng định: Chỉ có trong chế độ xã hội chủ nghĩa, con người mới được thực hiện điều gì?",
-      options: [
-        "Có điều kiện để thực hiện quyền làm chủ, được quyền sở hữu tư liệu sản xuất.",
-        "Có điều kiện để phát huy năng lực, trí tuệ của bản thân.",
-        "Có điều kiện để cải thiện đời sống riêng của minh, phát huy tính cách và sở trường riêng của mình.",
-        "Thỏa mãn nhu cầu vật chất và nhu cầu tinh thân.",
-      ],
-      answer:
-        "Có điều kiện để cải thiện đời sống riêng của minh, phát huy tính cách và sở trường riêng của mình.",
-      id: "question_863802_question_text",
-    },
-    {
-      text: "“Công nông là gốc cách mạng, còn học trò, nhà buôn nhỏ, điền chủ nhỏ là bầu bạn cách mệnh công nông” được Hồ Chí minh đề cập đến điều gì?",
-      options: [
-        "Lực lượng cách mạng.",
-        "Phương pháp cách mạng.",
-        "Nhiệm vụ của cách mạng.",
-        "Mục tiêu của cách mạng.",
-      ],
-      answer: "Lực lượng cách mạng.",
-      id: "question_863808_question_text",
-    },
-    {
-      text: "Chủ tịch Hồ Chí Minh ra lời kêu gọi toàn quốc kháng chiến “Thà hy sinh tất cả chứ không chịu mất nước, không chịu làm nô lệ” vào thời điểm nào?",
-      options: [
-        "Đêm ngày 18/9/1946.",
-        "Ngày 25/11/1946.",
-        "Đêm ngày 19/12/1946.",
-        "Ngày 20/12/1946.",
-      ],
-      answer: "Đêm ngày 19/12/1946.",
-      id: "question_863805_question_text",
-    },
-    {
-      text: "Theo Hồ chí Minh, cách mạng giải phóng dân tộc có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc, vì:",
-      options: [
-        "Kẻ thù ở thuộc địa yếu hơn kẻ thù của giai cấp vô sản ở chính quốc.",
-        "Nọc độc và sức song của con rắn độc tư bản chủ nghĩa tập trung ở các nước thuộc địa hơn ở các nước chính quốc.",
-        "Lực lượng cách mạng ở thuộc địa đông và mạnh hơn lực lượng cách mạng ở chính quốc.",
-        "Các nước thuộc địa có sự giúp đỡ của Quốc tế cộng sản.",
-      ],
-      answer:
-        "Nọc độc và sức song của con rắn độc tư bản chủ nghĩa tập trung ở các nước thuộc địa hơn ở các nước chính quốc.",
-      id: "question_863807_question_text",
-    },
-    {
-      text: "Đảng Cộng sản Việt Nam ra đời vào ngày, tháng, năm nào, tại đâu?",
-      options: [
-        "Ngày 03/02/1929 tại Tân Trào - Việt Nam.",
-        "Ngày 03/2/1930 tại Hương Cảng - Trung Quốc.",
-        "Ngày 03/02/1929 tại Pắc Pó - Việt Nam.",
-        "Ngày 26/3/1931 tại Hương Cảng - Trung Quốc.",
-      ],
-      answer: "Ngày 03/2/1930 tại Hương Cảng - Trung Quốc.",
-      id: "question_863811_question_text",
-    },
-    {
-      text: "Theo Hồ Chí Minh, Đảng Cộng sản Việt Nam ra đời dựa quy luật nào?",
-      options: [
-        "Chủ nghĩa Mác - Lênin thâm nhập vào phong trào công nhân và phong trào yêu nước.",
-        "Phong trào yêu nước.",
-        "Chủ nghĩa Mác - Lê nin.",
-        "Phong trào công nhân.",
-      ],
-      answer:
-        "Chủ nghĩa Mác - Lênin thâm nhập vào phong trào công nhân và phong trào yêu nước.",
-      id: "question_863812_question_text",
-    },
-    {
-      text: "Theo Hồ Chí Minh, mục đích hoạt động của Đảng là gì?",
-      options: [
-        "Lãnh đạo cách mạng giải phóng dân tộc, giải phóng xã hội, giải phóng giai cấp, giải phóng con người.",
-        "Lãnh đạo cách mạng văn hóa.",
-        "Lãnh đạo cách mạng ruộng đất.",
-        "Lãnh đạo cách mạng giải phóng dân tộc.",
-      ],
-      answer:
-        "Lãnh đạo cách mạng giải phóng dân tộc, giải phóng xã hội, giải phóng giai cấp, giải phóng con người.",
-      id: "question_863814_question_text",
-    },
-    {
-      text: "Theo Hồ Chí Minh, Đảng Cộng sản Việt Nam phải lấy học thuyết nào làm nền tảng?",
-      options: [
-        "Tư tưởng các nhà khai sáng Pháp.",
-        "Chủ nghĩa xã hội không tưởng thé kỷ XIX.",
-        "Học thuyết Tam dân.",
-        "Chủ nghĩa Mác - Lênin.",
-      ],
-      answer: "Chủ nghĩa Mác - Lênin.",
-      id: "question_863816_question_text",
-    },
-    {
-      text: "Theo tư tưởng Hồ Chí Minh, đảng là đạo đức có nghĩa là:",
-      options: [
-        "Đảng phải thường xuyên tự chỉnh đốn, tự đổi mới.",
-        "Đảng viên phải có lòng yêu thương nhân nhân.",
-        "Mục đích hoạt động của Đảng là nâng cao đời sống nhân dân.",
-        "Đội ngũ đảng viên luôn phải thấm nhuần đạo đức cách mạng, ra sức tu dưỡng, rèn luyện, suốt đời phấn đấu cho lợi ích của dân, của nước.",
-      ],
-      answer:
-        "Đội ngũ đảng viên luôn phải thấm nhuần đạo đức cách mạng, ra sức tu dưỡng, rèn luyện, suốt đời phấn đấu cho lợi ích của dân, của nước.",
-      id: "question_863815_question_text",
-    },
-    {
-      text: "Theo tư tưởng Hồ Chí Minh, nhà nước vì dân là nhà nước?",
-      options: [
-        "Do nhân dân làm chủ.",
-        "Nhà nước phục vụ lợi ích và nguyện vọng của nhân dân.",
-        "Do dân bầu ra.",
-        "Nhà nước do Đảng Cộng sản lãnh đạo.",
-      ],
-      answer: "Nhà nước phục vụ lợi ích và nguyện vọng của nhân dân.",
-      id: "question_863821_question_text",
-    },
-    {
-      text: "Theo quan điểm Hồ Chí Minh, nhà nước ta mang bản chất của:",
-      options: [
-        "Giai cấp nông dân.",
-        "Giai cấp công nhân.",
-        "Giai cấp công – nông.",
-        "Toàn dân tộc.",
-      ],
-      answer: "Giai cấp công nhân.",
-      id: "question_863819_question_text",
-    },
-    {
-      text: "Một trong những nguyên tắc hoạt động của Đảng theo Hồ Chí Minh, đó là:",
-      options: [
-        "Lắng nghe ý kiến quần chúng.",
-        "Xử phạt nghiêm minh.",
-        "Phát huy dân chủ.",
-        "Kỷ luật nghiêm minh, tự giác.",
-      ],
-      answer: "Kỷ luật nghiêm minh, tự giác.",
-      id: "question_863818_question_text",
-    },
-    {
-      text: "Quốc hội khóa I nước Việt Nam dân chủ cộng hòa họp phiên đầu tiên vào ngày bao nhieu?",
-      options: ["06/01/1946", "05/03/1946", "03/02/1946", "02/03/1946"],
-      answer: "02/03/1946",
-      id: "question_863826_question_text",
-    },
-    {
-      text: "Một trong những đặc điểm của nhà nước pháp quyền theo Hồ Chí Minh là:",
-      options: [
-        "Nhà nước phục vụ lợi ích của nhân dân.",
-        "Nhà nước lấy đạo đức làm nền tảng.",
-        "Nhà nước do nhân dân bầu ra.",
-        "Nhà nước thượng tôn pháp luật.",
-      ],
-      answer: "Nhà nước thượng tôn pháp luật.",
-      id: "question_863823_question_text",
-    },
-    {
-      text: "Nhà nước của nhân dân theo tư tưởng Hồ Chí Minh nghĩa là:",
-      options: [
-        "Đại biểu nhà nước do dân bầu ra.",
-        "Chăm lo mọi mặt đời sống của nhân dân.",
-        "Mọi quyền lực nhà nước và trong xã hội đều thuộc về nhân dân.",
-        "Mọi công việc nhà nước đều do dân quyết định.",
-      ],
-      answer: "Mọi quyền lực nhà nước và trong xã hội đều thuộc về nhân dân.",
-      id: "question_863820_question_text",
-    },
-    {
-      text: "Luận điểm: “Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của nhân dân” được trích từ tác phẩm nào của Hồ chí Minh?",
-      options: [
-        "Di chúc.",
-        "Đường Cách mệnh.",
-        "Thường thức chính trị.",
-        "Sửa đổi lối làm việc.",
-      ],
-      answer: "Di chúc.",
-      id: "question_863834_question_text",
-    },
-    {
-      text: "Theo Hồ Chí Minh, một trong những nguyên tắc tổ chức tổ chức và sinh hoạt Đảng cơ bản là gì?",
-      options: [
-        "Thiểu số phục tùng đa số.",
-        "Tập trung dân chủ.",
-        "Cấp dưới phục tùng cấp trên.",
-        "Biểu quyết hoặc bỏ phiếu kín.",
-      ],
-      answer: "Tập trung dân chủ.",
-      id: "question_863829_question_text",
-    },
-    {
-      text: "Khi mới thành lập, Đảng ta có tên gọi là gì?",
-      options: [
-        "Đảng Cộng sản Đông Dương.",
-        "Đông Dương cộng sản Đảng.",
-        "Đảng Cộng sản Việt Nam.",
-        "Đảng Lao động Việt Nam.",
-      ],
-      answer: "Đảng Cộng sản Việt Nam.",
-      id: "question_863832_question_text",
-    },
-    {
-      text: "Quan điểm: “Đảng ta là đạo đức, là văn minh” được Hồ Chí Minh trình bày trong tác phẩm nào?",
-      options: [
-        "Báo cáo chính trị tại Đại hội đại biểu toàn quốc lần thứ II của Đảng.",
-        "Diễn văn khai mạc Đại hội đại biểu toàn quốc lần thứ III của Đảng.",
-        "Sách lược vắn tắt của Đảng.",
-        "Diễn văn đọc tại lễ kỷ niệm 30 năm ngày thành lập Đảng.",
-      ],
-      answer: "Diễn văn đọc tại lễ kỷ niệm 30 năm ngày thành lập Đảng.",
-      id: "question_863837_question_text",
-    },
-  ],
+  {
+    text: "Theo tư tưởng Hồ Chí Minh, chủ thể của khối đại đoàn kết là ai?",
+    options: [
+      "Giai cấp nông dân.",
+      "Giai cấp công nhân.",
+      "Toàn thể nhân dân Việt Nam.",
+      "Tầng lớp trí thức.",
+    ],
+    answer: "Toàn thể nhân dân Việt Nam.",
+    id: "question_863637_question_text",
+  },
+  {
+    text: "Mặt trận dân tộc thống nhất được xây dựng và hoạt động dựa trên nền tảng nào?",
+    options: [
+      "Công nhân và trí thức.",
+      "Công nhân và nông dân.",
+      "Công nhân, nông dân và trí thức đặt dưới sự lãnh đạo của Đảng.",
+      "Nông dân và trí thức.",
+    ],
+    answer: "Công nhân, nông dân và trí thức đặt dưới sự lãnh đạo của Đảng.",
+    id: "question_863642_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, lực lượng đoàn kết quốc tế bao gồm?",
+    options: [
+      "Phong trào cộng sản và công nhân quốc tế, phong trào đấu tranh giải phóng dân tộc và phong trào hòa bình, dân chủ thế giới.",
+      "Phong trào công nhân quốc tế và các dân tộc bị áp bức.",
+      "Phong trào cộng sản và công nhân quốc tế.",
+      "Phong trào cộng sản và công nhân quốc tế, phong trào đấu tranh giải phóng dân tộc.",
+    ],
+    answer:
+      "Phong trào cộng sản và công nhân quốc tế, phong trào đấu tranh giải phóng dân tộc và phong trào hòa bình, dân chủ thế giới.",
+    id: "question_863644_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, đại đoàn kết dân tộc có ý nghĩa thế nào trong sự nghiệp cách mạng?",
+    options: [
+      "Rất quan trọng.",
+      "Là vấn đề có ý nghĩa chiến lược.",
+      "Đặc biệt quan trọng.",
+      "Là vấn đề có ý nghĩa sách lược.",
+    ],
+    answer: "Là vấn đề có ý nghĩa chiến lược.",
+    id: "question_863636_question_text",
+  },
+  {
+    text: "Mặt trận dân tộc thống nhất được ra đời vào năm nào?",
+    options: ["1930.", "1945.", "1935.", "1954."],
+    answer: "1930.",
+    id: "question_863640_question_text",
+  },
+  {
+    text: "Theo tư tưởng Hồ Chí Minh, đoàn két quốc tế dựa trên nguyên tắc nào sau đây?",
+    options: [
+      "Độc lập, tự chủ.",
+      "Vì lợi ích dân tộc.",
+      "Nguồn lực bên ngoài giữ vai trò quyết định.",
+      "Phụ thuộc vào bên ngoài.",
+    ],
+    answer: "Độc lập, tự chủ.",
+    id: "question_863645_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, hình thức tổ chức của khối đại đoàn kết dân tộc là gì?",
+    options: [
+      "Là mặt trận dân tộc thống nhất.",
+      "Là Đảng cộng sản.",
+      "Là các tổ chức hội, đoàn của quần chúng.",
+      "Là nhà nước của dân, do dân, vì dân.",
+    ],
+    answer: "Là mặt trận dân tộc thống nhất.",
+    id: "question_863639_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, mục đích của Đảng lao động Việt Nam có thể gồm trong 8 chữ, đó là?",
+    options: [
+      "Đoàn kết toàn dân, phát triển kinh tế.",
+      "Đoàn kết dân tộc, đoàn kết quốc tế.",
+      "Đoàn kết toàn dân, xây dựng đất nước.",
+      "Đoàn kết toàn dân, phụng sự tổ quốc.",
+    ],
+    answer: "Đoàn kết toàn dân, phụng sự tổ quốc.",
+    id: "question_863646_question_text",
+  },
+  {
+    text: "Đối với Phong trào cộng sản và công nhân quốc tế; Hồ Chí Minh đã giương cao ngọn cờ gì để xây dựng khối đoàn kết quốc tế?",
+    options: [
+      "Độc lập dân tộc gắn liền với chủ nghĩa xã hội.",
+      "Độc lập, tự do và quyền bình đẳng giữa các dân tộc.",
+      "Hòa bình trong công lý.",
+      "Hai bên cùng có lợi.",
+    ],
+    answer: "Độc lập dân tộc gắn liền với chủ nghĩa xã hội.",
+    id: "question_863652_question_text",
+  },
+  {
+    text: "Vận dụng tư tưởng Hồ Chí Minh về đại đoàn kết toàn dân tộc và đoàn kết quốc tế trong giai đoạn hiện nay, chúng ta cần phải làm gì?",
+    options: [
+      "Quán triệt tư tưởng Hồ Chí Minh về đại đoàn kết toàn dân tộc và đoàn kết quốc tế trong hoạch định chủ trương, đường lối của Đảng.",
+      "Đấu tranh chống các tệ nạn và tiêu cực trong đời sống xã hội.",
+      "Học tập và làm theo tấm gương đạo đức Hồ Chí Minh.",
+      "Tuyên truyền tư tưởng Hồ Chí Minh về đoàn kết dan tộc và đoàn kết quốc tế.",
+    ],
+    answer:
+      "Quán triệt tư tưởng Hồ Chí Minh về đại đoàn kết toàn dân tộc và đoàn kết quốc tế trong hoạch định chủ trương, đường lối của Đảng.",
+    id: "question_863655_question_text",
+  },
+  {
+    text: "Chọn phương án đúng theo tư tưởng Hồ Chí Minh:",
+    options: [
+      "Mặt trận dân tộc thống nhất là tổ chức của các đảng phái, nhân sĩ yêu nước.",
+      "Mặt trận dân tộc thống nhất là tổ chức của các tầng lớp nhân dân.",
+      "Mặt trận dân tộc thống nhất là nơi quy tụ mọi tổ chức và cá nhân yêu nước.",
+      "Mặt trận dân tộc thống nhất là tổ chức của giai cấp công nhân và nông dân.",
+    ],
+    answer:
+      "Mặt trận dân tộc thống nhất là nơi quy tụ mọi tổ chức và cá nhân yêu nước.",
+    id: "question_863650_question_text",
+  },
+  {
+    text: "Hồ Chí Minh khẳng định, trong khối đại đoàn kết toàn dân tộc phải đặc biệt coi trong yếu tố “hạt nhân”, đó là yếu tố nào?",
+    options: [
+      "Đoàn kết, thống nhất trong Đảng.",
+      "Đoàn kết trong quần chúng nhân dân.",
+      "Đoàn kết trong tầng lớp trí thức.",
+      "Đoàn kết trong lực lượng vũ trang.",
+    ],
+    answer: "Đoàn kết, thống nhất trong Đảng.",
+    id: "question_863647_question_text",
+  },
+  {
+    text: "Đối với các dân tộc trên thế giới; Hồ Chí Minh đã giương cao ngọn cờ gì để xây dựng khối đoàn kết quốc tế?",
+    options: [
+      "Hòa bình trong công lý.",
+      "Độc lập, tự do và quyền bình đẳng giữa các dân tộc.",
+      "Độc lập dân tộc gắn liền với chủ nghĩa xã hội.",
+      "Hai bên cùng có lợi.",
+    ],
+    answer: "Độc lập, tự do và quyền bình đẳng giữa các dân tộc.",
+    id: "question_863653_question_text",
+  },
+  {
+    text: "Trong kháng chiến chống Pháp và chống Mỹ, Hồ Chí Minh đã tranh thủ sự ủng hộ của quốc tế bằng việc thành lập Mặt trận nào?",
+    options: [
+      "Mặt trận quốc tế.",
+      "Mặt trận Tổ quốc Việt Nam.",
+      "Mặt trận độc lập đồng minh.",
+      "Mặt trận nhân dân thế giới đoàn kết với Việt Nam chống đế quốc xâm lược.",
+    ],
+    answer:
+      "Mặt trận nhân dân thế giới đoàn kết với Việt Nam chống đế quốc xâm lược.",
+    id: "question_863651_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, sức mạnh của dân tộc là gì?",
+    options: [
+      "Sức mạnh tinh thần.",
+      "Sức mạnh tổng hợp của các yếu tố vật chất và tinh thần.",
+      "Sức mạnh nguồn lực con người.",
+      "Sức mạnh vật chất.",
+    ],
+    answer: "Sức mạnh tổng hợp của các yếu tố vật chất và tinh thần.",
+    id: "question_863649_question_text",
+  },
+  {
+    text: "Theo quan điểm Hồ Chí Minh, mối quan hệ giữa nội lực và ngoại lực được thể hiện như thế nào?",
+    options: [
+      "Nội lực và ngoại lực không có mối quan hệ với nhau.",
+      "Nội lực giữ vai trò quyết định, ngoại lực chỉ phát huy tác dụng thông qua nội lực bên trong.",
+      "Nội lực và ngoại lực giữ vị trí ngang nhau.",
+      "Ngoại lực giữ vai trò quyết định nội lực.",
+    ],
+    answer:
+      "Nội lực giữ vai trò quyết định, ngoại lực chỉ phát huy tác dụng thông qua nội lực bên trong.",
+    id: "question_863654_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, trong quá trình xây dựng khối đại đoàn kết toàn dân cần phải:",
+    options: [
+      "Đứng trên quan điểm của Đảng Cộng sản.",
+      "Đứng trên quan điểm giai cấp công nhân, giải quyết hài hòa mối quan hệ giai cấp - dân tộc để tập hợp lực lượng.",
+      "Đứng trên quan điểm của giai cấp nông nhân để tập hợp đại đa số nhân dân lao động.",
+      "Đứng trên quan điểm của tầng lớp trí thức.",
+    ],
+    answer:
+      "Đứng trên quan điểm giai cấp công nhân, giải quyết hài hòa mối quan hệ giai cấp - dân tộc để tập hợp lực lượng.",
+    id: "question_863658_question_text",
+  },
+  {
+    text: "Luận điểm: Đại đoàn kết toàn dân tộc là đường lối chiến lược của cách mạng Việt Nam, là động lực và nguồn lực to lớn trong xây dựng và bảo vệ Tổ quốc” được khẳng định tại Đại hội lần thứ mấy của Đảng?",
+    options: [
+      "Đại hội Đại biểu toàn quốc lần thứ XI.",
+      "Đại hội Đại biểu toàn quốc lần thứ X.",
+      "Đại hội Đại biểu toàn quốc lần thứ XIII.",
+      "Đại hội Đại biểu toàn quốc lần thứ XII.",
+    ],
+    answer: "Đại hội Đại biểu toàn quốc lần thứ XII.",
+    id: "question_863659_question_text",
+  },
+  {
+    text: "Khái niệm “nhân dân” trong tư tưởng Hồ Chí Minh bao gồm những ai?",
+    options: [
+      "Gồm công nhân và nông dân.",
+      "Gồm những người dân lao động Việt Nam.",
+      "Gồm công - nông - trí thức.",
+      "Gồm những người Việt Nam cụ thể và tập hợp đông đảo quần chúng nhân dân.",
+    ],
+    answer:
+      "Gồm những người Việt Nam cụ thể và tập hợp đông đảo quần chúng nhân dân.",
+    id: "question_863656_question_text",
+  },
+  {
+    text: "“Tinh thần quốc tế là đoàn kết với cá nước bạn và nhân dân các nước khác để giữ gìn hòa bình thế giới, chống chính sách xâm lược và chính sách chiến tranh của đế quốc…”. Luận điểm này của Hồ Chí Minh được trích trong tác phẩm nào?",
+    options: [
+      "Thường thức chính trị.",
+      "Đường Cách mệnh.",
+      "Đạo đức cách mạng.",
+      "Di chúc.",
+    ],
+    answer: "Thường thức chính trị.",
+    id: "question_863662_question_text",
+  },
+  {
+    text: "Quan hệ giữa văn hóa với chính trị ở Việt Nam được thể hiện như thế nào?",
+    options: [
+      "Phát triển văn hóa quyết định đến giải phóng chính trị.",
+      "Mọi hoạt động của các tổ chức chính trị nằm ngoài hoạt động văn hóa.",
+      "Văn hóa và chính trị độc lập với nhau.",
+      "Giải phóng chính trị mở đường cho văn hóa phát triển.",
+    ],
+    answer: "Giải phóng chính trị mở đường cho văn hóa phát triển.",
+    id: "question_863745_question_text",
+  },
+  {
+    text: "Theo quan điểm Hồ Chí Minh, vì lợi ích mười năm thì phải trồng cây, vì lợi ích trăm năm thì phải làm gì?",
+    options: [
+      "Bồi dưỡng thế hệ trẻ.",
+      "Xây dựng chủ nghĩa xã hội.",
+      "Trồng người.",
+      "Xây dựng Đảng trong sạch, vững mạnh.",
+    ],
+    answer: "Trồng người.",
+    id: "question_863753_question_text",
+  },
+  {
+    text: "Theo tư tưởng Hồ Chí Minh, có mấy nguyên tắc xây dựng đạo đức cách mạng?",
+    options: ["2", "3", "5", "4"],
+    answer: "3",
+    id: "question_863750_question_text",
+  },
+  {
+    text: "Quan hệ giữa văn hóa với xã hội được thể hiện như thế nào?",
+    options: [
+      "Sự phát triển xã hội phụ thuộc vào sự phát triển văn hóa.",
+      "Giải phóng xã hội tạo điều kiện cho văn hóa phát triển.",
+      "Văn hóa và xã hội độc lập với nhau.",
+      "Văn hóa đứng ngoài xã hội.",
+    ],
+    answer: "Giải phóng xã hội tạo điều kiện cho văn hóa phát triển.",
+    id: "question_863746_question_text",
+  },
+  {
+    text: "Theo quan điểm Hồ Chí Minh, con người được hiểu như thế nào?",
+    options: [
+      "Con người là một chỉnh thể, thống nhất về trí lực, tâm lực, thể lực, đa dạng bởi mối quan hệ giữa cá nhân và xã hội.",
+      "Con người là thực thể mang tính xã hội.",
+      "Con người là do thượng đế sinh ra.",
+      "Con người là một thực thể sinh học.",
+    ],
+    answer:
+      "Con người là một chỉnh thể, thống nhất về trí lực, tâm lực, thể lực, đa dạng bởi mối quan hệ giữa cá nhân và xã hội.",
+    id: "question_863751_question_text",
+  },
+  {
+    text: "Theo quan điểm Hồ Chí Minh, vai trò của con người được thể hiện như thế nào?",
+    options: [
+      "Con người là mục tiêu, là động lực của sự phát triển.",
+      "Con người là chủ thể của sự phát triển.",
+      "Con người là lực lượng chính thúc đẩy sự phát triển xã hội.",
+      "Con người giữ vai trò trung tâm của sự phát triển xã hội.",
+    ],
+    answer: "Con người là mục tiêu, là động lực của sự phát triển.",
+    id: "question_863752_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, văn hóa được đặt ngang hàng với các lĩnh vực nào của đời sống xã hội?",
+    options: [
+      "Kinh tế và chính trị.",
+      "Kinh tế, chính trị và xã hội.",
+      "Kinh tế và xã hội.",
+      "Chính trị và xã hội.",
+    ],
+    answer: "Kinh tế, chính trị và xã hội.",
+    id: "question_863744_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, đối với các dân tộc Phương Đông, một tấm gương trong tu dưỡng đạo đức có ý nghĩa như thế nào?",
+    options: [
+      "Bằng mười bài diễn văn tuyên truyền.",
+      "Hơn một trăm bài diễn văn tuyên truyền.",
+      "Bằng một trăm bài diễn văn tuyên truyền.",
+      "Bằng năm mươi bài diễn văn tuyên truyền.",
+    ],
+    answer: "Hơn một trăm bài diễn văn tuyên truyền.",
+    id: "question_863763_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, phẩm chất yêu thương con người đưọc thể hiện với những đối tượng nào?",
+    options: [
+      "Yêu thương giai cấp công nhân.",
+      "Yêu thương những người nghèo khổ, bị mất nhân quyền, những người bị bóc lột không phân biệt màu da, dân tộc.",
+      "Yêu thương những người nông dân Việt Nam.",
+      "Yêu thương những người già không nơi nương tựa.",
+    ],
+    answer:
+      "Yêu thương những người nghèo khổ, bị mất nhân quyền, những người bị bóc lột không phân biệt màu da, dân tộc.",
+    id: "question_863761_question_text",
+  },
+  {
+    text: "Theo quan điểm Hồ Chí Minh, việc xây dựng con người được xác định như thế nào?",
+    options: [
+      "Có ý nghĩa sách lược.",
+      "Có ý nghĩa quan trọng trong công cuộc giải phóng dân tộc, xóa bỏ ách áp bức, bóc lột.",
+      "Là nhiệm vụ hàng đầu của cách mạng Việt Nam.",
+      "Vừa cấp bách vừa lâu dài, có ý nghĩa chiến lược.",
+    ],
+    answer: "Vừa cấp bách vừa lâu dài, có ý nghĩa chiến lược.",
+    id: "question_863765_question_text",
+  },
+  {
+    text: "Vận dụng tư tưởng Hồ Minh trong xây dựng và phát triển văn hóa, con người hiện nay, Đảng ta xác định xây dựng nền văn hóa Việt Nam như thế nào?",
+    options: [
+      "Nền văn hóa tiên tiến, đậm đà bản sắc dân tộc.",
+      "Nền văn hóa mang bản sắc dân tộc.",
+      "Nền văn hóa mang tính đại chúng.",
+      "Nền văn hóa mang tính dân tộc và khoa học.",
+    ],
+    answer: "Nền văn hóa tiên tiến, đậm đà bản sắc dân tộc.",
+    id: "question_863767_question_text",
+  },
+  {
+    text: "Theo quan điểm Hồ Chí Minh, chữ Kiệm được hiểu như thế nào?",
+    options: [
+      "Tiết kiệm sức lao động, tiết kiệm thì giờ, tiết kiệm tiền của của dân, của nước, của bản thân mình.",
+      "Tiết kiệm tiền của, để dành tiền của bản thân không nên tiêu xài.",
+      "Tiết kiệm sức lao động, không nên làm những việc nặng nhọc.",
+      "Có ý thức trong việc sử dụng tài sản của nhà nước.",
+    ],
+    answer:
+      "Tiết kiệm sức lao động, tiết kiệm thì giờ, tiết kiệm tiền của của dân, của nước, của bản thân mình.",
+    id: "question_863759_question_text",
+  },
+  {
+    text: "“Hiền dữ đâu phải do tính sẵn. Phần nhiều do giáo dục mà nên”. Luận điểm này của Hồ Chí Minh nhấn mạnh vai trò của phương pháp nào trong xây dựng con người?",
+    options: [
+      "Nêu gương.",
+      "Vai trò của tổ chức Đảng, chính quyền, đoàn thể quần chúng.",
+      "Giáo dục.",
+      "Vận động, thuyết phục.",
+    ],
+    answer: "Giáo dục.",
+    id: "question_863766_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh, tình yêu thương con người được xây dựng trên lập trường của giai cấp nào?",
+    options: [
+      "Giai cấp công nhân và giai cấp nông dân.",
+      "Tầng lớp trí thức.",
+      "Giai cấp nông dân.",
+      "Giai cấp công nhân.",
+    ],
+    answer: "Giai cấp công nhân.",
+    id: "question_863762_question_text",
+  },
+  {
+    text: "Vai trò của đạo đức được thể hiện như thế nào theo tư tưởng Hồ Chí Minh?",
+    options: [
+      "Thước đo lòng dũng cảm của con người.",
+      "Là thước đo lòng cao thượng của con người.",
+      "Thước đo lòng yêu nước của con người.",
+      "Là thước đo nhân cách của con người.",
+    ],
+    answer: "Là thước đo lòng cao thượng của con người.",
+    id: "question_863756_question_text",
+  },
+  {
+    text: "Hồ Chí Minh được tổ chức UNESCO ghi nhận danh hiệu anh hùng giải phóng dân tộc, nhà văn hóa kiệt xuất của Việt Nam vào năm nào?",
+    options: ["1987", "1988", "1986", "1990"],
+    answer: "1987",
+    id: "question_863754_question_text",
+  },
+  {
+    text: "“Cũng như sông thì có nguồn mới có nước, không có nguồn thì sông cạn. Cây phải có gốc, không có gốc thì cây héo. Người cách mạng phải có đạo đức, không có đạo đức thì có tài giỏi mấy cũng không lãnh đạo được nhân dân”. Luận điểm trên được trích trong tác phẩm nào của Hồ Chí Minh?",
+    options: [
+      "Thư gửi các đồng chí Bắc Bộ.",
+      "Di chúc.",
+      "Sửa đổi lối làm việc.",
+      "Tinh thần trách nhiệm.",
+    ],
+    answer: "Sửa đổi lối làm việc.",
+    id: "question_863768_question_text",
+  },
+  {
+    text: "“Quan sơn muôn dặm một nhà. Bốn phương vô sản đều là anh em”. Câu thơ trên của Hồ Chí Minh có ý nghĩa như thế nào?",
+    options: [
+      "Chủ nghĩa yêu nước chân chính của dân tộc Việt Nam.",
+      "Tình yêu thương với những người cùng khổ.",
+      "Đoàn kết quốc tế theo tinh thần quốc tế tong sáng.",
+      "Phê phán chủ nghĩa đế quốc, thực dân.",
+    ],
+    answer: "Đoàn kết quốc tế theo tinh thần quốc tế tong sáng.",
+    id: "question_863771_question_text",
+  },
+  {
+    text: "Theo Hồ Chí Minh “hiểu chủ nghĩa Mác - Lênin là phải sống với nhau có tình, có nghĩa. Nếu thuộc bao nhiêu sách mà sống với nhau không có tình có nghĩa thì sao gọi là chủ nghĩa Mác - Lênin được”. Quan điểm này của Hồ Chí Minh nói lên điều gì?",
+    options: [
+      "Tinh thần quốc tế trong sáng.",
+      "Vai trò của chủ nghĩa Mác - Lênin.",
+      "Phương pháp học tập chủ nghĩa Mác - Lênin.",
+      "Tình yêu thương con người, sống có tình nghĩa.",
+    ],
+    answer: "Tình yêu thương con người, sống có tình nghĩa.",
+    id: "question_863772_question_text",
+  },
+  {
+    text: "“Làm cách mạng để cải tạo xã hội cũ thành xã hội mới là một sự nghiệp rất vẻ vang, nhưng nó cũng là một nhiệm vụ rất nặng nề, một cuộc đấu tranh rất phức tạp, lâu dài, gian khổ. Sức có mạnh mới gánh được nặng và đi được xa. Người cách mạng phải có đạo đức cách mạng làm nền tảng, mới hoàn thành được nhiệm vụ cách mạng vẻ vang”. Luận điểm trên được trích trong tác phẩm nào của Hồ Chí Minh?",
+    options: [
+      "Di chúc.",
+      "Sửa đổi lối làm việc.",
+      "Đạo đức cách mạng.",
+      "Thường thức chính trị.",
+    ],
+    answer: "Đạo đức cách mạng.",
+    id: "question_863777_question_text",
+  },
 ]
   .filter((qus) => {
     if (newMap.has(qus.id)) return false;
