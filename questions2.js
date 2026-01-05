@@ -272,6 +272,289 @@ export const questions2 = [
     answer: "C.Mác.",
     id: "question_1056394_question_text",
   },
+  {
+    text: "Quá độ lên chủ nghĩa xã hội có mấy đặc điểm cơ bản?",
+    options: ["3", "5", "4", "2"],
+    answer: "4",
+    id: "question_1056461_question_text",
+  },
+  {
+    text: "Theo quan điểm chủ nghĩa Mác – Lênin, xã hội xã hội chủ nghĩa có mấy đặc trưng cơ bản?",
+    options: ["5", "4", "6", "3"],
+    answer: "6",
+    id: "question_1056462_question_text",
+  },
+  {
+    text: "Hai hình thức quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội là gì?",
+    options: [
+      "Quá độ cơ bản và quá độ không cơ bản.",
+      "Quá độ nhanh chóng và quá độ lâu dài.",
+      "Quá độ khách quan và quá độ chủ quan.",
+      "Quá độ trực tiếp và quá độ gián tiếp.",
+    ],
+    answer: "Quá độ trực tiếp và quá độ gián tiếp.",
+    id: "question_1056460_question_text",
+  },
+  {
+    text: "Xã hội xã hội chủ nghĩa mà nhân dân ta xây dựng có mấy đặc trưng?",
+    options: ["10", "4", "8", "6"],
+    answer: "8",
+    id: "question_1056463_question_text",
+  },
+  {
+    text: "Hai giai đoạn chính của hình thái kinh tế – xã hội Cộng sản chủ nghĩa là gì?",
+    options: [
+      "Chủ nghĩa xã hội và chủ nghĩa cộng sản.",
+      "Chủ nghĩa tư bản và chủ nghĩa xã hội.",
+      "Thời kỳ quá độ và chủ nghĩa xã hội.",
+      "Thời kỳ quá độ và chủ nghĩa cộng sản.",
+    ],
+    answer: "Chủ nghĩa xã hội và chủ nghĩa cộng sản.",
+    id: "question_1056459_question_text",
+  },
+  {
+    text: "Đặc trưng về mặt văn hóa của chủ nghĩa xã hội được thể hiện như thế nào?",
+    options: [
+      "Có nền văn hóa phát triển cao, kế thừa và phát huy những giá trị của văn hóa dân tộc và tinh hóa văn hóa nhân loại.",
+      "Xây dựng nền văn hóa mới với nền tảng là xây dựng con người mới xã hội chủ nghĩa.",
+      "Xây dựng nền văn hóa trên cơ sở văn hóa truyền thống.",
+      "Xây dựng nền văn hóa hiện đại.",
+    ],
+    answer:
+      "Có nền văn hóa phát triển cao, kế thừa và phát huy những giá trị của văn hóa dân tộc và tinh hóa văn hóa nhân loại.",
+    id: "question_1056468_question_text",
+  },
+  {
+    text: "Đặc trưng của chủ nghĩa xã hội ở Việt Nam về mặt văn hóa được Đảng ta xác định tại Đại hội XI là gì?",
+    options: [
+      "Có nền văn hóa phát triển cao, tiếp thu những giá trị văn hóa dân tộc và nhân loại.",
+      "Có nền văn hóa hiện đại.",
+      "Có nền văn hóa tiên tiến đậm đà bản sắc dân tộc.",
+      "Có nền văn hóa phát triển cao dựa trên việc phát huy những giá trị văn hóa dân tộc.",
+    ],
+    answer: "Có nền văn hóa tiên tiến đậm đà bản sắc dân tộc.",
+    id: "question_1056472_question_text",
+  },
+  {
+    text: "Quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa là bỏ qua yếu tố nào của chủ nghĩa tư bản?",
+    options: [
+      "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư tưởng tư bản chủ nghĩa.",
+      "Bỏ qua chế độ áp bức bóc lột của giai cấp tư sản.",
+      "Bỏ qua cơ sở kinh tế của chủ nghĩa tư bản.",
+      "Bỏ qua nhà nước của giai cấp tư sản.",
+    ],
+    answer:
+      "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư tưởng tư bản chủ nghĩa.",
+    id: "question_1056466_question_text",
+  },
+  {
+    text: "Hai đặc trưng của chủ nghĩa xã hội được Đảng ta bổ sung tại Đại hội XI so với Đại hội VII là gì?",
+    options: [
+      "(1) Có nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo; (2) Do nhân dân làm chủ.",
+      "(1) Do nhân dân làm chủ; (2) Có nền văn hóa tiên tiến, đậm đà bản sắc dân tộc.",
+      "(1) Dân giàu nước mạnh dân chủ công bằng, văn minh; (2) Do nhân dân làm chủ.",
+      "(1) Dân giàu nước mạnh dân chủ công bằng, văn minh; (2) Có nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo.",
+    ],
+    answer:
+      "(1) Dân giàu nước mạnh dân chủ công bằng, văn minh; (2) Có nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo.",
+    id: "question_1056465_question_text",
+  },
+  {
+    text: "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội được Đảng ta nêu ra ở Đại hội nào?",
+    options: ["Đại hội IV.", "Đại hội VII.", "Đại hội VIII.", "Đại hội VI."],
+    answer: "Đại hội VII.",
+    id: "question_1056467_question_text",
+  },
+  {
+    text: "Luận điểm “Không thể nghi ngờ gì được rằng giữa chủ nghĩa tư bản và chủ nghĩa cộng sản, có một thời kỳ quá độ nhất định” là của ai ?",
+    options: ["Ph.Ăngghen", "V.I.Lênin.", "C.Mác.", "C.Mác và Ph.Ăngghen."],
+    answer: "V.I.Lênin.",
+    id: "question_1056469_question_text",
+  },
+  {
+    text: "Đặc trưng về mặt kinh tế của chủ nghĩa xã hội được thể hiện như thế nào?",
+    options: [
+      "Có nền kinh tế phát triển cao dựa trên chế độ tư hữu về tư liệu sản xuất.",
+      "Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại.",
+      "Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất.",
+      "Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu tư liệu sản xuất chủ yếu.",
+    ],
+    answer:
+      "Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu tư liệu sản xuất chủ yếu.",
+    id: "question_1056464_question_text",
+  },
+  {
+    text: "Chủ nghĩa xã hội phát triển thành hệ thống trên thế giới kể từ khi nào?",
+    options: [
+      "Sau chiến tranh thế giới thứ hai.",
+      "Thời kỳ hội nhập kinh tế quốc tế.",
+      "Cuối thế kỷ XIX.",
+      "Sau cách mạng Tháng Mười Nga.",
+    ],
+    answer: "Sau chiến tranh thế giới thứ hai.",
+    id: "question_1056473_question_text",
+  },
+  {
+    text: "Sự khủng hoảng và sụp đổ của Liên Xô và các nước Đông Âu diễn ra vào thời gian nào?",
+    options: [
+      "4/1990 – 9/1991",
+      "4/1989 – 9/1991",
+      "Trong năm 1991",
+      "4/1988 – 9/1991",
+    ],
+    answer: "4/1989 – 9/1991",
+    id: "question_1056475_question_text",
+  },
+  {
+    text: "Đảng Cộng sản Việt Nam nhận định về sự khủng hoảng của Liên Xô: “Do duy trì quá lâu mô hình cũ của chủ nghĩa xã hội, chậm trễ trong cách mạng khoa học và công nghệ”. Luận điểm trên được thể hiện ở đâu?",
+    options: [
+      "Hội nghị lần thứ năm Ban Chấp hành Trung ương (khóa VIII) (1998).",
+      "Báo cáo chính trị tại Văn kiện Đại hội Đại biểu toàn quốc lần thứ VII (1991).",
+      "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (1991).",
+      "Văn kiện Đại hội Đại biểu toàn quốc lần thứ VIII (1996).",
+    ],
+    answer:
+      "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (1991).",
+    id: "question_1056478_question_text",
+  },
+  {
+    text: "Mối quan hệ giữa dân chủ và nhà nước xã hội chủ nghĩa được thể hiện như thế nào?",
+    options: [
+      "Nhà nước xã hội chủ nghĩa là cơ sở, nền tảng cho việc xây dựng và hoạt động của nền dân chủ.",
+      "Dân chủ xã hội chủ nghĩa là cơ sở, nền tảng cho việc xây dựng và hoạt động của nhà nước xã hội chủ nghĩa.",
+      "Nhà nước xã hội chủ nghĩa tách rời nền dân chủ xã hội chủ nghĩa.",
+      "Dân chủ xã hội chủ nghĩa nằm trong nhà nước xã hội chủ nghĩa.",
+    ],
+    answer:
+      "Dân chủ xã hội chủ nghĩa là cơ sở, nền tảng cho việc xây dựng và hoạt động của nhà nước xã hội chủ nghĩa.",
+    id: "question_1056324_question_text",
+  },
+  {
+    text: "Dân chủ là gì?",
+    options: [
+      "Là quyền lực thuộc về nhân dân.",
+      "Là quyền tự do của mỗi người.",
+      "Là quyền lực thuộc về giai cấp thống trị.",
+      "Là quyền của con người.",
+    ],
+    answer: "Là quyền lực thuộc về nhân dân.",
+    id: "question_1056320_question_text",
+  },
+  {
+    text: "Bản chất của nền dân chủ xã hội chủ nghĩa được thể hiện trên mấy lĩnh vực?",
+    options: ["4", "3", "1", "2"],
+    answer: "3",
+    id: "question_1056323_question_text",
+  },
+  {
+    text: "Nhà nước xã hội chủ nghĩa là nhà nước mang bản chất của giai cấp nào?",
+    options: [
+      "Nông dân.",
+      "Tư sản và giai cấp tiểu tư sản.",
+      "Công nhân và đội ngũ trí thức.",
+      "Công nhân.",
+    ],
+    answer: "Công nhân.",
+    id: "question_1056325_question_text",
+  },
+  {
+    text: "Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam có mấy đặc điểm?",
+    options: ["4", "6", "7", "5"],
+    answer: "6",
+    id: "question_1056333_question_text",
+  },
+  {
+    text: "Dựa vào tính chất tác động của quyền lực, nhà nước xã hội chủ nghĩa có những chức năng nào?",
+    options: [
+      "Chức năng giai cấp và chức năng xã hội.",
+      "Chức năng đối nội và chức năng đối ngoại.",
+      "Chức năng văn hóa và chức năng xã hội.",
+      "Chức năng kinh tế, chức năng chính trị.",
+    ],
+    answer: "Chức năng giai cấp và chức năng xã hội.",
+    id: "question_1056331_question_text",
+  },
+  {
+    text: "Bản chất tư tưởng – văn hóa – xã hội của nền dân chủ xã hội chủ nghĩa thể hiện như thế nào?",
+    options: [
+      "Lấy tư tưởng truyền thống dân tộc làm chủ đạo với mọi hình thái ý thức xã hội khác.",
+      "Lấy hệ tư tưởng Mác – Lênin làm chủ đạo với mọi hình thái ý thức xã hội khác.",
+      "Lấy hệ tư tưởng tư sản làm chủ đạo với mọi hình thái ý thức xã hội khác.",
+      "Lấy tư tưởng Hồ Chí Minh làm chủ đạo với mọi hình thái ý thức xã hội khác.",
+    ],
+    answer:
+      "Lấy hệ tư tưởng Mác – Lênin làm chủ đạo với mọi hình thái ý thức xã hội khác.",
+    id: "question_1056329_question_text",
+  },
+  {
+    text: "Bản chất chính trị của nền dân chủ xã hội chủ nghĩa thể hiện như thế nào?",
+    options: [
+      "Là thực hiện quyền lực của giai cấp nông dân.",
+      "Là thực hiện quyền lực của giai cấp công nhân và nhân dân lao động đối với toàn xã hội.",
+      "Là thực hiện quyền lực của giai cấp công nhân và tầng lớp trí thức.",
+      "Sự lãnh đạo chính trị của giai cấp công nhân thông qua Đảng Cộng sản nhằm thực hiện quyền lực và lợi ích cho nhân dân lao động.",
+    ],
+    answer:
+      "Sự lãnh đạo chính trị của giai cấp công nhân thông qua Đảng Cộng sản nhằm thực hiện quyền lực và lợi ích cho nhân dân lao động.",
+    id: "question_1056328_question_text",
+  },
+  {
+    text: "Nền dân chủ xã hội chủ nghĩa được “phôi thai” từ khi nào?",
+    options: [
+      "Từ sau cách mạng Tháng Mười Nga 1917.",
+      "Từ năm 1848 – khi chủ nghĩa khoa học ra đời.",
+      "Từ thực tiễn đấu tranh giai cấp ở Pháp và Công xã Pari 1871.",
+      "Từ sau chiến tranh thế giới thứ II.",
+    ],
+    answer: "Từ thực tiễn đấu tranh giai cấp ở Pháp và Công xã Pari 1871.",
+    id: "question_1056327_question_text",
+  },
+  {
+    text: "Dựa vào phạm vi tác động của quyền lực, nhà nước xã hội chủ nghĩa có những chức năng nào?",
+    options: [
+      "Chức năng đối nội và chức năng đối ngoại.",
+      "Chức năng giai cấp và chức năng xã hội.",
+      "Chức năng văn hóa và chức năng xã hội.",
+      "Chức năng kinh tế, chức năng chính trị.",
+    ],
+    answer: "Chức năng đối nội và chức năng đối ngoại.",
+    id: "question_1056330_question_text",
+  },
+  {
+    text: "So với các nền dân chủ trước đây, dân chủ xã hội chủ nghĩa có điểm khác biệt cơ bản nào?",
+    options: [
+      "Không còn mang tính giai cấp.",
+      "Là nền dân chủ phi lịch sử.",
+      "Là nền dân chủ thuần tuý.",
+      "Là nền dân chủ rộng rãi cho giai cấp công nhân và nhân dân lao động.",
+    ],
+    answer:
+      "Là nền dân chủ rộng rãi cho giai cấp công nhân và nhân dân lao động.",
+    id: "question_1056326_question_text",
+  },
+  {
+    text: "Luận điểm “Quyền lực nhà nước là thống nhất, có sự phân công rõ ràng, kiểm soát cơ quan lập pháp, hành pháp và tư pháp” được Đảng ta nêu ra tại Đại hội lần thứ mấy?",
+    options: ["Đại hội IX.", "Đại hội XI.", "Đại hội XII.", "Đại hội X."],
+    answer: "Đại hội XII.",
+    id: "question_1056337_question_text",
+  },
+  {
+    text: "Theo quan điểm của Lênin, khái niệm “nửa nhà nước” dùng để chỉ hình thức nhà nước nào?",
+    options: [
+      "Nhà nước phong kiến.",
+      "Nhà nước tư bản chủ nghĩa.",
+      "Nhà nước chiếm hữu nô lệ.",
+      "Nhà nước xã hội chủ nghĩa.",
+    ],
+    answer: "Nhà nước xã hội chủ nghĩa.",
+    id: "question_1056335_question_text",
+  },
+  {
+    text: "Luận điểm “Chế độ dân chủ là một hình thức nhà nước… cho nên cũng như mọi nhà nước, chế độ dân chủ là việc thi hành có tổ chức, có hệ thống sự cưỡng bức đối với người ta” là của ai ?",
+    options: ["Ph. Ăngghen.", "C.Mác.", "Hồ Chí Minh.", "V.I. Lênin."],
+    answer: "V.I. Lênin.",
+    id: "question_1056338_question_text",
+  },
 ]
   .filter((qus) => {
     if (newMap.has(qus.id)) return false;
