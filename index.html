@@ -1,344 +1,813 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="vi" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trắc Nghiệm</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ôn Thi Triết - Trắc Nghiệm</title>
+    <meta name="description" content="Ứng dụng ôn thi trắc nghiệm Triết học. Luyện tập câu hỏi theo form trắc nghiệm 4 đáp án." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <style>
-      .correct-answer {
-        background-color: rgb(134, 239, 172);
-        color: #000;
+      /* ========== CSS VARIABLES ========== */
+      :root {
+        --bg-main: #f0f4f8;
+        --bg-card: #ffffff;
+        --bg-answer: #f8fafc;
+        --bg-answer-hover: #e8f4fd;
+        --border: #e2e8f0;
+        --border-answer: #cbd5e1;
+        --text-primary: #1e293b;
+        --text-secondary: #64748b;
+        --text-muted: #94a3b8;
+        --color-blue: #3b82f6;
+        --color-blue-dark: #2563eb;
+        --color-green: #22c55e;
+        --color-green-light: #dcfce7;
+        --color-green-border: #86efac;
+        --color-red: #ef4444;
+        --color-red-light: #fee2e2;
+        --color-red-border: #fca5a5;
+        --color-yellow-light: #fef9c3;
+        --color-yellow-border: #fde047;
+        --color-rose: #f43f5e;
+        --shadow: 0 4px 24px rgba(0,0,0,0.08);
+        --shadow-answer: 0 2px 8px rgba(0,0,0,0.05);
+        --radius: 16px;
+        --radius-sm: 10px;
+        --progress-bg: #e2e8f0;
+        --progress-fill: #3b82f6;
+        --badge-bg: #eff6ff;
+        --badge-text: #1d4ed8;
       }
-      .wrong-answer {
-        background-color: rgb(252, 165, 165);
-        color: #000;
+
+      [data-theme="dark"] {
+        --bg-main: #0f172a;
+        --bg-card: #1e293b;
+        --bg-answer: #1e293b;
+        --bg-answer-hover: #2d3f55;
+        --border: #334155;
+        --border-answer: #475569;
+        --text-primary: #f1f5f9;
+        --text-secondary: #94a3b8;
+        --text-muted: #64748b;
+        --color-green-light: #14532d;
+        --color-green-border: #16a34a;
+        --color-red-light: #450a0a;
+        --color-red-border: #dc2626;
+        --color-yellow-light: #422006;
+        --color-yellow-border: #ca8a04;
+        --shadow: 0 4px 24px rgba(0,0,0,0.4);
+        --progress-bg: #334155;
+        --badge-bg: #1e3a5f;
+        --badge-text: #93c5fd;
       }
-      .selected {
-        background-color: rgb(191, 219, 254);
+
+      /* ========== RESET & BASE ========== */
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html { font-size: 16px; }
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        background: var(--bg-main);
+        color: var(--text-primary);
+        min-height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 24px 16px 60px;
+        transition: background 0.3s, color 0.3s;
+      }
+
+      /* ========== HEADER ========== */
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .header-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--color-blue);
+        letter-spacing: -0.3px;
+      }
+      .theme-toggle {
+        background: var(--bg-answer);
+        border: 1px solid var(--border);
+        border-radius: 50%;
+        width: 38px; height: 38px;
+        display: flex; align-items: center; justify-content: center;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: background 0.2s, transform 0.2s;
+      }
+      .theme-toggle:hover { transform: rotate(20deg); }
+
+      /* ========== WRAPPER ========== */
+      .wrapper {
+        width: 100%;
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      /* ========== CARD ========== */
+      .card {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 28px;
+        transition: background 0.3s, border-color 0.3s;
+      }
+
+      /* ========== PROGRESS ========== */
+      .progress-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .badge {
+        background: var(--badge-bg);
+        color: var(--badge-text);
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 4px 12px;
+        border-radius: 999px;
+        letter-spacing: 0.2px;
+      }
+      .score-badge {
+        background: var(--color-green-light);
+        color: #15803d;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 4px 12px;
+        border-radius: 999px;
+      }
+      [data-theme="dark"] .score-badge { color: #4ade80; }
+
+      .timer-badge {
+        background: var(--bg-answer);
+        color: var(--text-secondary);
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 4px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        font-variant-numeric: tabular-nums;
+        min-width: 52px;
+        text-align: center;
+      }
+      .timer-badge.warning { color: var(--color-rose); border-color: var(--color-rose); }
+
+      .progress-bar-wrap {
+        background: var(--progress-bg);
+        border-radius: 999px;
+        height: 6px;
+        overflow: hidden;
+        margin-bottom: 24px;
+      }
+      .progress-bar-fill {
+        height: 100%;
+        background: linear-gradient(90deg, var(--color-blue), #6366f1);
+        border-radius: 999px;
+        transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* ========== QUESTION ========== */
+      .question-text {
+        font-size: 1.05rem;
+        font-weight: 600;
+        line-height: 1.65;
+        color: var(--text-primary);
+        margin-bottom: 20px;
+      }
+
+      /* ========== ANSWERS ========== */
+      .answers-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      .answer-item {
+        background: var(--bg-answer);
+        border: 2px solid var(--border-answer);
+        border-radius: var(--radius-sm);
+        padding: 14px 16px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        transition: background 0.15s, border-color 0.15s, transform 0.1s, box-shadow 0.15s;
+        user-select: none;
+        box-shadow: var(--shadow-answer);
+      }
+      .answer-item:hover:not(.answered) {
+        background: var(--bg-answer-hover);
+        border-color: var(--color-blue);
+        transform: translateX(3px);
+      }
+      .answer-key {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 28px; height: 28px;
+        border-radius: 50%;
+        background: var(--border);
+        color: var(--text-secondary);
+        font-size: 0.78rem;
+        font-weight: 700;
+        flex-shrink: 0;
+        transition: background 0.15s, color 0.15s;
+      }
+      .answer-text {
+        font-size: 0.93rem;
+        line-height: 1.5;
+        color: var(--text-primary);
+      }
+      .answer-item.selected {
+        background: #eff6ff;
+        border-color: var(--color-blue);
+      }
+      [data-theme="dark"] .answer-item.selected { background: #1e3a5f; }
+      .answer-item.selected .answer-key {
+        background: var(--color-blue);
+        color: #fff;
+      }
+      .answer-item.correct-answer {
+        background: var(--color-green-light);
+        border-color: var(--color-green-border);
+      }
+      .answer-item.correct-answer .answer-key {
+        background: var(--color-green);
+        color: #fff;
+      }
+      .answer-item.wrong-answer {
+        background: var(--color-red-light);
+        border-color: var(--color-red-border);
+      }
+      .answer-item.wrong-answer .answer-key {
+        background: var(--color-red);
+        color: #fff;
+      }
+      .answer-item.answered { cursor: default; }
+
+      /* ========== FEEDBACK & FOOTER ========== */
+      .card-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+      .feedback-text {
+        font-size: 0.9rem;
+        font-weight: 600;
+        flex: 1;
+        animation: fadeIn 0.2s ease;
+      }
+      .feedback-text.correct { color: var(--color-green); }
+      .feedback-text.wrong { color: var(--color-red); }
+      .feedback-text.error { color: #f59e0b; }
+
+      /* ========== BUTTON ========== */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        border: none;
+        border-radius: var(--radius-sm);
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.1s, opacity 0.2s;
+        font-family: inherit;
+        padding: 10px 20px;
+        white-space: nowrap;
+      }
+      .btn:active { transform: scale(0.97); }
+      .btn-primary {
+        background: var(--color-blue);
+        color: #fff;
+      }
+      .btn-primary:hover { background: var(--color-blue-dark); }
+      .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+      .btn-rose {
+        background: var(--color-rose);
+        color: #fff;
+        font-size: 0.85rem;
+        padding: 8px 14px;
+      }
+      .btn-rose:hover { background: #e11d48; }
+      .btn-gray {
+        background: var(--bg-answer);
+        color: var(--text-secondary);
+        border: 1px solid var(--border);
+        font-size: 0.85rem;
+        padding: 8px 14px;
+      }
+      .btn-gray:hover { background: var(--bg-answer-hover); }
+
+      /* ========== FAILED PANEL ========== */
+      .failed-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .failed-list {
+        display: none;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 16px;
+        animation: fadeIn 0.2s ease;
+      }
+      .failed-item {
+        border: 2px solid var(--color-red-border);
+        border-radius: var(--radius-sm);
+        padding: 16px;
+        background: var(--color-red-light);
+      }
+      .failed-item-title {
+        font-size: 0.92rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: var(--text-primary);
+      }
+      .failed-item-options {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin-bottom: 10px;
+      }
+      .failed-option {
+        font-size: 0.85rem;
+        padding: 8px 10px;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        background: var(--bg-card);
+        color: var(--text-primary);
+      }
+      .failed-option.correct {
+        background: var(--color-green-light);
+        border-color: var(--color-green-border);
+        font-weight: 600;
+      }
+      .failed-correct-label {
+        font-size: 0.82rem;
+        font-weight: 600;
+        color: #15803d;
+      }
+      [data-theme="dark"] .failed-correct-label { color: #4ade80; }
+
+      /* ========== RESULT MODAL ========== */
+      .modal-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.55);
+        backdrop-filter: blur(4px);
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        animation: fadeIn 0.2s ease;
+      }
+      .modal-overlay.active { display: flex; }
+      .modal-box {
+        background: var(--bg-card);
+        border-radius: var(--radius);
+        box-shadow: 0 24px 64px rgba(0,0,0,0.3);
+        padding: 36px 32px;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+        animation: slideUp 0.25s cubic-bezier(0.4,0,0.2,1);
+      }
+      .modal-emoji { font-size: 3.5rem; margin-bottom: 12px; }
+      .modal-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 8px;
+      }
+      .modal-score {
+        font-size: 2.8rem;
+        font-weight: 800;
+        color: var(--color-blue);
+        margin: 8px 0 4px;
+        letter-spacing: -1px;
+      }
+      .modal-total {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        margin-bottom: 24px;
+      }
+      .modal-actions {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+      }
+      .btn-success {
+        background: var(--color-green);
+        color: #fff;
+        padding: 11px 22px;
+        border-radius: var(--radius-sm);
+      }
+      .btn-success:hover { background: #16a34a; }
+
+      /* ========== KEYBOARD HINT ========== */
+      .keyboard-hint {
+        text-align: center;
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-top: -4px;
+      }
+      .kbd {
+        display: inline-block;
+        background: var(--bg-answer);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: 1px 5px;
+        font-size: 0.7rem;
+        font-family: monospace;
+        color: var(--text-secondary);
+      }
+
+      /* ========== ANIMATIONS ========== */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes slideUp {
+        from { transform: translateY(20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+
+      /* ========== RESPONSIVE ========== */
+      @media (max-width: 480px) {
+        .card { padding: 20px; }
+        .question-text { font-size: 0.97rem; }
+        .modal-box { padding: 28px 20px; }
       }
     </style>
   </head>
 
   <body>
-    <div
-      class="w-full min-h-screen flex items-center justify-center bg-gray-50 p-4"
-    >
-      <div>
-        <!-- Câu hỏi chính -->
-        <div
-          class="w-[360px] sm:w-[450px] md:w-[700px] bg-white border rounded-lg shadow-md p-6"
-        >
-          <div class="flex justify-between items-center mb-4">
-            <div
-              class="px-3 py-1 border rounded bg-blue-50 font-medium"
-              id="count"
-            ></div>
-            <div
-              class="px-3 py-1 border rounded bg-green-50 font-medium"
-              id="point"
-            ></div>
+    <div class="wrapper">
+      <!-- Header -->
+      <div class="header">
+        <span class="header-title">📚 Ôn Thi Triết</span>
+        <button class="theme-toggle" id="theme-toggle" title="Chuyển giao diện sáng/tối" aria-label="Toggle dark mode">🌙</button>
+      </div>
+
+      <!-- Quiz Card -->
+      <div class="card" id="quiz-card">
+        <!-- Progress -->
+        <div class="progress-header">
+          <span class="badge" id="count">1 / 0</span>
+          <span class="timer-badge" id="timer">0:00</span>
+          <span class="score-badge" id="point">Đúng: 0/0</span>
+        </div>
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-fill" id="progress-bar" style="width: 0%"></div>
+        </div>
+
+        <!-- Question -->
+        <div class="question-text" id="text-question"></div>
+
+        <!-- Answers -->
+        <div class="answers-list" id="answers-list">
+          <div class="answer-item" id="input-1">
+            <span class="answer-key">A</span>
+            <span class="answer-text" id="answer-1"></span>
           </div>
-
-          <div id="text-question" class="text-lg font-medium mb-6"></div>
-
-          <div class="space-y-2">
-            <div
-              class="w-full border-2 p-3 rounded-md cursor-pointer transition"
-              id="input-1"
-            >
-              <label class="cursor-pointer" id="answer-1"></label>
-            </div>
-            <div
-              class="w-full border-2 p-3 rounded-md cursor-pointer transition"
-              id="input-2"
-            >
-              <label class="cursor-pointer" id="answer-2"></label>
-            </div>
-            <div
-              class="w-full border-2 p-3 rounded-md cursor-pointer transition"
-              id="input-3"
-            >
-              <label class="cursor-pointer" id="answer-3"></label>
-            </div>
-            <div
-              class="w-full border-2 p-3 rounded-md cursor-pointer transition"
-              id="input-4"
-            >
-              <label class="cursor-pointer" id="answer-4"></label>
-            </div>
+          <div class="answer-item" id="input-2">
+            <span class="answer-key">B</span>
+            <span class="answer-text" id="answer-2"></span>
           </div>
-
-          <div class="mt-6 flex justify-between items-center">
-            <div id="text-answer" class="font-medium text-green-600"></div>
-            <button
-              class="bg-blue-500 hover:bg-blue-600 rounded-md py-2 px-4 text-white font-medium transition"
-              id="button-next"
-            >
-              Câu tiếp theo
-            </button>
+          <div class="answer-item" id="input-3">
+            <span class="answer-key">C</span>
+            <span class="answer-text" id="answer-3"></span>
+          </div>
+          <div class="answer-item" id="input-4">
+            <span class="answer-key">D</span>
+            <span class="answer-text" id="answer-4"></span>
           </div>
         </div>
 
-        <!-- Danh sách câu sai -->
-        <div
-          class="w-[360px] sm:w-[450px] md:w-[700px] bg-white border rounded-lg shadow-md p-6 mt-4"
-        >
-          <div class="flex justify-between items-center">
-            <button
-              id="btn-show-failed"
-              class="px-4 py-2 bg-rose-500 hover:bg-rose-600 rounded-md text-white font-medium transition"
-            >
-              Hiển thị câu sai (<span id="failed-count">0</span>)
-            </button>
-            <button
-              id="btn-hide-failed"
-              class="px-4 py-2 bg-gray-500 hover:bg-gray-600 rounded-md text-white font-medium transition"
-            >
-              Ẩn bỏ
-            </button>
-          </div>
-          <div
-            class="space-y-3 mt-4"
-            id="listFaild"
-            style="display: none"
-          ></div>
+        <!-- Footer -->
+        <div class="card-footer">
+          <div class="feedback-text" id="text-answer"></div>
+          <button class="btn btn-primary" id="button-next" disabled>
+            Câu tiếp theo →
+          </button>
+        </div>
+      </div>
+
+      <!-- Keyboard hint -->
+      <div class="keyboard-hint">
+        Phím tắt: <span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> <span class="kbd">4</span> để chọn đáp án &nbsp;·&nbsp; <span class="kbd">Enter</span> câu tiếp theo
+      </div>
+
+      <!-- Failed Questions Panel -->
+      <div class="card" id="failed-panel">
+        <div class="failed-header">
+          <button class="btn btn-rose" id="btn-show-failed">
+            Hiện câu sai (<span id="failed-count">0</span>)
+          </button>
+          <button class="btn btn-gray" id="btn-hide-failed">Ẩn</button>
+        </div>
+        <div class="failed-list" id="listFaild"></div>
+      </div>
+    </div>
+
+    <!-- Result Modal -->
+    <div class="modal-overlay" id="result-modal">
+      <div class="modal-box">
+        <div class="modal-emoji" id="modal-emoji">🎉</div>
+        <div class="modal-title">Hoàn thành!</div>
+        <div class="modal-score" id="modal-score">0/0</div>
+        <div class="modal-total" id="modal-desc"></div>
+        <div class="modal-actions">
+          <button class="btn btn-gray" id="modal-review">Xem lại câu sai</button>
+          <button class="btn btn-success" id="modal-restart">Làm lại 🔄</button>
         </div>
       </div>
     </div>
 
     <script type="module">
-      // Import từ 2 file JS
-      // import { questions1 } from "./questions1.js";
       import { questions2 } from "./questions2.js";
+      // import { questions1 } from "./questions1.js";
 
-      const textQuestion = document.querySelector("#text-question");
-      const count = document.querySelector("#count");
-      const point = document.querySelector("#point");
-      const answerElements = [
-        document.querySelector("#answer-1"),
-        document.querySelector("#answer-2"),
-        document.querySelector("#answer-3"),
-        document.querySelector("#answer-4"),
-      ];
-      const inputElements = [
-        document.querySelector("#input-1"),
-        document.querySelector("#input-2"),
-        document.querySelector("#input-3"),
-        document.querySelector("#input-4"),
-      ];
-      const textAnswer = document.querySelector("#text-answer");
-      const button = document.querySelector("#button-next");
-      const listFaild = document.querySelector("#listFaild");
-      const failedCountElement = document.querySelector("#failed-count");
-      const btnShowFailed = document.querySelector("#btn-show-failed");
-      const btnHideFailed = document.querySelector("#btn-hide-failed");
+      // ========== THEME ==========
+      const themeToggle = document.getElementById("theme-toggle");
+      const savedTheme = localStorage.getItem("theme") || "light";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+      themeToggle.textContent = savedTheme === "dark" ? "☀️" : "🌙";
 
-      function removeDuplicateQuestions(questions) {
+      themeToggle.addEventListener("click", () => {
+        const current = document.documentElement.getAttribute("data-theme");
+        const next = current === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", next);
+        localStorage.setItem("theme", next);
+        themeToggle.textContent = next === "dark" ? "☀️" : "🌙";
+      });
+
+      // ========== HELPERS ==========
+      function removeDuplicates(questions) {
         const seen = new Map();
-        const uniqueQuestions = [];
-
-        questions.forEach((q) => {
-          // Chuẩn hóa answer về string để so sánh
+        return questions.filter((q) => {
           const answerStr = Array.isArray(q.answer) ? q.answer[0] : q.answer;
           const key = `${q.title}|||${answerStr}`;
-
-          if (!seen.has(key)) {
-            seen.set(key, true);
-            uniqueQuestions.push(q);
-          } else {
-            console.log("Đã loại bỏ câu trùng lặp:", q);
-          }
+          if (seen.has(key)) return false;
+          seen.set(key, true);
+          return true;
         });
-
-        return uniqueQuestions;
       }
-
-      // Gộp và xáo trộn câu hỏi
-      const listQuestion = removeDuplicateQuestions([
-        // ...questions1,
-        ...questions2,
-      ]);
 
       function shuffleArray(array) {
-        const newArray = [...array];
-        for (let i = newArray.length - 1; i > 0; i--) {
+        const arr = [...array];
+        for (let i = arr.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
-          [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+          [arr[i], arr[j]] = [arr[j], arr[i]];
         }
-        return newArray;
+        return arr;
       }
 
-      const shuffledQuestions = shuffleArray(listQuestion);
+      function getCorrectAnswer(q) {
+        return Array.isArray(q.answer) ? q.answer[0] : q.answer;
+      }
 
+      // ========== STATE ==========
+      const allQuestions = removeDuplicates([...questions2]);
+      let shuffledQuestions = shuffleArray(allQuestions);
       let questionIndex = 0;
       let countPoint = 0;
       let isAnswered = false;
-      let listQuestionFaild = [];
+      let listFailed = [];
+      let timerInterval = null;
+      let elapsedSeconds = 0;
 
-      function showFailedQuestions() {
-        if (listQuestionFaild.length === 0) {
-          listFaild.innerHTML =
-            '<p class="text-gray-500 text-center">Chưa có câu sai nào</p>';
-        } else {
-          const listHtml = listQuestionFaild
-            .map((item, i) => {
-              const correctIndex = item.options.indexOf(item.answer[0]);
-              return `<div class="w-full border-2 border-rose-300 p-4 rounded-lg bg-rose-50">
-                <div class="font-medium mb-3">
-                  Câu ${i + 1}: ${item.title}
-                </div>
-                <div class="space-y-2">
-                  ${item.options
-                    .map(
-                      (opt, idx) => `
-                    <div class="w-full border p-2 rounded ${
-                      idx === correctIndex
-                        ? "bg-green-100 border-green-400 font-medium"
-                        : ""
-                    }">
-                      ${opt}
-                    </div>
-                  `
-                    )
-                    .join("")}
-                </div>
-                <div class="mt-3 font-medium text-green-700">
-                  ✓ Đáp án đúng: ${item.answer[0]}
-                </div>
-              </div>`;
-            })
-            .join("");
-          listFaild.innerHTML = listHtml;
-        }
-        listFaild.style.display = "block";
+      // ========== ELEMENTS ==========
+      const textQuestion   = document.getElementById("text-question");
+      const countEl        = document.getElementById("count");
+      const pointEl        = document.getElementById("point");
+      const textAnswer     = document.getElementById("text-answer");
+      const buttonNext     = document.getElementById("button-next");
+      const progressBar    = document.getElementById("progress-bar");
+      const timerEl        = document.getElementById("timer");
+      const listFaildEl    = document.getElementById("listFaild");
+      const failedCountEl  = document.getElementById("failed-count");
+      const btnShowFailed  = document.getElementById("btn-show-failed");
+      const btnHideFailed  = document.getElementById("btn-hide-failed");
+      const resultModal    = document.getElementById("result-modal");
+      const modalScore     = document.getElementById("modal-score");
+      const modalDesc      = document.getElementById("modal-desc");
+      const modalEmoji     = document.getElementById("modal-emoji");
+      const modalReview    = document.getElementById("modal-review");
+      const modalRestart   = document.getElementById("modal-restart");
+      const answerItems    = [
+        document.getElementById("input-1"),
+        document.getElementById("input-2"),
+        document.getElementById("input-3"),
+        document.getElementById("input-4"),
+      ];
+      const answerTexts    = [
+        document.getElementById("answer-1"),
+        document.getElementById("answer-2"),
+        document.getElementById("answer-3"),
+        document.getElementById("answer-4"),
+      ];
+
+      // ========== TIMER ==========
+      function startTimer() {
+        clearInterval(timerInterval);
+        elapsedSeconds = 0;
+        timerEl.classList.remove("warning");
+        timerInterval = setInterval(() => {
+          elapsedSeconds++;
+          const m = Math.floor(elapsedSeconds / 60);
+          const s = elapsedSeconds % 60;
+          timerEl.textContent = `${m}:${s.toString().padStart(2, "0")}`;
+          if (elapsedSeconds >= 30) timerEl.classList.add("warning");
+        }, 1000);
       }
 
-      function hideFailedQuestions() {
-        listFaild.style.display = "none";
+      function stopTimer() {
+        clearInterval(timerInterval);
       }
 
+      // ========== DISPLAY QUESTION ==========
       function displayQuestion() {
-        const currentQuestion = shuffledQuestions[questionIndex];
-        textQuestion.innerHTML = currentQuestion.title;
+        const q = shuffledQuestions[questionIndex];
 
-        answerElements.forEach((el, idx) => {
-          el.innerHTML = currentQuestion.options[idx];
+        textQuestion.innerHTML = q.title;
+        answerTexts.forEach((el, i) => {
+          el.innerHTML = q.options[i] ?? "";
         });
 
-        count.textContent = `${questionIndex + 1} / ${
-          shuffledQuestions.length
-        }`;
-        point.textContent = `Đúng: ${countPoint}/${
-          questionIndex > 0 ? questionIndex : 0
-        }`;
-
-        // Reset màu sắc
-        inputElements.forEach((el) => {
-          el.className =
-            "w-full border-2 p-3 rounded-md cursor-pointer  transition";
+        answerItems.forEach((el) => {
+          el.className = "answer-item";
+          el.style.cursor = "pointer";
         });
+
+        const total = shuffledQuestions.length;
+        countEl.textContent = `${questionIndex + 1} / ${total}`;
+        pointEl.textContent = `Đúng: ${countPoint}/${questionIndex > 0 ? questionIndex : 0}`;
+        progressBar.style.width = `${(questionIndex / total) * 100}%`;
 
         textAnswer.textContent = "";
+        textAnswer.className = "feedback-text";
+        buttonNext.disabled = true;
         isAnswered = false;
+
+        startTimer();
       }
 
+      // ========== CHECK ANSWER ==========
       function checkAnswer(selectedIndex) {
-        const currentQuestion = shuffledQuestions[questionIndex];
-        const selectedAnswer = currentQuestion.options[selectedIndex];
-
-        // Xử lý cả 2 trường hợp: answer là array hoặc string
-        const correctAnswer = Array.isArray(currentQuestion.answer)
-          ? currentQuestion.answer[0]
-          : currentQuestion.answer;
-
-        const correctIndex = currentQuestion.options.indexOf(correctAnswer);
-
-        // Kiểm tra xem có tìm thấy đáp án đúng không
-        if (correctIndex === -1) {
-          console.error(
-            "Không tìm thấy đáp án đúng trong options:",
-            currentQuestion
-          );
-          textAnswer.textContent = `⚠ Lỗi: Đáp án không hợp lệ: ${correctAnswer}`;
-          textAnswer.className = "font-medium text-orange-600";
-          return;
-        }
-
-        if (selectedAnswer === correctAnswer) {
-          countPoint++;
-          inputElements[selectedIndex].classList.add("correct-answer");
-          textAnswer.textContent = `✓ Chính xác!`;
-          textAnswer.className = "font-medium text-green-600";
-        } else {
-          inputElements[selectedIndex].classList.add("wrong-answer");
-          inputElements[correctIndex].classList.add("correct-answer");
-          textAnswer.textContent = `✗ Sai! Đáp án đúng: ${correctAnswer}`;
-          textAnswer.className = "font-medium text-rose-600";
-
-          // Thêm vào danh sách câu sai (chuẩn hóa answer thành array)
-          const normalizedQuestion = {
-            ...currentQuestion,
-            answer: Array.isArray(currentQuestion.answer)
-              ? currentQuestion.answer
-              : [currentQuestion.answer],
-          };
-
-          listQuestionFaild.push(normalizedQuestion);
-          failedCountElement.textContent = listQuestionFaild.length;
-        }
-
-        point.textContent = `Đúng: ${countPoint}/${questionIndex + 1}`;
-      }
-
-      function onAnswer(value) {
         if (isAnswered) return;
 
-        checkAnswer(value);
-        isAnswered = true;
+        const q = shuffledQuestions[questionIndex];
+        const correctAnswer = getCorrectAnswer(q);
+        const correctIndex = q.options.indexOf(correctAnswer);
 
-        // Vô hiệu hóa các lựa chọn khác
-        inputElements.forEach((el) => {
-          el.style.cursor = "default";
-        });
-      }
-
-      // Gán sự kiện click cho các đáp án
-      inputElements.forEach((el, index) => {
-        el.addEventListener("click", () => onAnswer(index));
-      });
-
-      // Gán sự kiện cho các nút
-      btnShowFailed.addEventListener("click", showFailedQuestions);
-      btnHideFailed.addEventListener("click", hideFailedQuestions);
-
-      button.addEventListener("click", function () {
-        if (!isAnswered) {
-          alert("Vui lòng chọn đáp án trước khi chuyển câu!");
+        if (correctIndex === -1) {
+          textAnswer.textContent = `⚠ Đáp án không hợp lệ`;
+          textAnswer.className = "feedback-text error";
+          stopTimer();
+          isAnswered = true;
+          buttonNext.disabled = false;
+          answerItems.forEach((el) => { el.classList.add("answered"); el.style.cursor = "default"; });
           return;
         }
 
+        isAnswered = true;
+        stopTimer();
+        buttonNext.disabled = false;
+        answerItems.forEach((el) => { el.classList.add("answered"); el.style.cursor = "default"; });
+
+        if (selectedIndex === correctIndex) {
+          countPoint++;
+          answerItems[selectedIndex].classList.add("correct-answer");
+          textAnswer.textContent = "✓ Chính xác!";
+          textAnswer.className = "feedback-text correct";
+        } else {
+          answerItems[selectedIndex].classList.add("wrong-answer");
+          answerItems[correctIndex].classList.add("correct-answer");
+          textAnswer.textContent = `✗ Sai! Đáp án đúng: ${correctAnswer}`;
+          textAnswer.className = "feedback-text wrong";
+
+          listFailed.push({
+            ...q,
+            answer: Array.isArray(q.answer) ? q.answer : [q.answer],
+          });
+          failedCountEl.textContent = listFailed.length;
+        }
+
+        pointEl.textContent = `Đúng: ${countPoint}/${questionIndex + 1}`;
+      }
+
+      // ========== NEXT QUESTION ==========
+      function goNext() {
+        if (!isAnswered) return;
+
         if (questionIndex === shuffledQuestions.length - 1) {
-          const percentage = (
-            (countPoint / shuffledQuestions.length) *
-            100
-          ).toFixed(1);
-          alert(
-            `Hoàn thành! Kết quả: ${countPoint}/${shuffledQuestions.length} (${percentage}%)`
-          );
+          showResult();
           return;
         }
 
         questionIndex++;
         displayQuestion();
+      }
 
-        // Kích hoạt lại các lựa chọn
-        inputElements.forEach((el) => {
-          el.style.cursor = "pointer";
-        });
+      // ========== SHOW RESULT ==========
+      function showResult() {
+        const total = shuffledQuestions.length;
+        const pct = ((countPoint / total) * 100).toFixed(1);
+        modalScore.textContent = `${countPoint}/${total}`;
+        modalDesc.textContent = `Tỷ lệ đúng: ${pct}%`;
+        modalEmoji.textContent = pct >= 80 ? "🎉" : pct >= 60 ? "😊" : "📖";
+        progressBar.style.width = "100%";
+        resultModal.classList.add("active");
+      }
+
+      // ========== RESTART ==========
+      function restart() {
+        shuffledQuestions = shuffleArray(allQuestions);
+        questionIndex = 0;
+        countPoint = 0;
+        isAnswered = false;
+        listFailed = [];
+        failedCountEl.textContent = 0;
+        listFaildEl.style.display = "none";
+        listFaildEl.innerHTML = "";
+        resultModal.classList.remove("active");
+        displayQuestion();
+      }
+
+      // ========== SHOW FAILED QUESTIONS ==========
+      function showFailedQuestions() {
+        if (listFailed.length === 0) {
+          listFaildEl.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:8px 0">Chưa có câu sai nào! 🎉</p>';
+        } else {
+          listFaildEl.innerHTML = listFailed
+            .map((item, i) => {
+              const correctAns = getCorrectAnswer(item);
+              const correctIdx = item.options.indexOf(correctAns);
+              const keys = ["A", "B", "C", "D"];
+              return `<div class="failed-item">
+                <div class="failed-item-title">Câu ${i + 1}: ${item.title}</div>
+                <div class="failed-item-options">
+                  ${item.options
+                    .map(
+                      (opt, idx) =>
+                        `<div class="failed-option${idx === correctIdx ? " correct" : ""}">
+                          ${keys[idx]}. ${opt}
+                        </div>`
+                    )
+                    .join("")}
+                </div>
+                <div class="failed-correct-label">✓ Đáp án đúng: ${correctAns}</div>
+              </div>`;
+            })
+            .join("");
+        }
+        listFaildEl.style.display = "flex";
+      }
+
+      // ========== EVENT LISTENERS ==========
+      answerItems.forEach((el, index) => {
+        el.addEventListener("click", () => checkAnswer(index));
       });
 
-      // Khởi tạo câu hỏi đầu tiên
+      buttonNext.addEventListener("click", goNext);
+      btnShowFailed.addEventListener("click", showFailedQuestions);
+      btnHideFailed.addEventListener("click", () => { listFaildEl.style.display = "none"; });
+
+      modalRestart.addEventListener("click", restart);
+      modalReview.addEventListener("click", () => {
+        resultModal.classList.remove("active");
+        showFailedQuestions();
+        document.getElementById("failed-panel").scrollIntoView({ behavior: "smooth" });
+      });
+
+      // ========== KEYBOARD SHORTCUTS ==========
+      document.addEventListener("keydown", (e) => {
+        if (resultModal.classList.contains("active")) return;
+        if (["1", "2", "3", "4"].includes(e.key)) {
+          checkAnswer(parseInt(e.key) - 1);
+        }
+        if (e.key === "Enter") {
+          goNext();
+        }
+      });
+
+      // ========== INIT ==========
       displayQuestion();
     </script>
   </body>
