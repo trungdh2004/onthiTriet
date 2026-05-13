@@ -1,13 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ôn Thi Triết - Trắc Nghiệm</title>
-    <meta name="description" content="Ứng dụng ôn thi trắc nghiệm Triết học. Luyện tập câu hỏi theo form trắc nghiệm 4 đáp án." />
+    <meta
+      name="description"
+      content="Ứng dụng ôn thi trắc nghiệm Triết học. Luyện tập câu hỏi theo form trắc nghiệm 4 đáp án."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       /* ========== CSS VARIABLES ========== */
       :root {
@@ -31,8 +37,8 @@
         --color-yellow-light: #fef9c3;
         --color-yellow-border: #fde047;
         --color-rose: #f43f5e;
-        --shadow: 0 4px 24px rgba(0,0,0,0.08);
-        --shadow-answer: 0 2px 8px rgba(0,0,0,0.05);
+        --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        --shadow-answer: 0 2px 8px rgba(0, 0, 0, 0.05);
         --radius: 16px;
         --radius-sm: 10px;
         --progress-bg: #e2e8f0;
@@ -57,17 +63,29 @@
         --color-red-border: #dc2626;
         --color-yellow-light: #422006;
         --color-yellow-border: #ca8a04;
-        --shadow: 0 4px 24px rgba(0,0,0,0.4);
+        --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
         --progress-bg: #334155;
         --badge-bg: #1e3a5f;
         --badge-text: #93c5fd;
       }
 
       /* ========== RESET & BASE ========== */
-      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-      html { font-size: 16px; }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        font-size: 16px;
+      }
       body {
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
         background: var(--bg-main);
         color: var(--text-primary);
         min-height: 100vh;
@@ -75,7 +93,9 @@
         align-items: flex-start;
         justify-content: center;
         padding: 24px 16px 60px;
-        transition: background 0.3s, color 0.3s;
+        transition:
+          background 0.3s,
+          color 0.3s;
       }
 
       /* ========== HEADER ========== */
@@ -95,13 +115,20 @@
         background: var(--bg-answer);
         border: 1px solid var(--border);
         border-radius: 50%;
-        width: 38px; height: 38px;
-        display: flex; align-items: center; justify-content: center;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         cursor: pointer;
         font-size: 1.1rem;
-        transition: background 0.2s, transform 0.2s;
+        transition:
+          background 0.2s,
+          transform 0.2s;
       }
-      .theme-toggle:hover { transform: rotate(20deg); }
+      .theme-toggle:hover {
+        transform: rotate(20deg);
+      }
 
       /* ========== WRAPPER ========== */
       .wrapper {
@@ -119,7 +146,9 @@
         border-radius: var(--radius);
         box-shadow: var(--shadow);
         padding: 28px;
-        transition: background 0.3s, border-color 0.3s;
+        transition:
+          background 0.3s,
+          border-color 0.3s;
       }
 
       /* ========== PROGRESS ========== */
@@ -146,7 +175,9 @@
         padding: 4px 12px;
         border-radius: 999px;
       }
-      [data-theme="dark"] .score-badge { color: #4ade80; }
+      [data-theme="dark"] .score-badge {
+        color: #4ade80;
+      }
 
       .timer-badge {
         background: var(--bg-answer);
@@ -160,7 +191,10 @@
         min-width: 52px;
         text-align: center;
       }
-      .timer-badge.warning { color: var(--color-rose); border-color: var(--color-rose); }
+      .timer-badge.warning {
+        color: var(--color-rose);
+        border-color: var(--color-rose);
+      }
 
       .progress-bar-wrap {
         background: var(--progress-bg);
@@ -201,7 +235,11 @@
         display: flex;
         align-items: center;
         gap: 12px;
-        transition: background 0.15s, border-color 0.15s, transform 0.1s, box-shadow 0.15s;
+        transition:
+          background 0.15s,
+          border-color 0.15s,
+          transform 0.1s,
+          box-shadow 0.15s;
         user-select: none;
         box-shadow: var(--shadow-answer);
       }
@@ -214,14 +252,17 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        min-width: 28px; height: 28px;
+        min-width: 28px;
+        height: 28px;
         border-radius: 50%;
         background: var(--border);
         color: var(--text-secondary);
         font-size: 0.78rem;
         font-weight: 700;
         flex-shrink: 0;
-        transition: background 0.15s, color 0.15s;
+        transition:
+          background 0.15s,
+          color 0.15s;
       }
       .answer-text {
         font-size: 0.93rem;
@@ -232,7 +273,9 @@
         background: #eff6ff;
         border-color: var(--color-blue);
       }
-      [data-theme="dark"] .answer-item.selected { background: #1e3a5f; }
+      [data-theme="dark"] .answer-item.selected {
+        background: #1e3a5f;
+      }
       .answer-item.selected .answer-key {
         background: var(--color-blue);
         color: #fff;
@@ -253,7 +296,9 @@
         background: var(--color-red);
         color: #fff;
       }
-      .answer-item.answered { cursor: default; }
+      .answer-item.answered {
+        cursor: default;
+      }
 
       /* ========== FEEDBACK & FOOTER ========== */
       .card-footer {
@@ -268,9 +313,15 @@
         flex: 1;
         animation: fadeIn 0.2s ease;
       }
-      .feedback-text.correct { color: var(--color-green); }
-      .feedback-text.wrong { color: var(--color-red); }
-      .feedback-text.error { color: #f59e0b; }
+      .feedback-text.correct {
+        color: var(--color-green);
+      }
+      .feedback-text.wrong {
+        color: var(--color-red);
+      }
+      .feedback-text.error {
+        color: #f59e0b;
+      }
 
       /* ========== BUTTON ========== */
       .btn {
@@ -282,25 +333,38 @@
         font-size: 0.9rem;
         font-weight: 600;
         cursor: pointer;
-        transition: background 0.2s, transform 0.1s, opacity 0.2s;
+        transition:
+          background 0.2s,
+          transform 0.1s,
+          opacity 0.2s;
         font-family: inherit;
         padding: 10px 20px;
         white-space: nowrap;
       }
-      .btn:active { transform: scale(0.97); }
+      .btn:active {
+        transform: scale(0.97);
+      }
       .btn-primary {
         background: var(--color-blue);
         color: #fff;
       }
-      .btn-primary:hover { background: var(--color-blue-dark); }
-      .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+      .btn-primary:hover {
+        background: var(--color-blue-dark);
+      }
+      .btn-primary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none;
+      }
       .btn-rose {
         background: var(--color-rose);
         color: #fff;
         font-size: 0.85rem;
         padding: 8px 14px;
       }
-      .btn-rose:hover { background: #e11d48; }
+      .btn-rose:hover {
+        background: #e11d48;
+      }
       .btn-gray {
         background: var(--bg-answer);
         color: var(--text-secondary);
@@ -308,7 +372,9 @@
         font-size: 0.85rem;
         padding: 8px 14px;
       }
-      .btn-gray:hover { background: var(--bg-answer-hover); }
+      .btn-gray:hover {
+        background: var(--bg-answer-hover);
+      }
 
       /* ========== FAILED PANEL ========== */
       .failed-header {
@@ -361,14 +427,16 @@
         font-weight: 600;
         color: #15803d;
       }
-      [data-theme="dark"] .failed-correct-label { color: #4ade80; }
+      [data-theme="dark"] .failed-correct-label {
+        color: #4ade80;
+      }
 
       /* ========== RESULT MODAL ========== */
       .modal-overlay {
         display: none;
         position: fixed;
         inset: 0;
-        background: rgba(0,0,0,0.55);
+        background: rgba(0, 0, 0, 0.55);
         backdrop-filter: blur(4px);
         z-index: 100;
         align-items: center;
@@ -376,18 +444,23 @@
         padding: 24px;
         animation: fadeIn 0.2s ease;
       }
-      .modal-overlay.active { display: flex; }
+      .modal-overlay.active {
+        display: flex;
+      }
       .modal-box {
         background: var(--bg-card);
         border-radius: var(--radius);
-        box-shadow: 0 24px 64px rgba(0,0,0,0.3);
+        box-shadow: 0 24px 64px rgba(0, 0, 0, 0.3);
         padding: 36px 32px;
         max-width: 400px;
         width: 100%;
         text-align: center;
-        animation: slideUp 0.25s cubic-bezier(0.4,0,0.2,1);
+        animation: slideUp 0.25s cubic-bezier(0.4, 0, 0.2, 1);
       }
-      .modal-emoji { font-size: 3.5rem; margin-bottom: 12px; }
+      .modal-emoji {
+        font-size: 3.5rem;
+        margin-bottom: 12px;
+      }
       .modal-title {
         font-size: 1.4rem;
         font-weight: 700;
@@ -417,7 +490,9 @@
         padding: 11px 22px;
         border-radius: var(--radius-sm);
       }
-      .btn-success:hover { background: #16a34a; }
+      .btn-success:hover {
+        background: #16a34a;
+      }
 
       /* ========== KEYBOARD HINT ========== */
       .keyboard-hint {
@@ -439,19 +514,35 @@
 
       /* ========== ANIMATIONS ========== */
       @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
       }
       @keyframes slideUp {
-        from { transform: translateY(20px); opacity: 0; }
-        to { transform: translateY(0); opacity: 1; }
+        from {
+          transform: translateY(20px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
       }
 
       /* ========== RESPONSIVE ========== */
       @media (max-width: 480px) {
-        .card { padding: 20px; }
-        .question-text { font-size: 0.97rem; }
-        .modal-box { padding: 28px 20px; }
+        .card {
+          padding: 20px;
+        }
+        .question-text {
+          font-size: 0.97rem;
+        }
+        .modal-box {
+          padding: 28px 20px;
+        }
       }
     </style>
   </head>
@@ -461,7 +552,14 @@
       <!-- Header -->
       <div class="header">
         <span class="header-title">📚 Ôn Thi Triết</span>
-        <button class="theme-toggle" id="theme-toggle" title="Chuyển giao diện sáng/tối" aria-label="Toggle dark mode">🌙</button>
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          title="Chuyển giao diện sáng/tối"
+          aria-label="Toggle dark mode"
+        >
+          🌙
+        </button>
       </div>
 
       <!-- Quiz Card -->
@@ -473,7 +571,11 @@
           <span class="score-badge" id="point">Đúng: 0/0</span>
         </div>
         <div class="progress-bar-wrap">
-          <div class="progress-bar-fill" id="progress-bar" style="width: 0%"></div>
+          <div
+            class="progress-bar-fill"
+            id="progress-bar"
+            style="width: 0%"
+          ></div>
         </div>
 
         <!-- Question -->
@@ -510,7 +612,9 @@
 
       <!-- Keyboard hint -->
       <div class="keyboard-hint">
-        Phím tắt: <span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> <span class="kbd">4</span> để chọn đáp án &nbsp;·&nbsp; <span class="kbd">Enter</span> câu tiếp theo
+        Phím tắt: <span class="kbd">1</span> <span class="kbd">2</span>
+        <span class="kbd">3</span> <span class="kbd">4</span> để chọn đáp án
+        &nbsp;·&nbsp; <span class="kbd">Enter</span> câu tiếp theo
       </div>
 
       <!-- Failed Questions Panel -->
@@ -533,7 +637,9 @@
         <div class="modal-score" id="modal-score">0/0</div>
         <div class="modal-total" id="modal-desc"></div>
         <div class="modal-actions">
-          <button class="btn btn-gray" id="modal-review">Xem lại câu sai</button>
+          <button class="btn btn-gray" id="modal-review">
+            Xem lại câu sai
+          </button>
           <button class="btn btn-success" id="modal-restart">Làm lại 🔄</button>
         </div>
       </div>
@@ -593,30 +699,30 @@
       let elapsedSeconds = 0;
 
       // ========== ELEMENTS ==========
-      const textQuestion   = document.getElementById("text-question");
-      const countEl        = document.getElementById("count");
-      const pointEl        = document.getElementById("point");
-      const textAnswer     = document.getElementById("text-answer");
-      const buttonNext     = document.getElementById("button-next");
-      const progressBar    = document.getElementById("progress-bar");
-      const timerEl        = document.getElementById("timer");
-      const listFaildEl    = document.getElementById("listFaild");
-      const failedCountEl  = document.getElementById("failed-count");
-      const btnShowFailed  = document.getElementById("btn-show-failed");
-      const btnHideFailed  = document.getElementById("btn-hide-failed");
-      const resultModal    = document.getElementById("result-modal");
-      const modalScore     = document.getElementById("modal-score");
-      const modalDesc      = document.getElementById("modal-desc");
-      const modalEmoji     = document.getElementById("modal-emoji");
-      const modalReview    = document.getElementById("modal-review");
-      const modalRestart   = document.getElementById("modal-restart");
-      const answerItems    = [
+      const textQuestion = document.getElementById("text-question");
+      const countEl = document.getElementById("count");
+      const pointEl = document.getElementById("point");
+      const textAnswer = document.getElementById("text-answer");
+      const buttonNext = document.getElementById("button-next");
+      const progressBar = document.getElementById("progress-bar");
+      const timerEl = document.getElementById("timer");
+      const listFaildEl = document.getElementById("listFaild");
+      const failedCountEl = document.getElementById("failed-count");
+      const btnShowFailed = document.getElementById("btn-show-failed");
+      const btnHideFailed = document.getElementById("btn-hide-failed");
+      const resultModal = document.getElementById("result-modal");
+      const modalScore = document.getElementById("modal-score");
+      const modalDesc = document.getElementById("modal-desc");
+      const modalEmoji = document.getElementById("modal-emoji");
+      const modalReview = document.getElementById("modal-review");
+      const modalRestart = document.getElementById("modal-restart");
+      const answerItems = [
         document.getElementById("input-1"),
         document.getElementById("input-2"),
         document.getElementById("input-3"),
         document.getElementById("input-4"),
       ];
-      const answerTexts    = [
+      const answerTexts = [
         document.getElementById("answer-1"),
         document.getElementById("answer-2"),
         document.getElementById("answer-3"),
@@ -682,14 +788,20 @@
           stopTimer();
           isAnswered = true;
           buttonNext.disabled = false;
-          answerItems.forEach((el) => { el.classList.add("answered"); el.style.cursor = "default"; });
+          answerItems.forEach((el) => {
+            el.classList.add("answered");
+            el.style.cursor = "default";
+          });
           return;
         }
 
         isAnswered = true;
         stopTimer();
         buttonNext.disabled = false;
-        answerItems.forEach((el) => { el.classList.add("answered"); el.style.cursor = "default"; });
+        answerItems.forEach((el) => {
+          el.classList.add("answered");
+          el.style.cursor = "default";
+        });
 
         if (selectedIndex === correctIndex) {
           countPoint++;
@@ -753,7 +865,8 @@
       // ========== SHOW FAILED QUESTIONS ==========
       function showFailedQuestions() {
         if (listFailed.length === 0) {
-          listFaildEl.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:8px 0">Chưa có câu sai nào! 🎉</p>';
+          listFaildEl.innerHTML =
+            '<p style="color:var(--text-muted);text-align:center;padding:8px 0">Chưa có câu sai nào! 🎉</p>';
         } else {
           listFaildEl.innerHTML = listFailed
             .map((item, i) => {
@@ -768,7 +881,7 @@
                       (opt, idx) =>
                         `<div class="failed-option${idx === correctIdx ? " correct" : ""}">
                           ${keys[idx]}. ${opt}
-                        </div>`
+                        </div>`,
                     )
                     .join("")}
                 </div>
@@ -787,13 +900,17 @@
 
       buttonNext.addEventListener("click", goNext);
       btnShowFailed.addEventListener("click", showFailedQuestions);
-      btnHideFailed.addEventListener("click", () => { listFaildEl.style.display = "none"; });
+      btnHideFailed.addEventListener("click", () => {
+        listFaildEl.style.display = "none";
+      });
 
       modalRestart.addEventListener("click", restart);
       modalReview.addEventListener("click", () => {
         resultModal.classList.remove("active");
         showFailedQuestions();
-        document.getElementById("failed-panel").scrollIntoView({ behavior: "smooth" });
+        document
+          .getElementById("failed-panel")
+          .scrollIntoView({ behavior: "smooth" });
       });
 
       // ========== KEYBOARD SHORTCUTS ==========

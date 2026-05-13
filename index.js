@@ -18,24 +18,27 @@
   }
 
   // Chỉ lấy câu đúng (bỏ qua câu đã trả lời sai)
-  const questions = Array.from(listQues).filter(
-    (item) => !item.querySelector(".answer_arrow.incorrect")
-  );
-
+  const questions = Array.from(listQues);
   const listData = questions
     .map((item) => {
       const textEl = item.querySelector(".question_text.user_content.enhanced");
       if (!textEl) return null;
 
+      const isCorrect = item.querySelector(".answer_arrow.incorrect");
+
       const id = textEl.id || null;
       const answers = item.querySelectorAll(".select_answer.answer_type");
       let answer = "";
+      let inputChecked = "";
 
       const options = Array.from(answers).map((opt) => {
         const inputEl = opt.querySelector("input");
         const textEl = opt.querySelector(".answer_text");
         const text = textEl ? textEl.innerText.trim() : "";
-        if (inputEl && inputEl.checked) answer = text;
+        if (inputEl && inputEl.checked) {
+          answer = text;
+          inputChecked = inputEl.id;
+        }
         return text;
       });
 
@@ -44,6 +47,8 @@
         options,
         answer: [answer],
         id,
+        isCorrect: !isCorrect,
+        answerSelect: [inputChecked],
       };
     })
     .filter(Boolean);
