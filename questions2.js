@@ -1033,6 +1033,898 @@ export const questions2 = [
     isCorrect: true,
     answerSelect: ["answer-40893", "answer-55725"],
   },
+  {
+    title:
+      "Trong các nhà yêu nước tiêu biểu cho phong trào yêu nước cuối thế kỷ XIX đầu thế kỷ XX được kể sau đây, ai là người đứng đầu nghĩa quân Yên Thế?",
+    options: ["Hàm Nghi.", "Đề Thám.", "Phan Bội Châu.", "Phan Châu Trinh."],
+    answer: "Đề Thám.",
+    id: "question_1279028_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-95298", "answer-15270"],
+  },
+  {
+    title:
+      "Dưới chế độ thực dân phong kiến, giai cấp nông dân có yêu cầu bức thiết nhất là gì?",
+    options: [
+      "Độc lập dân tộc.",
+      "Ruộng đất.",
+      "Quyền bình đẳng nam nữ.",
+      "Được giảm tô, giảm tức.",
+    ],
+    answer: "Độc lập dân tộc.",
+    id: "question_1279036_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-324"],
+  },
+  {
+    title:
+      "Trong những điểm sau đây nói về chính sách cai trị của thực dân Pháp, điểm nào thuộc về chính sách kinh tế?",
+    options: [
+      "Chia Việt Nam ra thành ba xứ để cai trị: Bắc Kỳ, Trung Kỳ, Nam Kỳ.",
+      "Chính sách khai thác thuộc địa.",
+      "Thực hiện chính sách dung túng, duy trì các hủ tục lạc hậu trong nhân dân ta.",
+      "Thực hiện khẩu hiệu: Tự do, bình đẳng, bác ái ở nước ta.",
+    ],
+    answer: "Chính sách khai thác thuộc địa.",
+    id: "question_1279024_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-1323", "answer-91069"],
+  },
+  {
+    title: "Thực dân Pháp xâm lược Việt Nam vào thời gian nào?",
+    options: ["1858.", "1859.", "1860.", "1861."],
+    answer: "1858.",
+    id: "question_1279020_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-76303"],
+  },
+  {
+    title:
+      "Thời gian diễn ra cuộc khai thác thuộc địa lần thứ nhất của thực dân Pháp ở Việt Nam?",
+    options: ["1897 - 1914.", "1884 - 1914.", "1858 - 1914.", "1873 - 1914."],
+    answer: "1897 - 1914.",
+    id: "question_1279038_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-98096"],
+  },
+  {
+    title:
+      "Trong những điểm sau đây nói về “hoàn cảnh quốc tế cuối thế kỷ XIX đầu thế kỷ XX đã tác động đến sự ra đời của Đảng Cộng sản Việt Nam”, điểm tác động nào nói đến ảnh hưởng của chủ nghĩa Mác - Lênin?",
+    options: [
+      "Mâu thuẫn giữa dân tộc thuộc địa với chủ nghĩa đế quốc.",
+      "Chủ nghĩa Mác - Lênin đã lay chuyển lôi cuốn quần chúng nhân dân và những phần tử ưu tú tích cực ở các nước thuộc địa vào phong trào cộng sản.",
+      "Cách mạng Tháng Mười Nga như một trong các động lực thúc đẩy sự ra đời của nhiều Đảng Cộng sản.",
+      "Cách mạng Việt Nam lâm vào tình trạng khủng hoảng sâu sắc về đường lối, về giai cấp lãnh đạo.",
+    ],
+    answer:
+      "Chủ nghĩa Mác - Lênin đã lay chuyển lôi cuốn quần chúng nhân dân và những phần tử ưu tú tích cực ở các nước thuộc địa vào phong trào cộng sản.",
+    id: "question_1279039_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-50649", "answer-26545"],
+  },
+  {
+    title:
+      "Trong những điểm sau đây nói về chính sách thống trị của thực dân Pháp đã tác động mạnh mẽ tới xã hội Việt Nam, điểm nào nói về phân hoá giai cấp ở nước ta?",
+    options: [
+      "Cho ra đời giai cấp mới là công nhân và tư sản Việt Nam.",
+      "Làm cho xã hội Việt Nam phong kiến trở thành xã hội thuộc đại nửa phong kiến.",
+      "Nảy sinh mâu thuẫn cơ bản trong đời sống xã hội Việt Nam là mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp xâm lược.",
+      "Chống đế quốc, giải phóng dân tộc là nhiệm vụ hang đầu.",
+    ],
+    answer: "Cho ra đời giai cấp mới là công nhân và tư sản Việt Nam.",
+    id: "question_1279026_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-17085"],
+  },
+  {
+    title:
+      "Trong cuộc khai thác thuộc địa lần thứ nhất của thực dân Pháp, giai cấp nào mới được hình thành?",
+    options: [
+      "Giai cấp nông dân.",
+      "Giai cấp đia chủ.",
+      "Giai cấp nông dân và địa chủ.",
+      "Giai cấp công nhân.",
+    ],
+    answer: "Giai cấp công nhân.",
+    id: "question_1279035_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-57646",
+      "answer-23694",
+      "answer-65275",
+      "answer-83272",
+    ],
+  },
+  {
+    title:
+      "Phong trào do Phan Châu Trinh lãnh đạo thuộc khuynh hướng nào trong các khuynh hướng sau?",
+    options: [
+      "Phong trào yêu nước theo khuynh hướng Cần Vương.",
+      "Phong trào yêu nước theo khuynh hướng phong kiến.",
+      "Phong trào yêu nước theo khuynh hướng dân chủ tư sản.",
+      "Phong trào yêu nước theo khuynh hướng vô sản.",
+    ],
+    answer: "Phong trào yêu nước theo khuynh hướng dân chủ tư sản.",
+    id: "question_1279033_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-73883", "answer-80793", "answer-42764"],
+  },
+  {
+    title:
+      "Trong những điểm sau đây nói về chính sách cai trị của thực dân Pháp, điểm nào thuộc về chính sách cai trị về chính trị?",
+    options: [
+      "Chia Việt Nam ra thành ba xứ để cai trị: Bắc Kỳ, Trung Kỳ, Nam Kỳ.",
+      "Chính sách khai thác thuộc địa.",
+      "Thực hiện chính sách dung túng, duy trì các hủ tục lạc hậu trong nhân dân ta.",
+      "Thực hiện khẩu hiệu: Tự do, bình đẳng, bác ái ở nước ta.",
+    ],
+    answer:
+      "Chia Việt Nam ra thành ba xứ để cai trị: Bắc Kỳ, Trung Kỳ, Nam Kỳ.",
+    id: "question_1279023_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-74326"],
+  },
+  {
+    title:
+      "Trong các nhà yêu nước tiêu biểu cho phong trào yêu nước cuối thế kỷ XIX đầu thế kỷ XX được kể sau đây, ai là người tiêu biểu cho phong trào Cần Vương?",
+    options: ["Hàm Nghi.", "Đề Thám.", "Phan Bội Châu.", "Phan Châu Trinh."],
+    answer: "Hàm Nghi.",
+    id: "question_1279027_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-84186"],
+  },
+  {
+    title:
+      "Quốc dân Đại hội Tân trào tháng 8-1945 đã KHÔNG quyết định những nội dung nào dưới đây:",
+    options: [
+      "Quyết định Tổng khởi nghĩa.",
+      "10 Chính sách của Việt Minh.",
+      "Quyết định thành lập Uỷ ban giải phóng ở Hà Nội. Các bài giảng của Nguyễn Ái Quốc ở Hội Việt Nam Cách mạng Thanh niên được tập hợp xuất bản thành cuốn sách nào?",
+      "Quyết định thành lập Uỷ ban giải phóng dân tộc, quy định Quốc kỳ, Quốc ca.",
+    ],
+    answer:
+      "Quyết định thành lập Uỷ ban giải phóng ở Hà Nội. Các bài giảng của Nguyễn Ái Quốc ở Hội Việt Nam Cách mạng Thanh niên được tập hợp xuất bản thành cuốn sách nào?",
+    id: "question_1279053_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-15043", "answer-79884", "answer-82831"],
+  },
+  {
+    title:
+      "Hội nghị Ban Chấp hành Trung ương Đảng 5/1941 họp ở đâu? Do ai chủ trì?",
+    options: [
+      "Cao Bằng - Nguyễn Ái Quốc.",
+      "Bắc Cạn - Trường Chinh.",
+      "Cao Bằng - Trường Chinh.",
+      "Tuyên Quang - Nguyễn Ái Quốc.",
+    ],
+    answer: "Cao Bằng - Nguyễn Ái Quốc.",
+    id: "question_1279050_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-63173"],
+  },
+  {
+    title:
+      "Hội nghị nào của Ban chấp hành Trung ương Đảng nhấn mạnh giải phóng dân tộc là nhiệm vụ bức thiết nhất?",
+    options: [
+      "Hội nghị họp tháng 10/1930.",
+      "Hội nghị họp tháng 11/1939.",
+      "Hội nghị họp tháng 11/1940.",
+      "Hội nghị họp tháng 5/1941.",
+    ],
+    answer: "Hội nghị họp tháng 5/1941.",
+    id: "question_1279049_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-88982",
+      "answer-5311",
+      "answer-49122",
+      "answer-38365",
+    ],
+  },
+  {
+    title:
+      "Ban thường vụ Trung ương Đảng ra chỉ thị thành lập Hội phản đế đồng minh vào lúc nào?",
+    options: ["18/11/1930.", "18/11/1931.", "18/11/1932.", "18/11/1933."],
+    answer: "18/11/1930.",
+    id: "question_1279041_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-40607"],
+  },
+  {
+    title:
+      "Nguyễn Ái Quốc đọc bản “Sơ thảo luận cương về vấn đề dân tộc và thuộc địa” của Lênin khi nào và ở đâu?",
+    options: [
+      "7/1920 tại Pháp.",
+      "7/1920 tại Quảng Châu.",
+      "7/1920 tại Liên Xô.",
+      "8/1920 tại Trung Quốc.",
+    ],
+    answer: "7/1920 tại Pháp.",
+    id: "question_1279044_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-57362"],
+  },
+  {
+    title:
+      "Được sự chỉ đạo của Quốc tế Cộng sản, ban lãnh đạo của đảng ở nước ngoài do ai đứng đầu?",
+    options: [
+      "Nguyễn Ái Quốc.",
+      "Trần Phú.",
+      "Lê Hồng Phong.",
+      "Nguyễn Thị Minh Khai.",
+    ],
+    answer: "Lê Hồng Phong.",
+    id: "question_1279065_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-52722", "answer-61209", "answer-33681"],
+  },
+  {
+    title:
+      "Hội Việt Nam cách mạng thanh niên thực hiện chủ trương “vô sản hóa” khi nào?",
+    options: [
+      "Cuối năm 1926 đầu năm 1927.",
+      "Cuối năm 1927 đầu năm 1928.",
+      "Cuối ăm 1928 đầu năm 1929.",
+      "Cuối năm 1929 đầu năm 1930.",
+    ],
+    answer: "Cuối ăm 1928 đầu năm 1929.",
+    id: "question_1279046_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-30586", "answer-98771", "answer-77379"],
+  },
+  {
+    title: "Mặt trận dân chủ Đông dương chính thức thành lập vào năm nào?",
+    options: ["1936.", "1937.", "1938.", "1939."],
+    answer: "1938.",
+    id: "question_1279062_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-73848", "answer-93621", "answer-14203"],
+  },
+  {
+    title: "Hội liên hiệp các dân tộc thuộc địa được thành lập năm nào?",
+    options: ["1921.", "1922.", "1923.", "1924."],
+    answer: "1921.",
+    id: "question_1279060_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-24908"],
+  },
+  {
+    title:
+      "Tổ chức cộng sản Đông Dương Cộng sản Liên đoàn gia nhập Đảng Cộng sản Việt Nam vào thời gian nào?",
+    options: ["03/02/1930.", "06/01/1930.", "07/02/1930.", "24/02/1930."],
+    answer: "24/02/1930.",
+    id: "question_1279059_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-2428",
+      "answer-4191",
+      "answer-14923",
+      "answer-61467",
+    ],
+  },
+  {
+    title:
+      "Cao trào kháng Nhật cứu nước đã diễn ra ở vùng rừng núi và trung du Bắc kỳ với hình thức nào là chủ yếu?",
+    options: [
+      "Khởi nghĩa từng phần.",
+      "Vũ trang tuyên truyền.",
+      "Chiến tranh du kích cục bộ.",
+      "Đấu tranh báo chí.",
+    ],
+    answer: "Chiến tranh du kích cục bộ.",
+    id: "question_1279051_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-94507", "answer-54156", "answer-10916"],
+  },
+  {
+    title: "Mặt trận Việt Minh chính thức thành lập ngày nào?",
+    options: ["10/5/1941.", "15/5/1941.", "19/5/1941.", "29/5/1941."],
+    answer: "19/5/1941.",
+    id: "question_1279042_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-37892", "answer-70021", "answer-87034"],
+  },
+  {
+    title:
+      "Hội nghị thành lập Đảng đầu năm 1930 có tất cả bao nhiêu đại biểu tham dự?",
+    options: ["6.", "7.", "8.", "9."],
+    answer: "7.",
+    id: "question_1279058_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-90929", "answer-98382"],
+  },
+  {
+    title:
+      "Trước chiến tranh thế giới thứ nhất, ở Việt Nam có những giai cấp nào?",
+    options: [
+      "Địa chủ phong kiến và nông dân.",
+      "Địa chủ phong kiến, nông dân và công nhân.",
+      "Địa chủ phong kiến, nông dân, tư sản, tiểu tư sản và công nhân.",
+      "Địa chủ phong kiến, nông dân và tiểu tư sản.",
+    ],
+    answer: "Địa chủ phong kiến, nông dân, tư sản, tiểu tư sản và công nhân.",
+    id: "question_1279066_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-69691", "answer-72899", "answer-93133"],
+  },
+  {
+    title:
+      "Từ năm 1936, những chính sách tích cực của chính phủ mặt trận nhân Pháp ở Đông Dương là:",
+    options: [
+      "cơ sở để xây dựng mặt trận thống nhất thời kỳ 1936-1939",
+      "cở sở để Đảng đề ra hình thức đấu tranh trong thời kỳ 1936-1939",
+      "nguyên nhân sâu xa bùng nổ phong trào dân chủ 1936-1939",
+      "nhân tố quyết định thắng lợi của phong trào dân chủ 1936-1939",
+    ],
+    answer: "cở sở để Đảng đề ra hình thức đấu tranh trong thời kỳ 1936-1939",
+    id: "question_1279077_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-63824", "answer-46108"],
+  },
+  {
+    title: "Đề cương văn hoá Việt nam được đảng xây dựng vào năm nào?",
+    options: ["1941.", "1942.", "1943.", "1944."],
+    answer: "1943.",
+    id: "question_1279068_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-94698", "answer-21841", "answer-72707"],
+  },
+  {
+    title:
+      "Khẩu hiệu “Đả đảo chủ nghĩa đế quốc”, “Đả đảo phong kiến”; “Thả tù chính trị” trong phong trào cách mạng 1930-1931 ở Việt Nam phản ánh:",
+    options: [
+      "Ý thức giác ngộ của lực lượng cách mạng Việt Nam.",
+      "Đầy đủ các mục tiêu đấu tranh của cách mạng Việt Nam.",
+      "Mục tiêu đấu tranh lớn nhất và duy nhất của cách mạng.",
+      "Những điểm hạn chế của luận cương chính trị (10/1930).",
+    ],
+    answer: "Đầy đủ các mục tiêu đấu tranh của cách mạng Việt Nam.",
+    id: "question_1279073_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-37804", "answer-44492"],
+  },
+  {
+    title:
+      "Cụm từ sau để nói về địa danh nào trong kháng chiến chống Pháp: “pháo đài khổng lồ không thể công phá”; “một cỗ máy để nghiền Việt Minh”.",
+    options: ["Việt Bắc.", "Đông Khê.", "Điện Biên Phủ.", "Buôn Ma Thuột."],
+    answer: "Điện Biên Phủ.",
+    id: "question_1279079_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-11271", "answer-96939", "answer-42466"],
+  },
+  {
+    title:
+      "Điểm giống nhau về ý nghĩa của ba sự kiện: khởi nghĩa Bắc Sơn, khởi nghĩa Nam Kì và binh biến Đô Lương là gì?",
+    options: [
+      "Các lực lượng vũ trang cách mạng ra đời và phát triển từ ba cuộc khởi nghĩa.",
+      "Giáng đòn chí tử vào thực dân Pháp, nghiêm khắc cảnh cáo phát xít Nhật, những phát súng đầu tiên báo hiệu một cao trào cách mạng mới.",
+      "Để lại những bài học kinh nghiệm về xây dựng lực lượng khởi nghĩa vũ trang.",
+      "Mở ra một thời kì đấu tranh mới.",
+    ],
+    answer:
+      "Giáng đòn chí tử vào thực dân Pháp, nghiêm khắc cảnh cáo phát xít Nhật, những phát súng đầu tiên báo hiệu một cao trào cách mạng mới.",
+    id: "question_1279074_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-99386", "answer-59469"],
+  },
+  {
+    title:
+      "Ba tư tưởng sau đây được trình bày trong tác phẩm nào của Nguyễn Ái Quốc?\n\n- Cách mạng là sự nghiệp của quân chúng.\n\n- Cách mạng phải do đảng theo chủ nghĩa Mác - Lênin lãnh đạo.\n\n- Cách mạng Việt Nam phải gắn bó và đoàn kết với cách mạng thế giới.",
+    options: [
+      "Tạp chí “Thư tín quốc tế”.",
+      "“Bản án chế độ thực dân Pháp”.",
+      "“Đường kách mệnh”.",
+      '"Yêu sách của nhân dân An Nam".',
+    ],
+    answer: "“Đường kách mệnh”.",
+    id: "question_1279087_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-78577", "answer-15059", "answer-39194"],
+  },
+  {
+    title: "Nét nổi bật nhất của cuộc vận động dân chủ 1936 - 1939 là gì?",
+    options: [
+      "Uy tín và ảnh hưởng của Đảng được mở rộng và ăn sâu trong quân chúng nhân dân.",
+      "Tư tưởng và chủ trương của Đảng được phổ biến, trình độ chính trị và công tác của đảng viên được nâng cao.",
+      "Tập hợp được một lực lượng công - nông hùng mạnh.",
+      "Đảng đã tập hợp được một lực lượng chính trị đông đảo của quân chúng và sử dụng hình thức, phương pháp đấu tranh phong phú.",
+    ],
+    answer:
+      "Đảng đã tập hợp được một lực lượng chính trị đông đảo của quân chúng và sử dụng hình thức, phương pháp đấu tranh phong phú.",
+    id: "question_1279082_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-45682",
+      "answer-73719",
+      "answer-77405",
+      "answer-25230",
+    ],
+  },
+  {
+    title:
+      "Bản hiệp ước cuối cùng mà triều đình nhà Nguyễn kí với thực dân Pháp, chính thức biến Việt Nam thành thuộc địa nửa phong kiến là:",
+    options: ["Pa tơ nốt.", "Hác Măng.", "Trùng Khánh.", "Hiệp ước năm 1873."],
+    answer: "Pa tơ nốt.",
+    id: "question_1279021_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-79706"],
+  },
+  {
+    title:
+      "Trong những điểm sau đây nói về chính sách thống trị của thực dân Pháp đã tác động mạnh mẽ tới xã hội Việt Nam điểm nào SAI?",
+    options: [
+      "Cho ra đời hai giai cấp mới là công nhân và tư sản Việt Nam.",
+      "Làm cho xã hội Việt Nam phong kiến trở thành xã hội thuộc địa nửa phong kiến.",
+      "Nảy sinh mâu thuẫn cơ bản trong đời sống xã hội Việt Nam là mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp xâm lược.",
+      "Chống đế quốc, giải phóng dân tộc là nhiệm vụ hàng đầu.",
+    ],
+    answer: "Chống đế quốc, giải phóng dân tộc là nhiệm vụ hàng đầu.",
+    id: "question_1279025_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-74553",
+      "answer-8340",
+      "answer-51941",
+      "answer-70764",
+    ],
+  },
+  {
+    title:
+      "Phong trào của vua Hàm Nghi thuộc khuynh hướng nào trong các khuynh hướng sau?",
+    options: [
+      "Phong trào yêu nước theo khuynh hướng Cần Vương.",
+      "Phong trào yêu nước theo khuynh hướng phong kiến.",
+      "Phong trào yêu nước theo khuynh hướng dân chủ tư sản.",
+      "Phong trào yêu nước theo khuynh hướng vô sản.",
+    ],
+    answer: "Phong trào yêu nước theo khuynh hướng phong kiến.",
+    id: "question_1279030_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-49715", "answer-29697"],
+  },
+  {
+    title:
+      "Trong những điểm sau đây nói về “hoàn cảnh quốc tế cuối thế kỷ XIX đầu thế kỷ XX đã tác động đến sự ra đời của Đảng Cộng sản Việt Nam”, điểm tác động nào nói đến hậu quả của chủ nghĩa tư bản?",
+    options: [
+      "Mâu thuẫn giữa dân tộc thuộc địa với chủ nghĩa đế quốc.",
+      "Chủ nghĩa Mác Lenin đã lay chuyển lôi cuốn quần chúng nhân dân và những phần tử ưu tú tích cực ở các nước thuộc địa vào phong trào cộng sản.",
+      "Cách mạng Tháng Mười Nga như một trong các động lực thúc đẩy sự ra đời của nhiều Đảng Cộng sản.",
+      "Cách mạng Việt Nam lâm vào tình trạng khủng hoảng sâu sắc về đường lối, về giai cấp lãnh đạo.",
+    ],
+    answer: "Mâu thuẫn giữa dân tộc thuộc địa với chủ nghĩa đế quốc.",
+    id: "question_1279022_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-21653"],
+  },
+  {
+    title:
+      "Hội nghị thành lập Đảng Cộng sản Việt Nam diễn ra vào thời gian nào?",
+    options: [
+      "Từ 06/01/1930 đến 07/02/1930.",
+      "Từ 03/02/1930 đến 07/02/1930.",
+      "Từ 03/02/1930 đến 24/02/1930.",
+      "Từ 07/02/1930 đến 24/02/1930.",
+    ],
+    answer: "Từ 06/01/1930 đến 07/02/1930.",
+    id: "question_1279040_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-7604"],
+  },
+  {
+    title: "Tổ chức cộng sản nào ra đời đầu tiên ở Việt Nam?",
+    options: [
+      "Hội Việt Nam cách mạng thanh niên.",
+      "Đông Dương cộng sản Đảng.",
+      "An Nam cộng sản Đảng.",
+      "Đông Dương cộng sản liên đoàn.",
+    ],
+    answer: "Đông Dương cộng sản Đảng.",
+    id: "question_1279047_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-53599", "answer-12740"],
+  },
+  {
+    title:
+      "Đại hội Đảng Cộng sản Đông Dương lần thứ nhất bầu đồng chí nào làm Tổng bí thư?",
+    options: ["Hà Huy Tập.", "Trần Phú.", "Lê Hồng Phong.", "Trường Chinh."],
+    answer: "Lê Hồng Phong.",
+    id: "question_1279056_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-79542", "answer-81473", "answer-16328"],
+  },
+  {
+    title:
+      "Theo chỉ thị của đồng chí Nguyễn Ai Quốc đội Việt Nam tuyên truyền Giải phóng quân được thành lập khi nào?",
+    options: ["03/02/1930.", "07/02/1930.", "22/12/1945.", "22/12/1944."],
+    answer: "22/12/1944.",
+    id: "question_1279063_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-27039",
+      "answer-33058",
+      "answer-68042",
+      "answer-56585",
+    ],
+  },
+  {
+    title:
+      "Luận cương Chính trị do đồng chí Trần Phú khởi thảo ra đời vào thời gian nào?",
+    options: ["2/1930.", "10/1930.", "9/1930.", "8/1930."],
+    answer: "10/1930.",
+    id: "question_1279048_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-66766", "answer-78954"],
+  },
+  {
+    title: "Sự kiện nào được đánh giá là “như chim én nhỏ báo hiệu mùa xuân”?",
+    options: [
+      "Cách mạng tháng Mười Nga bùng nổ và thắng lợi.",
+      "Sự thành lập Đảng Cộng sản Việt Nam.",
+      "Vụ mưu sát tên toàn quyền Méc Lanh của Phạm Hồng Thái.",
+      "Sự thành lập hội Việt Nam Cách mạng Thanh niên.",
+    ],
+    answer: "Vụ mưu sát tên toàn quyền Méc Lanh của Phạm Hồng Thái.",
+    id: "question_1279069_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-2765", "answer-11634", "answer-2987"],
+  },
+  {
+    title:
+      "Tờ báo nào là cơ quan ngôn luận của Hội Việt Nam Cách mạng Thanh niên?",
+    options: [
+      "Báo Nhân đạo.",
+      "Báo Sự thật.",
+      "Báo Người cùng khổ.",
+      "Báo Thanh Niên.",
+    ],
+    answer: "Báo Thanh Niên.",
+    id: "question_1279070_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-17829",
+      "answer-5297",
+      "answer-36612",
+      "answer-94485",
+    ],
+  },
+  {
+    title:
+      "Trong những hoạt động sau đây của Nguyễn Ái Quốc, hoạt động nào chuẩn bị trực tiếp điều kiện về chính trị và tư tưởng cho việc thành lập Đảng Cộng sản Việt Nam?",
+    options: [
+      "Nguyễn Ái Quốc viết báo, xuất bản sách, ra các tờ báo nhằm tuyên truyền chủ nghĩa Mác Lênin vào Việt Nam để thức tỉnh quần chúng.",
+      "Tháng 6/1925, Nguyễn Ái Quốc thành lập Hội Việt Nam Cách mạng Thanh niên với chương trình và Điều lệ là làm cách mạng dân tộc và cách mạng thế giới.",
+      "Từ năm 1925-1927, Nguyễn Ái Quốc mở các lớp huấn luyện chính trị nhằm đào tạo cán bộ cho cách mạng Việt Nam.",
+      "Tập bài giảng “Đường Kách mệnh” của Nguyễn Ái Quốc ở các lớp huấn luyện chính trị đã đề cập đến những vấn đề cơ bản của một Cương lĩnh chính trị cho Đang Cộng sản Việt Nam hiện nay.",
+    ],
+    answer:
+      "Tập bài giảng “Đường Kách mệnh” của Nguyễn Ái Quốc ở các lớp huấn luyện chính trị đã đề cập đến những vấn đề cơ bản của một Cương lĩnh chính trị cho Đang Cộng sản Việt Nam hiện nay.",
+    id: "question_1279071_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-59553",
+      "answer-95647",
+      "answer-16761",
+      "answer-59065",
+    ],
+  },
+  {
+    title:
+      "Hội nghị Ban chấp hành Trung ương Đảng Cộng sản Đông Dương lần thứ 8 đề ra khẩu hiệu gì?",
+    options: [
+      "“Tịch thu ruộng đất của đế quốc và Việt gian chia cho dân cày nghèo”.",
+      "“Người cày có ruộng”.",
+      "“Giảm tô, giảm tức”.",
+      "“Đánh đổ địa chủ chia ruộng đất cho dân cày”.",
+    ],
+    answer:
+      "“Tịch thu ruộng đất của đế quốc và Việt gian chia cho dân cày nghèo”.",
+    id: "question_1279084_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-48845"],
+  },
+  {
+    title:
+      "Thời gian diễn ra cuộc khai thác thuộc địa lần thứ hai của thực dân Pháp ở Việt Nam?",
+    options: ["1897 - 1914.", "1884 - 1914.", "1858 - 1914.", "1919 - 1929."],
+    answer: "1919 - 1929.",
+    id: "question_1279037_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-60713",
+      "answer-93570",
+      "answer-73462",
+      "answer-65031",
+    ],
+  },
+  {
+    title:
+      "Trong các nhà yêu nước tiêu biểu cho phong trào yêu nước cuối thế kỷ XIX đầu thế kỷ XX được kể sau đây, ai là người tiêu biểu cho xu hướng bạo động cách mạng?",
+    options: ["Hàm Nghi.", "Đề Thám.", "Phan Bội Châu.", "Phan Châu Trinh."],
+    answer: "Phan Bội Châu.",
+    id: "question_1279029_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-84799", "answer-13599", "answer-48340"],
+  },
+  {
+    title:
+      "Phong trào do Phan Bội Châu khởi xướng thuộc khuynh hướng nào trong các khuynh hướng sau?",
+    options: [
+      "Phong trào yêu nước theo khuynh hướng Cần Vương.",
+      "Phong trào yêu nước theo khuynh hướng phong kiến.",
+      "Phong trào yêu nước theo khuynh hướng dân chủ tư sản.",
+      "Phong trào yêu nước theo khuynh hướng vô sản.",
+    ],
+    answer: "Phong trào yêu nước theo khuynh hướng dân chủ tư sản.",
+    id: "question_1279032_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-11214", "answer-8350", "answer-23596"],
+  },
+  {
+    title:
+      "Hội nghị lần 6 (tháng 11 - 1939) của Ban chấp hành Trung ương Đảng đã xác định nhiệm vụ của cách mạng Đông Dương lúc này là gì?",
+    options: [
+      "Đặt nhiệm vụ giải phóng dân tộc và giải phóng giai cấp lên hàng đầu.",
+      "Chống chủ nghĩa phát xít và chống chiến tranh.",
+      "Đặt nhiệm vụ giải phóng dân tộc lên hàng đầu và cấp bách.",
+      "Tất cả các nhiệm vụ trên.",
+    ],
+    answer: "Đặt nhiệm vụ giải phóng dân tộc lên hàng đầu và cấp bách.",
+    id: "question_1279054_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-81128", "answer-82646", "answer-35781"],
+  },
+  {
+    title: "Đại hội Đảng lần thứ nhất diễn ra ở đâu?",
+    options: [
+      "Ma Cao (Trung Quốc).",
+      "Quảng Châu (Trung Quốc).",
+      "Hà Nội (Việt Nam).",
+      "Băng Cốc (Thái Lan).",
+    ],
+    answer: "Ma Cao (Trung Quốc).",
+    id: "question_1279055_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-47782"],
+  },
+  {
+    title:
+      "Nguyễn Ái Quốc lựa chọn con đường giải phóng dân tộc theo khuynh hướng chính trị vô sản vào thời gian nào?",
+    options: ["1917.", "1918.", "1919.", "1920."],
+    answer: "1920.",
+    id: "question_1279045_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-58163",
+      "answer-96840",
+      "answer-12849",
+      "answer-13811",
+    ],
+  },
+  {
+    title:
+      "Ba cuộc khởi nghĩa Bắc Sơn, Nam Kì, binh biến Đô Lương đã để lại bài học kinh nghiệm lớn nhất là gì?",
+    options: [
+      "Bài học kinh nghiệm về khởi nghĩa vũ trang, về xây dựng lực lượng vũ trang và chiến tranh du kích.",
+      "Bài học về thời cơ trong khởi nghĩa giành chính quyền.",
+      "Bài học về xây dựng lực lượng vũ trang để chuẩn bị khởi nghĩa.",
+      "Bài học về sự phát triển chiến tranh du kích.",
+    ],
+    answer: "Bài học về thời cơ trong khởi nghĩa giành chính quyền.",
+    id: "question_1279075_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-1807", "answer-28893"],
+  },
+  {
+    title:
+      "Đoạn trích sau trong văn bản nào:\n\n“Trong giai đoạn này, quyền lợi của giai cấp công nhân và nhân dân lao động và của dân tộc là một. Chính vì Đảng Lao động Việt Nam là Đảng của giai cấp công nhân và nhân dân lao động, cho nên nó phải là Đảng của dân tộc Việt Nam”?",
+    options: [
+      "Báo cáo chính trị tại Đại hội đại biểu lần thứ II (1951).",
+      "Điều lệ mới của Đảng được Đại hội II (1951) thông qua.",
+      "Chính cương của Đảng Lao động Việt Nam.",
+      "Luận cương tháng 10/1930.",
+    ],
+    answer: "Báo cáo chính trị tại Đại hội đại biểu lần thứ II (1951).",
+    id: "question_1279078_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-34974"],
+  },
+  {
+    title:
+      "Điều nào không phải chính sách của chính phủ Mặt trận nhân dân Pháp năm 1936 đối với các thuộc địa?",
+    options: [
+      "Cho phép lập Hội ái hữu.",
+      "Giải quyết vấn đề ruộng đất cho nhân dân.",
+      "Trả tự do cho một số tù chính trị.",
+      "Cho phép xuất bản báo chí.",
+    ],
+    answer: "Giải quyết vấn đề ruộng đất cho nhân dân.",
+    id: "question_1279081_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-93052", "answer-11471"],
+  },
+  {
+    title:
+      "Chủ trương của Đảng Cộng sản Đông Dương về “cuộc cách mạng giải phóng dân tộc không nhất định phải kết hợp chặt chẽ với cách mạng điền địa” trong giai đoạn 1936 - 1939 thực chất là:",
+    options: [
+      "Bước phát triển toàn diện của Luận cương chính trị tháng 10/1930.",
+      "Nhận thức mới về mối quan hệ giữa hai nhiệm vụ dân tộc và dân chủ.",
+      "Sự trở về với tư tưởng cốt lõi của Cương lĩnh chính trị đầu năm 1930.",
+      "Khắc phục những hạn chế về xác định lực lượng cách mạng trước đó.",
+    ],
+    answer:
+      "Sự trở về với tư tưởng cốt lõi của Cương lĩnh chính trị đầu năm 1930.",
+    id: "question_1279083_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-92051", "answer-3470", "answer-88725"],
+  },
+  {
+    title:
+      "Nguyễn Ái Quốc gửi bản yêu sách của nhân dân An Nam tới hội nghị Véc - xây vào thời gian nào?",
+    options: ["1918.", "1919.", "1920.", "1921."],
+    answer: "1919.",
+    id: "question_1279043_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-68462", "answer-32712"],
+  },
+  {
+    title:
+      "Trong những ý nghĩa lịch sử của sự ra đời Đảng Cộng sản Việt Nam, ý nghĩa nào sau đây thể hiện Nguyễn Ái Quốc đã vận dụng và phát triển sáng tạo học thuyết Mác Lênin về Đảng Cộng sản?",
+    options: [
+      "Nó chứng tỏ rằng giai cấp vô sản đã trưởng thành và đủ sức lãnh đạo cách mạng.",
+      "Nó là kết quả tất yếu của cuộc đấu tranh dân tộc và đấu tranh giai cấp ở Việt Nam.",
+      "Đảng Cộng sản Việt Nam thành lập vào đầu năm 1930 là sản phẩm của sự kết hợp chủ nghĩa Mác Lênin với phong trào công nhân và phong trào yêu nước của nhân dân Việt Nam.",
+      "Giải quyết được tình trạng khủng hoảng về đường lối cách mạng, về giai cấp lãnh đạp cách mạng Việt Nam ở đầu thế kỷ XX.",
+    ],
+    answer:
+      "Đảng Cộng sản Việt Nam thành lập vào đầu năm 1930 là sản phẩm của sự kết hợp chủ nghĩa Mác Lênin với phong trào công nhân và phong trào yêu nước của nhân dân Việt Nam.",
+    id: "question_1279072_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-94679", "answer-6952", "answer-43396"],
+  },
+  {
+    title:
+      "Vì sao cuối năm 1928 đầu năm 1929, những người cộng sản Việt Nam thấy cần thiết phải thành lập một Đảng Cộng sản để lãnh đạo phong trào đấu tranh giành độc lập, tự do cho dân tộc?",
+    options: [
+      "Do phong trào dân tộc dân chủ ở nước ta phát triển mạnh.",
+      "Do phong trào dân tộc và dân chủ, đặc biệt là phong trào công nông theo con đường cách mạng vô sản phát triển mạnh.",
+      "Trước sự thất bại của cuộc khởi nghĩa Yên Bái, Việt Nam Quốc dân đảng tan rã.",
+      "Sự phát triển mạnh của hai tổ chức Thanh niên và Tân Việt.",
+    ],
+    answer:
+      "Do phong trào dân tộc và dân chủ, đặc biệt là phong trào công nông theo con đường cách mạng vô sản phát triển mạnh.",
+    id: "question_1279086_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-43293", "answer-74463"],
+  },
+  {
+    title:
+      "Phong trào Đông Kinh Nghĩa Thục thuộc khuynh hướng nào trong các khuynh hướng sau?",
+    options: [
+      "Phong trào yêu nước theo khuynh hướng Cần Vương.",
+      "Phong trào yêu nước theo khuynh hướng phong kiến.",
+      "Phong trào yêu nước theo khuynh hướng dân chủ tư sản.",
+      "Phong trào yêu nước theo khuynh hướng vô sản.",
+    ],
+    answer: "Phong trào yêu nước theo khuynh hướng dân chủ tư sản.",
+    id: "question_1279031_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-84012", "answer-51500", "answer-14192"],
+  },
+  {
+    title: "Cao trào 1930-1931 diễn ra đỉnh cao ở địa phương nào?",
+    options: ["Nghệ Tĩnh.", "Hà Nội.", "Thái Nguyên.", "Tuyên Quang."],
+    answer: "Nghệ Tĩnh.",
+    id: "question_1279057_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-72939"],
+  },
+  {
+    title:
+      "Hội nghị toàn quốc của Đảng Cộng sản Đông Dương họp ở Tân Trào trong thời gian nào?",
+    options: [
+      "15-19/8/1941.",
+      "14-15/8/1945.",
+      "15-19/8/1945.",
+      "16-18/8/1945.",
+    ],
+    answer: "14-15/8/1945.",
+    id: "question_1279052_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-73703", "answer-99850"],
+  },
+  {
+    title:
+      'Nội dung nào trong Hội nghị hợp nhất các tổ chức cộng sản đầu năm 1930 của Việt Nam được đánh giá là:\n\n“được thực hiện bằng một con đường khác mà quốc tế cộng sản không lường trước được" (văn kiện Đảng toàn tập, tập 4, trang 384).',
+    options: [
+      "Hội nghị đã thông qua Cương lĩnh chính trị của Nguyễn Ái Quốc.",
+      "Đông Dương Cộng sản liên đoàn được kết nạp vào Đảng.",
+      "Thành lập Đảng Cộng sản để lãnh đạo cách mạng Việt Nam.",
+      "Hội nghị bầu Ban chấp hành trung ương lâm thời của Đảng.",
+    ],
+    answer: "Thành lập Đảng Cộng sản để lãnh đạo cách mạng Việt Nam.",
+    id: "question_1279076_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-5270", "answer-79588", "answer-80035"],
+  },
+  {
+    title:
+      "Sự kiện đánh dấu bước ngoặt trong cuộc đời hoạt động của Nguyễn Ái Quốc là:",
+    options: [
+      "Ảnh hưởng của Cách mạng tháng Mười Nga năm 1917 đến tư tưởng cứu nước của Nguyễn Ái Quốc.",
+      "Đưa yêu sách đến Hội nghị Véc-xai (18-6/1919).",
+      "Đọc Luận cương của Lênin về vấn đề dân tộc và thuộc địa (tháng 7/1920).",
+      "Bỏ phiếu tán thành việc gia nhập Quốc tế III và tham gia sáng lập Đảng Cộng sản Pháp (tháng 12/1920).",
+    ],
+    answer:
+      "Bỏ phiếu tán thành việc gia nhập Quốc tế III và tham gia sáng lập Đảng Cộng sản Pháp (tháng 12/1920).",
+    id: "question_1279085_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-55039", "answer-52462"],
+  },
+  {
+    title: "Tổ chức An Nam Cộng sản Đảng được thành lập khi nào và ở đâu?",
+    options: [
+      "11/1929 tại Cửu Long (Trung Quốc).",
+      "11/1929 tại Khánh Hội (Sài Gòn).",
+      "11/1929 tại Hàm Long (Hà Nội).",
+      "11/1930 tại Quảng Châu.",
+    ],
+    answer: "11/1929 tại Khánh Hội (Sài Gòn).",
+    id: "question_1279061_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-72922", "answer-58663"],
+  },
+  {
+    title:
+      "Tác phẩm ‘Tự chỉ trích’ của đồng chí Nguyễn Văn Cừ được phát hành vào thời gian nào?",
+    options: ["20/5/1939.", "20/6/1939.", "20/7/1939.", "14/8/1945."],
+    answer: "20/7/1939.",
+    id: "question_1279067_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-16052", "answer-27794", "answer-9818"],
+  },
+  {
+    title:
+      "Phong trào do Việt Nam Quốc dân Đảng khởi xướng thuộc khuynh hướng nào trong các khuynh hướng sau?",
+    options: [
+      "Phong trào yêu nước theo khuynh hướng Cần Vương.",
+      "Phong trào yêu nước theo khuynh hướng phong kiến.",
+      "Phong trào yêu nước theo khuynh hướng dân chủ tư sản.",
+      "Phong trào yêu nước theo khuynh hướng vô sản.",
+    ],
+    answer: "Phong trào yêu nước theo khuynh hướng dân chủ tư sản.",
+    id: "question_1279034_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-53670", "answer-32553", "answer-72946"],
+  },
+  {
+    title:
+      "Đoạn văn sau đây được Nguyễn Ái Quốc trình bày lúc nào:\n\n“Nếu không giải quyết được vấn đề dân tộc giải phóng, không đòi được độc lập tự do cho toàn thể dân tộc, thì chẳng những toàn thể quốc gia dân tộc còn chịu mãi kiếp ngựa trâu, mà quyền lợi của bộ phận giai cấp đến vạn năm sau cũng không đòi được”?",
+    options: [
+      "Trong Hội nghị Trung ương Đảng lần 6 (tháng 11/1939).",
+      "Trong Hội nghị Trung ương Đảng lần 8 (tháng 5/1941).",
+      "Trong thư gửi đồng bào toàn quốc sau Hội nghị Trung ương lần 8.",
+      "Trong lời kêu gọi toàn quốc kháng chiến.",
+    ],
+    answer: "Trong Hội nghị Trung ương Đảng lần 8 (tháng 5/1941).",
+    id: "question_1279064_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-31859", "answer-63014"],
+  },
+  {
+    title:
+      "Nhận xét nào sau đây là đúng về các mặt trận dân tộc thống nhất ở Việt Nam trong những năm 1930 - 1945?",
+    options: [
+      "Nền tảng của mặt trận là công nhân và nông dân.",
+      "Đảm nhận chức năng của chính quyền cách mạng.",
+      "Tập dượt các hình thức đấu tranh mới.",
+      "Đảm nhận chức năng của tổ chức văn hoá xã hội.",
+    ],
+    answer: "Nền tảng của mặt trận là công nhân và nông dân.",
+    id: "question_1279080_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-72605"],
+  },
 ]
   .filter((qus) => {
     if (newMap.has(qus.id)) return false;
