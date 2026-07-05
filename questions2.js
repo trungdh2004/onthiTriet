@@ -1925,7 +1925,6 @@ export const questions2 = [
     isCorrect: true,
     answerSelect: ["answer-72605"],
   },
-
   {
     title:
       "Tên nước Cộng hòa xã hội chủ nghĩa Việt Nam được thông qua tại sự kiện chính trị nào/",
@@ -2698,9 +2697,9 @@ export const questions2 = [
       "Ranh giới chia cắt hai miền đất nước chưa bị xóa bỏ.",
       "Mĩ can thiệp vào công việc nội bộ của hai miền.",
     ],
-    answer: "Yêu cầu của cuộc đấu tranh chống tập đoàn Pôn - Pốt.",
+    answer: "Yêu cầu của sự nghiệp xây dựng và bảo vệ Tổ quốc.",
     id: "question_1279000_question_text",
-    isCorrect: false,
+    isCorrect: true,
     answerSelect: ["answer-39778", "answer-93263"],
   },
   {
@@ -2727,9 +2726,9 @@ export const questions2 = [
       "3 nhiệm vụ trọng tâm và 4 giải pháp đột phá.",
       "3 nhiệm vụ trọng tâm và 3 giải pháp đột phá.",
     ],
-    answer: "4 nhiệm vụ trọng tâm và 4 giải pháp đột phá.",
+    answer: "3 nhiệm vụ trọng tâm và 3 giải pháp đột phá.",
     id: "question_1278993_question_text",
-    isCorrect: false,
+    isCorrect: true,
     answerSelect: ["answer-90884", "answer-57804", "answer-2109"],
   },
   {
@@ -2741,9 +2740,9 @@ export const questions2 = [
       "dân giàu, nước mạnh, dân chủ, công bằng, văn minh.",
       "có quan hệ hữu nghị hợp tác với các nước trên thế giới.",
     ],
-    answer: "có nền văn hóa tiên tiến và đậm đà bản sắc dân tộc.",
+    answer: "dân giàu, nước mạnh, dân chủ, công bằng, văn minh.",
     id: "question_1279004_question_text",
-    isCorrect: false,
+    isCorrect: true,
     answerSelect: ["answer-22858", "answer-49066"],
   },
   {
