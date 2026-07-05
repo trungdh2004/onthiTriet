@@ -45,7 +45,7 @@
       return {
         title: textEl.innerText.trim(),
         options,
-        answer: [answer],
+        answer: answer,
         id,
         isCorrect: !isCorrect,
         answerSelect: [inputChecked],

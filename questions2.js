@@ -2760,6 +2760,206 @@ export const questions2 = [
     isCorrect: true,
     answerSelect: ["answer-47953"],
   },
+  {
+    title:
+      "Một trong những nhiệm vụ hàng đầu khi nghiên cứu khoa học Lịch sử Đảng Cộng sản Việt Nam là:",
+    options: [
+      "Khẳng định, chứng minh giá trị khoa học của những mục tiêu chiến lược và sách lược cách mạng mà Đảng đề ra trong cương lĩnh.",
+      "Chọn lọc ra những sự kiện lịch sử nổi bật để tái hiện lại sự thành công trong quá trình lãnh đạo của Đảng.",
+      "Tìm hiểu về lịch sử ra đời của đảng cộng sản trên thế giới.",
+      "Làm cho người học hiểu được quyền lực của Đảng, từ đó thêm trung thành với đường lối lãnh đạo của Đảng.",
+    ],
+    answer:
+      "Khẳng định, chứng minh giá trị khoa học của những mục tiêu chiến lược và sách lược cách mạng mà Đảng đề ra trong cương lĩnh.",
+    id: "question_1279008_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-44899"],
+  },
+  {
+    title:
+      "Là một ngành của khoa học lịch sử, lịch sử Đảng có các chức năng của khoa học lịch sử đồng thời có chức năng nổi bật là:",
+    options: [
+      "Chức năng giáo dục, sàng lọc, tuyên truyền và tìm kiếm.",
+      "Chức năng nhận thức, giáo dục, dự báo và phê phán.",
+      "Chức năng tuyên truyền, phổ cập, giáo huấn và phổ quát.",
+      "Chức năng nhận thức, điều tiết, chọn lọc, tìm kiếm.",
+    ],
+    answer: "Chức năng nhận thức, giáo dục, dự báo và phê phán.",
+    id: "question_1279006_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-96075"],
+  },
+  {
+    title: "Khoa học lịch sử Đảng có mấy nhiệm vụ trọng tâm:",
+    options: ["4", "1.", "2.", "3."],
+    answer: "4",
+    id: "question_1279005_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-27627"],
+  },
+  {
+    title:
+      "Đối tượng nghiên cứu của Khoa học Lịch sử Đảng Cộng sản Việt Nam là:",
+    options: [
+      "Những hạn chế của Đảng Cộng sản.",
+      "Các văn kiện Đảng chuẩn bị lưu hành.",
+      "Các đảng viên Đảng cộng sản Việt Nam.",
+      "Sự ra đời, phát triển, hoạt động lãnh đạo của Đảng qua các thời kỳ.",
+    ],
+    answer:
+      "Sự ra đời, phát triển, hoạt động lãnh đạo của Đảng qua các thời kỳ.",
+    id: "question_1279007_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-32028"],
+  },
+  {
+    title:
+      "Trong phương pháp nghiên cứu, học tập môn học Lịch sử Đảng Cộng sản Việt Nam cần phải dựa trên phương pháp luận khoa học Mácxít, đồng thời phải nắm vững chủ nghĩa nào dưới đây để xem xét và nhận thức lịch sử một cách khách quan, trung thực và đúng quy luật?",
+    options: [
+      "Chủ nghĩa duy lý và chủ nghĩa duy vật biện chứng.",
+      "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử.",
+      "Chủ nghĩa duy tâm và chủ nghĩa duy vật.",
+      "Chủ nghĩa duy lý và chủ nghĩa duy vật lịch sử.",
+    ],
+    answer: "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử.",
+    id: "question_1279009_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-29269"],
+  },
+  {
+    title:
+      "Trong nghiên cứu lịch sử Đảng, khi xem xét, đối chiếu các hiện tượng lịch sử trong hình thức tổng quát nhằm vạch ra bản chất, quy luật trong sự vận động của sự vật thì đó là phương pháp nghiên cứu nào?",
+    options: [
+      "Phương pháp làm việc nhóm.",
+      "Phương pháp tổng hợp.",
+      "Phương pháp lịch sử.",
+      "Phương pháp logic.",
+    ],
+    answer: "Phương pháp logic.",
+    id: "question_1279012_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-98400"],
+  },
+  {
+    title:
+      "Cần phải coi trọng phương pháp tổng kết thực tiễn lịch sử gắn với nghiên cứu lý luận trong nghiên cứu lịch sử Đảng để:",
+    options: [
+      "chứng tỏ sự linh hoạt trong các bước để đề ra đường lối, chủ trương của Đảng.",
+      "dễ dàng thống kê những thành tựu mà Đảng đạt được trong lãnh đạo cách mạng.",
+      "làm hài lòng người dân trong quá trình lãnh đạo của Đảng.",
+      "làm rõ kinh nghiệm, bài học, quy luật phát triển của cách mạng Việt Nam.",
+    ],
+    answer:
+      "làm rõ kinh nghiệm, bài học, quy luật phát triển của cách mạng Việt Nam.",
+    id: "question_1279014_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-61671"],
+  },
+  {
+    title:
+      "Nghiên cứu, học tập lịch sử Đảng cần quán triệt tính đảng và tính khoa học. Vậy “tính đảng” là gì?",
+    options: [
+      "Là đứng trên lập trường chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh để nhận thức lịch sử một cách khoa học, đúng đắn, luôn luôn kế thừa và phát triển sáng tạo.",
+      "Là phát hiện ra giai cấp công nhân là lực lượng xã hội có thể thủ tiêu chủ nghĩa tư bản, xây dựng chủ nghĩa xã hội.",
+      "Là chỉ ra sự cần thiết phải thay thế chủ nghĩa tư bản bằng chủ nghĩa xã hội. Đứng trên lập trường của giai cấp tư.",
+      "Là phản ánh đúng khát vọng của nhân dân lao động bị áp bức, khẳng định sứ mệnh lịch sử của giai cấp nông dân.",
+    ],
+    answer:
+      "Là đứng trên lập trường chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh để nhận thức lịch sử một cách khoa học, đúng đắn, luôn luôn kế thừa và phát triển sáng tạo.",
+    id: "question_1279011_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-44285"],
+  },
+  {
+    title:
+      "Việc tiến hành thảo luận, trao đổi các vấn đề do giảng viên đưa ra để có thể hiểu rõ hơn nội dung của môn học lịch sử Đảng Cộng sản Việt Nam thì được gọi là:",
+    options: [
+      "phương pháp làm việc biện chứng.",
+      "phương pháp làm việc chủ quan.",
+      "phương pháp làm việc nhóm.",
+      "phương pháp làm việc khách quan.",
+    ],
+    answer: "phương pháp làm việc nhóm.",
+    id: "question_1279015_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-83360"],
+  },
+  {
+    title:
+      "Tại sao khi nghiên cứu khoa học lịch sử Đảng Cộng sản Việt Nam lại cần phải nhận thức và vận dụng chủ nghĩa duy vật lịch sử?",
+    options: [
+      "Để thấy được sự ưu việt của Đảng Cộng sản Việt Nam so với đảng phái ở Phương Tây.",
+      "Để hiểu vì sao cách mạng giải phóng dân tộc ở Việt Nam đi theo con đường cách mạng vô sản.",
+      "Để nhận thức được sứ mệnh lịch sử của giai cấp công nhân.",
+      "Để nhận thức tiến trình cách mạng do Đảng Cộng sản Việt Nam lãnh đạo.",
+    ],
+    answer:
+      "Để nhận thức tiến trình cách mạng do Đảng Cộng sản Việt Nam lãnh đạo.",
+    id: "question_1279010_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-22189"],
+  },
+  {
+    title:
+      "Nghiên cứu, học tập lịch sử Đảng cần quán triệt tính đảng và tính khoa học. Vậy “tính khoa học” trong nghiên cứu lịch sử Đảng là gì?",
+    options: [
+      "Là sự phản ánh kết quả nghiên cứu sự vật, hiện tượng, sự kiện lịch sử phải đạt đến chân lý khách quan dựa trên luận cứ khoa học, tôn trọng hiện thực lịch sử.",
+      "Là đứng trên lập trường chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh để nhận thức lịch sử một cách khoa học, đúng đắn, luôn luôn kế thừa và phát triển sáng tạo.",
+      "Là kết quả nghiên cứu các sự vật, hiện tượng dựa trên kinh nghiệm của nhân dân.",
+      "Là phát hiện ra giai cấp công nhân là lực lượng xã hội có thể thủ tiêu chủ nghĩa tư bản, xây dựng chủ nghĩa xã hội.",
+    ],
+    answer:
+      "Là sự phản ánh kết quả nghiên cứu sự vật, hiện tượng, sự kiện lịch sử phải đạt đến chân lý khách quan dựa trên luận cứ khoa học, tôn trọng hiện thực lịch sử.",
+    id: "question_1279013_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-92870"],
+  },
+  {
+    title:
+      "Bản cương lĩnh đầu tiên của Đảng Cộng sản Việt Nam ra đời năm bao nhiêu?",
+    options: ["1931.", "1932.", "1930.", "1933."],
+    answer: "1930.",
+    id: "question_1279016_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-78592"],
+  },
+  {
+    title:
+      "Điền vào chỗ trống: “Đảng lấy chủ nghĩa Mác - Lênin, … làm nền tảng tư tưởng, kim chỉ nam cho hành động”",
+    options: [
+      "truyền thống yêu nước.",
+      "truyền thống đoàn kết.",
+      "tư tưởng Ăngghen.",
+      "tư tưởng Hồ Chí Minh.",
+    ],
+    answer: "tư tưởng Hồ Chí Minh.",
+    id: "question_1279018_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-76784"],
+  },
+  {
+    title:
+      "Đảng lãnh đạo cách mạng giải phóng dân tộc, xây dựng đất nước bằng…",
+    options: [
+      "thông báo, giấy tờ tuyên truyền được in bởi các Nhà xuất bản của Việt Nam.",
+      "cương lĩnh, đường lối, chủ trương, chính sách lớn.",
+      "tư tưởng của các nhà triết học nổi tiếng.",
+      "lý luận của chủ nghĩa Mác - Lênin.",
+    ],
+    answer: "cương lĩnh, đường lối, chủ trương, chính sách lớn.",
+    id: "question_1279017_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-11913"],
+  },
+  {
+    title:
+      "Năm 1933, tác phẩm “Sơ thảo lịch sử phong trào Đông Dương” là bản nghiên cứu tổng hợp đầu tiên về lịch sử Đảng. Tác phẩm này của ai?",
+    options: ["Lê Duẩn.", "Trường Chinh.", "Võ Nguyên Giáp.", "Hà Huy Tập."],
+    answer: "Hà Huy Tập.",
+    id: "question_1279019_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-85441"],
+  },
 ]
   .filter((qus) => {
     if (newMap.has(qus.id)) return false;
