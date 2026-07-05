@@ -1925,6 +1925,842 @@ export const questions2 = [
     isCorrect: true,
     answerSelect: ["answer-72605"],
   },
+
+  {
+    title:
+      "Tên nước Cộng hòa xã hội chủ nghĩa Việt Nam được thông qua tại sự kiện chính trị nào/",
+    options: [
+      "Kì họp thứ nhất Quốc hội khóa VI nước Việt Nam thống nhất (7-1976).",
+      "Cuộc Tổng tuyển cử bầu Quốc hội chung (4-1976).",
+      "Hội nghị lần thứ 24 Ban Chấp hành Trung ương Đảng (9-1975).",
+      "Hội nghị Hiệp thương chính trị thống nhất đất nước (11-1975).",
+    ],
+    answer:
+      "Kì họp thứ nhất Quốc hội khóa VI nước Việt Nam thống nhất (7-1976).",
+    id: "question_1278949_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-92799"],
+  },
+  {
+    title:
+      "Đại hội nào của Đảng được gọi là Đại hội “Trí tuệ- đổi mới, dân chủ - kỉ cương - đoàn kết”.",
+    options: [
+      "Đại hội đại biểu toàn quốc lần thứ VI (12-1986).",
+      "Đại hội đại biểu toàn quốc lần thứ IV (12-1976).",
+      "Đại hội đại biểu toàn quốc lần thứ V (3-1981).",
+      "Đại hội đại biểu toàn quốc lần thứ VII (6-1991).",
+    ],
+    answer: "Đại hội đại biểu toàn quốc lần thứ VII (6-1991).",
+    id: "question_1278961_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-21864", "answer-96462"],
+  },
+  {
+    title:
+      "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ đi lên chủ nghĩa xã hội được thông qua tại Đại hội:",
+    options: [
+      "Đại hội đại biểu toàn quốc lần thứ V (3-1981).",
+      "Đại hội đại biểu toàn quốc lần thứ VI (12-1986).",
+      "Đại hội đại biểu toàn quốc lần thứ IV (12-1976).",
+      "Đại hội đại biểu toàn quốc lần thứ VII (6-1991).",
+    ],
+    answer: "Đại hội đại biểu toàn quốc lần thứ VII (6-1991).",
+    id: "question_1278960_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-69860", "answer-36334", "answer-72217"],
+  },
+  {
+    title:
+      "Đại hội Đại biểu toàn quốc lần thứ IV của Đảng (12/1976) đề ra đường lối:",
+    options: [
+      "Khôi phục và bước đầu phát triển kinh tế tư bản chủ nghĩa trên cả nước.",
+      "Cải tạo xã hội chủ nghĩa trong giai đoạn xây dựng đất nước.",
+      "Xây dựng chủ nghĩa xã hội trong phạm vi cả nước.",
+      "Xây dựng chủ nghĩa xã hội ở miền Bắc, một phần ở miền Nam",
+    ],
+    answer: "Xây dựng chủ nghĩa xã hội trong phạm vi cả nước.",
+    id: "question_1278958_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-97933",
+      "answer-71582",
+      "answer-59334",
+      "answer-57979",
+    ],
+  },
+  {
+    title: "Đường lối đổi mới được thông qua lần đầu tiên tại:",
+    options: [
+      "Đại hội V (3-1981).",
+      "Đại hội VIII (7/1996).",
+      "Đại hội VII (6/1991).",
+      "Đại hội VI (12-1986).",
+    ],
+    answer: "Đại hội VI (12-1986).",
+    id: "question_1278952_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-40773",
+      "answer-44360",
+      "answer-72279",
+      "answer-67238",
+    ],
+  },
+  {
+    title:
+      "Nội dung nào là một trong những quyết định của kì họp thứ nhất Quốc hội khóa VI nước Việt Nam thống nhất (24/6 - 3/7/1976)?",
+    options: [
+      "Quốc huy mang dòng chữ Cộng hòa xã hội chủ nghĩa Việt Nam.",
+      "Tạo điều kiện thuận lợi để cả nước đi lên chủ nghĩa xã hội.",
+      "Mở ra những khả năng to lớn để bảo vệ Tổ quốc.",
+      "Tuyên bố Nước Việt Nam dân chủ cộng hòa thành lập.",
+    ],
+    answer: "Quốc huy mang dòng chữ Cộng hòa xã hội chủ nghĩa Việt Nam.",
+    id: "question_1278957_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-17926"],
+  },
+  {
+    title:
+      "Nội dung nào là một trong những quyết định của kì họp thứ nhất Quốc hội khóa VI nước Việt Nam thống nhất (24/6 đến 3/7/1976)?",
+    options: [
+      "Tuyên bố Nước Việt Nam dân chủ cộng hòa thành lập.",
+      "Quyết định Tên nước là Cộng hòa xã hội chủ nghĩa Việt Nam.",
+      "Mở ra những khả năng to lớn để bảo vệ Tổ quốc.",
+      "Tạo điều kiện thuận lợi để cả nước đi lên chủ nghĩa xã hội.",
+    ],
+    answer: "Quyết định Tên nước là Cộng hòa xã hội chủ nghĩa Việt Nam.",
+    id: "question_1278956_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-51877",
+      "answer-72670",
+      "answer-77199",
+      "answer-66736",
+    ],
+  },
+  {
+    title:
+      "Hội nghị lần thứ 24 Ban chấp hành Trung ương Đảng Lao Động Việt Nam (9/1975) đã đề ra nhiệm vụ gì?",
+    options: [
+      "Xây dựng chủ nghĩa xã hội ở miền Bắc.",
+      "Tiếp tục cách mạng dân tộc dân chủ nhân dân ở miền Nam.",
+      "Thống nhất đất nước về mặt nhà nước.",
+      "Dùng bạo lực đánh đổ Mĩ - Diệm.",
+    ],
+    answer: "Thống nhất đất nước về mặt nhà nước.",
+    id: "question_1278955_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-95025", "answer-65059", "answer-53233"],
+  },
+  {
+    title:
+      "Việc hoàn thành thống nhất đất nước về mặt nhà nước ở Việt Nam (1976) đã:",
+    options: [
+      "Tạo khả năng to lớn để mở rộng quan hệ với các nước trên thế giới.",
+      "Đánh dấu việc hoàn thành thống nhất các tổ chức chính trị - xã hội.",
+      "Thể hiện mong muốn được gia nhập tổ chức ASEAN của Việt Nam.",
+      "Tạo điều kiện tiếp tục hoàn thành cuộc cách mạng giải phóng dân tộc.",
+    ],
+    answer:
+      "Tạo khả năng to lớn để mở rộng quan hệ với các nước trên thế giới.",
+    id: "question_1278951_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-51718"],
+  },
+  {
+    title:
+      "Tại Đại hội lần thứ IX (4-2001), Đảng chủ trương thực hiện nhất quán và lâu dài mô hình kinh tế tổng quát của Việt Nam trong thời kì quá độ đi lên CNXH là:",
+    options: [
+      "Nền kinh tế kế hoạch hóa tập trung quan lieu.",
+      "Nền kinh tế thị trường định hướng xã hội chủ nghĩa.",
+      "Nền kinh tế thị trường định hướng TBCN.",
+      "Nền kinh tế độc quyền do Nhà nước kiểm soát.",
+    ],
+    answer: "Nền kinh tế thị trường định hướng xã hội chủ nghĩa.",
+    id: "question_1278963_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-75007", "answer-19381", "answer-66657"],
+  },
+  {
+    title:
+      "Kế hoạch nhà nước 5 năm (1976-1980) nhân dân Việt Nam là: vừa xây dựng chủ nghĩa xã hội vừa:",
+    options: [
+      "mở cửa, hội nhập với thế giới.",
+      "Khôi phục kinh tế.",
+      "Khắc phục hậu quả của chiến tranh.",
+      "Cải tạo quan hệ sản xuất xã hội chủ nghĩa.",
+    ],
+    answer: "Cải tạo quan hệ sản xuất xã hội chủ nghĩa.",
+    id: "question_1278959_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-6723", "answer-74613"],
+  },
+  {
+    title:
+      "Những thành tựu Việt Nam đạt được trong việc thực hiện kế hoạch 5 năm 1986-1990 chứng tỏ điều gì?",
+    options: [
+      "Đường lối đổi mới là đúng, bước đi của công cuộc đổi mới cơ bản là phù hợp.",
+      "Việt Nam đã giải quyết được sự mất cân đối của nền kinh tế.",
+      "Việt Nam đã thoát khỏi tình trạng khủng hoảng kinh tế - xã hội.",
+      "Đường lối đổi mới về cơ bản là đúng đắn, cần phải có những bước đi phù hợp.",
+    ],
+    answer:
+      "Đường lối đổi mới là đúng, bước đi của công cuộc đổi mới cơ bản là phù hợp.",
+    id: "question_1278969_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-72222"],
+  },
+  {
+    title:
+      "Nội dung nào KHÔNG nói lên ý nghĩa của việc hoàn thành thống nhất về mặt Nhà nước sau đại thắng mùa Xuân 1975?",
+    options: [
+      "Tạo những điều kiện chính trị cơ bản để phát huy sức mạnh toàn diện của đất nước.",
+      "Mở ra khả năng to lớn để bảo vệ Tổ quốc và mở rộng quan hệ quốc tế.",
+      "Tạo điều kiện thuận lợi để cả nước đi lên xây dựng chủ nghĩa xã hội.",
+      "Chứng tỏ sự ủng hộ to lớn của quốc tế với công cuộc xây dựng chủ nghĩa xã hội của ta.",
+    ],
+    answer:
+      "Chứng tỏ sự ủng hộ to lớn của quốc tế với công cuộc xây dựng chủ nghĩa xã hội của ta.",
+    id: "question_1278967_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-84084", "answer-39496"],
+  },
+  {
+    title:
+      "Lần đầu tiên, Đại hội đại biểu toàn quốc lần thứ V (3/1982) của Đảng xác định thời kì quá độ đi lên CNXH ở Việt Nam là khó khăn, phức tạp, lâu dài, phải trải qua:",
+    options: [
+      "Ba chặng đường.",
+      "Nhiều chặng đường.",
+      "Nhiều bước quá độ.",
+      "Hai chặng đường.",
+    ],
+    answer: "Nhiều chặng đường.",
+    id: "question_1278973_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-33249", "answer-74296"],
+  },
+  {
+    title: "Vì sao nói đổi mới đất nước là một tất yếu khách quan.",
+    options: [
+      "Đất nước ta lâm vào cuộc khủng hoảng kinh tế xã hội trầm trọng.",
+      "Đổi mới là yêu cầu cấp bách thường xuyên của cách mạng Việt Nam.",
+      "Tình hình thế giới có nhiều chuyển biến lớn từ Liên Xô.",
+      "Tác động của cuộc cách mạng khoa học công nghệ trên thế giới.",
+    ],
+    answer: "Đất nước ta lâm vào cuộc khủng hoảng kinh tế xã hội trầm trọng.",
+    id: "question_1278980_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-2021"],
+  },
+  {
+    title:
+      "Đại hội nào của Đảng khẳng định: Tư tưởng Hồ Chí Minh không chỉ là kết quả của sự vận dụng sáng tạo mà còn phát triển sáng tạo chủ nghĩa Mác - Lênin?",
+    options: ["Đại hội IX.", "Đại hội VIII", "Đại hội VII.", "Đại hội VI."],
+    answer: "Đại hội IX.",
+    id: "question_1278970_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-96733"],
+  },
+  {
+    title:
+      "Năm 1986, Đảng và Nhà nước Việt Nam tiến hành đổi mới đất nước nhằm:",
+    options: [
+      "Xây dựng và bảo vệ chính quyền cách mạng.",
+      "Khắc phục sai lầm, khuyết điểm.",
+      "Giải quyết khó khăn về tài chính.",
+      "Giải quyết nạn đói, nạn dốt.",
+    ],
+    answer: "Khắc phục sai lầm, khuyết điểm.",
+    id: "question_1278975_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-48250", "answer-53045"],
+  },
+  {
+    title:
+      "Sự kiện nào là quan trọng nhất trong quá trình thống nhất đất nước về mặt nhà nước sau năm 1975?",
+    options: [
+      "Tổng tuyển cử bầu Quốc hội chung trong cả nước.",
+      "Hội nghị Hiệp thương của đại biểu hai miền Nam - Bắc tại Sài Gòn.",
+      "Đại hội thống nhất mặt trận Tổ quốc Việt Nam.",
+      "Quốc hội khóa VI của nước Việt Nam thống nhất họp phiên đầu tiên.",
+    ],
+    answer: "Quốc hội khóa VI của nước Việt Nam thống nhất họp phiên đầu tiên.",
+    id: "question_1278966_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-32022",
+      "answer-11333",
+      "answer-28444",
+      "answer-35152",
+    ],
+  },
+  {
+    title:
+      "Trong mục tiêu tổng quát, Nghị quyết Đại hội lần thứ XII đã thống nhất cần: Đẩy mạnh toàn diện, đồng bộ công cuộc đổi mới; phát triển kinh tế nhanh, bền vững, phấn đấu sớm đưa nước ta…",
+    options: [
+      "Cơ bản trở thành nước công nghiệp theo hướng hiện đại.",
+      "Trở thành nước hiện đại nhất châu Á.",
+      "Trở thành nước công nghiệp đứng đầu châu Á.",
+      "Trở thành một nước công nghiệp hiện đại.",
+    ],
+    answer: "Cơ bản trở thành nước công nghiệp theo hướng hiện đại.",
+    id: "question_1278982_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-70981"],
+  },
+  {
+    title:
+      "Một trong những khó khăn, yếu kém của công cuộc đổi mới từ năm 1986 đến năm 1990 là:",
+    options: [
+      "Tích lũy nội bộ nền kinh tế chưa nhiều.",
+      "Tình trạng tham những mới khắc phục gần hết.",
+      "Kinh tế mất cân đối, lạm phát ở mức cao.",
+      "Sự nghiệp văn hóa có sự cải thiện.",
+    ],
+    answer: "Kinh tế mất cân đối, lạm phát ở mức cao.",
+    id: "question_1278972_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-61119",
+      "answer-36851",
+      "answer-28287",
+      "answer-82168",
+    ],
+  },
+  {
+    title:
+      "Tại đại hội lần thứ VI (12-1986) Đảng tổng kết một trong nhữngg bài học kinh nghiệm rút ra trong toàn bộ hoạt động của mình là Đảng cần phải quán triệt tư tưởng:",
+    options: [
+      "Con người là vốn.",
+      "Cán bộ là gốc.",
+      "Giáo dục là gốc.",
+      "Lấy dân làm gốc.",
+    ],
+    answer: "Lấy dân làm gốc.",
+    id: "question_1278986_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-7851", "answer-20188", "answer-28617"],
+  },
+  {
+    title:
+      "Thành tựu quan trọng nhất trong bước đầu thực hiện công cuộc đổi mới (12-1986) là:",
+    options: [
+      "Từng bước đưa đất nước thoát khỏi khủng hoảng kinh tế - xã hội.",
+      "Tập trung phát triển kinh tế đối ngoại.",
+      "Kiềm chế được lạm phát về kinh tế.",
+      "Thực hiện được mục tiêu Ba chương trình kinh tế lớn.",
+    ],
+    answer: "Từng bước đưa đất nước thoát khỏi khủng hoảng kinh tế - xã hội.",
+    id: "question_1278971_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-2029"],
+  },
+  {
+    title:
+      "Nguyên nhân khách quan nào sau đây thúc đẩy Đảng và Nhà nước ta phải tiến hành đổi mới?",
+    options: [
+      "Do con người Việt Nam cảm thấy cần đổi mới để thay đổi cuộc sống.",
+      "Do tác động của cuộc cách mạng khoa học công nghệ.",
+      "Do nền kinh tế Việt Nam kém phát triển, mất cân đối.",
+      "Khắc phục tình trạng khủng hoảng kinh tế- xã hội trong nước.",
+    ],
+    answer: "Do tác động của cuộc cách mạng khoa học công nghệ.",
+    id: "question_1278978_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-33022", "answer-14480", "answer-55292"],
+  },
+  {
+    title:
+      "Từ sau năm 1975 tới nay, sự kiện nào đã đánh dấu bước ngoặt mới cho sự phát triển của lịch sử dân tộc Việt Nam?",
+    options: [
+      "Đường lối đổi mới của Đảng năm 1986.",
+      "Xây dựng và phát triển đất nước.",
+      "Đẩy mạnh công nghiệp hóa, hiện đại hóa.",
+      "Xây dựng và bảo vệ Tổ quốc.",
+    ],
+    answer: "Đường lối đổi mới của Đảng năm 1986.",
+    id: "question_1278977_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-21296"],
+  },
+  {
+    title:
+      "Nguyện vọng, tình cảm thiêng liêng của nhân dân hai miền Nam – Bắc Việt Nam sau đại thắng mùa Xuân 1975 là:",
+    options: [
+      "Công nghiệp hóa, hiện đại hóa đất nước.",
+      "Sớm được sum họp trong một đại gia đình.",
+      "Đánh thắng hoàn toàn giặc Mĩ xâm lược.",
+      "Xây dựng thành công xã hội chủ nghĩa.",
+    ],
+    answer: "Sớm được sum họp trong một đại gia đình.",
+    id: "question_1278968_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-43366", "answer-6361", "answer-61439"],
+  },
+  {
+    title:
+      "Nội dung đổi mới về kinh tế ở Việt Nam (12-1986) và Chính sách kinh tế mới (NEP, 1921) ở nước Nga có điểm tương đồng là:",
+    options: [
+      "Ưu tiên phát triển công nghiệp nặng và giao thông vận tải.",
+      "Thay chế độ trưng thu lương thực thừa bằng thuế lương thực.",
+      "Xây dựng nền kinh tế nhiều thành phần có sự quản lý của nhà nước.",
+      "Xây dựng kinh tế thị trường xã hội chủ nghĩa, kiểm soát bằng pháp luật.",
+    ],
+    answer: "Xây dựng nền kinh tế nhiều thành phần có sự quản lý của nhà nước.",
+    id: "question_1278989_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-50057", "answer-87890"],
+  },
+  {
+    title:
+      "Đâu là nhận xét đúng về chủ trương mở rộng, đa dạng hoá và đa phương hoá quan hệ đối ngoại của Đảng?",
+    options: [
+      "Là chủ trương phù hợp, kịp thời lần đầu tiên được đưa ra ở đại hôi Đảng lần thứ V (3-1982).",
+      "Là chủ trương xuyên xuốt, kịp thời lần đầu tiên được đưa ra ở đại hôi Đảng lần thứ VIII (7-1996).",
+      "Là chủ trương đúng đắn, kịp thời của Đảng được đưa ra lần đầu tiên ở đại hội VI (12-1986).",
+      "Là chủ trương quan trọng lần đầu tiên được đưa ra tại đại hội VII (6/1991).",
+    ],
+    answer:
+      "Là chủ trương đúng đắn, kịp thời của Đảng được đưa ra lần đầu tiên ở đại hội VI (12-1986).",
+    id: "question_1278996_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-46879",
+      "answer-93785",
+      "answer-4934",
+      "answer-26781",
+    ],
+  },
+  {
+    title:
+      "“Đoàn kết – Dân chủ – Kỷ cương – Sáng tạo – Phát triển” là gì của Đại hội XIII của Đảng?",
+    options: [
+      "Mục tiêu chỉ đạo của Đại hội Đảng XIII.",
+      "Chủ đề của Đại hội Đảng lần thứ XIII.",
+      "Phương châm chỉ đạo của Đại hội Đảng XIII.",
+      "Quan điểm chỉ đạo của Đại hội Đảng XIII.",
+    ],
+    answer: "Phương châm chỉ đạo của Đại hội Đảng XIII.",
+    id: "question_1278994_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-11459", "answer-12456"],
+  },
+  {
+    title:
+      "Đâu là điểm chung trong quyết định của Quốc hội khóa VI và Quốc Hội khóa I?",
+    options: [
+      "Thành lập Quân đội Quốc gia Việt Nam.",
+      "Thành lập chính phủ Liên Hiệp kháng chiến.",
+      "Bầu Ban dự thảo Hiến pháp.",
+      "Lấy tên nước là Cộng hòa xã hội chủ nghĩa Việt Nam.",
+    ],
+    answer: "Bầu Ban dự thảo Hiến pháp.",
+    id: "question_1278987_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-5836",
+      "answer-41568",
+      "answer-16643",
+      "answer-51886",
+    ],
+  },
+  {
+    title: "Khoán 100 đã ra đời sau bước đột phát nào của Đảng về kinh tế?",
+    options: [
+      "Bước đột phá đầu tiên về đổi mới kinh tế của Đảng (8/1979).",
+      "Bước đột phá thứ ba về đổi mới kinh tế của Đảng (8/1986).",
+      "Bước đột phá thứ hai về đổi mới kinh tế của Đảng (6/1985).",
+      "Bước đột phá thứ tư về đổi mới kinh tế của Đảng (6/1987).",
+    ],
+    answer: "Bước đột phá đầu tiên về đổi mới kinh tế của Đảng (8/1979).",
+    id: "question_1278997_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-49530"],
+  },
+  {
+    title: "Đâu là nhận xét đúng về Cương lĩnh 2011 của Đảng?",
+    options: [
+      "Là Cương lĩnh đầu tiên của Đảng kể từ năm 1930.",
+      "Là Cương lĩnh hoàn thiện về lý luận về đường lối đổi mới.",
+      "Là Cương lĩnh khởi xướng đường lối đổi mới.",
+      "Là Cương lĩnh đề ra chủ trương công nghiệp hóa.",
+    ],
+    answer: "Là Cương lĩnh hoàn thiện về lý luận về đường lối đổi mới.",
+    id: "question_1278998_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-68115", "answer-49216"],
+  },
+  {
+    title:
+      "Nhận định nào đúng về ý nghĩa của Đại hội đại biểu toàn quốc lần thứ VI của Đảng cộng sản Việt Nam (12/1986)?",
+    options: [
+      "Chuẩn bị những tiền đề cần thiết để Đảng đề ra đường lối đổi mới.",
+      "Bước đầu đưa đất nước phát triển theo con đường xã hội chủ nghĩa.",
+      "Mở ra một bước ngoặt trên con đường quá độ lên chủ nghĩa xã hội.",
+      "Đưa đất nước vào thời kì đẩy mạnh công nghiệp hóa- hiện đại hóa đất nước.",
+    ],
+    answer: "Mở ra một bước ngoặt trên con đường quá độ lên chủ nghĩa xã hội.",
+    id: "question_1279002_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-44678",
+      "answer-94127",
+      "answer-6536",
+      "answer-48303",
+    ],
+  },
+  {
+    title:
+      "Sau ngày đất nước thống nhất 1975, các kì Đại hội Đảng sẽ được tổ chức ở đâu?",
+    options: ["Đà Nẵng.", "Thành phố Hồ Chí Minh.", "Hải Phòng.", "Hà Nội."],
+    answer: "Hà Nội.",
+    id: "question_1278964_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-74358",
+      "answer-23481",
+      "answer-82852",
+      "answer-71556",
+    ],
+  },
+  {
+    title: "Đại hội nào coi nông nghiệp là mặt trận hàng đầu?",
+    options: [
+      "Đại hội đại biểu toàn quốc lần thứ IV (12-1976).",
+      "Đại hội đại biểu toàn quốc lần thứ VI (12-1986).",
+      "Đại hội đại biểu toàn quốc lần thứ VII (6-1991).",
+      "Đại hội đại biểu toàn quốc lần thứ V (3-1981).",
+    ],
+    answer: "Đại hội đại biểu toàn quốc lần thứ V (3-1981).",
+    id: "question_1278962_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-62071", "answer-3141", "answer-49666"],
+  },
+  {
+    title:
+      "Trong đường lối đổi mới đất nước (12-1986), Đảng Cộng sản Việt Nam xác định trọng tâm của công cuộc đổi mới là:",
+    options: ["Kinh tế.", "Văn hóa.", "Tư tưởng.", "Chính trị."],
+    answer: "Kinh tế.",
+    id: "question_1278953_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-6682"],
+  },
+  {
+    title:
+      "Sự kiện nào đánh dấu công cuộc thống nhất đất nước về mặt nhà nước đã hoàn thành?",
+    options: [
+      "Đại hội đại biểu toàn quốc lần thứ IV (1976).",
+      "Cuộc Tổng tuyển cử bầu Quốc hội chung (1976).",
+      "Kì họp đầu tiên Quốc hội khóa VI (1976).",
+      "Hội nghị Hiệp thương chính trị thống nhất đất nước (1975).",
+    ],
+    answer: "Kì họp đầu tiên Quốc hội khóa VI (1976).",
+    id: "question_1278950_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-29397", "answer-29710"],
+  },
+  {
+    title:
+      "Hội nghị Hiệp thương chính trị thống nhất đất nước được tổ chức tại Sài Gòn (11-1975) đã:",
+    options: [
+      "Bầu các cơ quan lãnh đạo cao nhất, Ban dự thảo Hiến pháp.",
+      "Thông qua chính sách đối nội, đối ngoại của nước Việt Nam thống nhất.",
+      "Quyết định đặt tên nước là Cộng hòa xã hội chủ nghĩa Việt Nam",
+      "Nhất trí hoàn toàn các chủ trương, biện pháp thống nhất đất nước về mặt nhà nước.",
+    ],
+    answer:
+      "Nhất trí hoàn toàn các chủ trương, biện pháp thống nhất đất nước về mặt nhà nước.",
+    id: "question_1278948_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-75905", "answer-3894", "answer-29192"],
+  },
+  {
+    title:
+      "Sau khi cuộc kháng chiến chống Mĩ cứu nước kết thúc, yếu tố nào còn tồn tại trái với nguyện vọng, tình cảm thiêng liêng của nhân dân Việt Nam?",
+    options: [
+      "Mỗi miền đất nước vẫn tồn tại hình thức tổ chức nhà nước khác nhau.",
+      "Đất nước chưa thống nhất về mặt lãnh thổ, tiềm lực quốc gia còn yếu.",
+      "Mĩ không trao trả tù binh bị bắt, không hàn gắn vết thương chiến tranh.",
+      "Nền kinh tế phát triển không cân đối, lệ thuộc vào viện trợ của nước ngoài.",
+    ],
+    answer:
+      "Mỗi miền đất nước vẫn tồn tại hình thức tổ chức nhà nước khác nhau.",
+    id: "question_1278985_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-51932"],
+  },
+  {
+    title:
+      "Cho các dữ liệu sau:\n\n1. Hội nghị lần thứ 24 của Đảng đề ra nhiệm vụ hoàn thành thống nhất đất nước về mặt nhà nước.\n\n2. Hội nghị Hiệp thương chính trị thống nhất đất nước tổ chức tại Sài Gòn.\n\n3. Quốc hội khóa VI nước Việt Nam thống nhất họp kì đầu tiên tại Hà Nội.\n\nSắp xếp các dữ liệu theo thứ tự thời gian thể hiện quá trình thống nhất đất nước về mặt nhà nước.”",
+    options: ["3,1,2.", "2,3,1.", "2,1,3.", "1,2,3."],
+    answer: "1,2,3.",
+    id: "question_1278984_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-5035", "answer-4230"],
+  },
+  {
+    title:
+      "Một trong những quan điểm được đề ra trong Chiến lược phát triển kinh tế - xã hội 2011 - 2020?",
+    options: [
+      "Phát triển nhanh gắn liền với phát triển bền vững, phát triển bền vững là yêu cầu xuyên suốt trong Chiến lược.",
+      "Tăng đầu tư của Nhà nước, đồng thời đẩy mạnh huy động các nguồn lực của xã hội để phát triển văn hoá, xã hội.",
+      "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa, trọng tâm là tạo lập môi trường cạnh tranh bình đẳng và cải cách hành chính.",
+      "Phát huy dân chủ, khơi dậy sức mạnh tổng hợp của toàn dân tộc, kết hợp sức mạnh dân tộc với sức mạnh thời đại.",
+    ],
+    answer:
+      "Phát triển nhanh gắn liền với phát triển bền vững, phát triển bền vững là yêu cầu xuyên suốt trong Chiến lược.",
+    id: "question_1278983_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-77447"],
+  },
+  {
+    title:
+      "Phát biểu nào sau đây không đúng về đường lối đổi mới trên lĩnh vực chính trị:",
+    options: [
+      "Thực hiện chính sách đối ngoại hòa bình, hữu nghị, hợp tác.",
+      "Xây dựng Nhà nước pháp quyền xã hội chủ nghĩa.",
+      "Mở rộng quan hệ kinh tế đối ngoại với tất cả các quốc gia.",
+      "Thực hiện chính sách đoàn kết kết dân tộc, đoàn kết quốc tế.",
+    ],
+    answer: "Mở rộng quan hệ kinh tế đối ngoại với tất cả các quốc gia.",
+    id: "question_1278981_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-38462", "answer-43855", "answer-4295"],
+  },
+  {
+    title:
+      "Tình hình thế giới và trong nước những năm 80 của thế kỉ XX đã đặt ra yêu cầu cấp bách nào đối với Việt Nam?",
+    options: [
+      "Hoàn thành công nghiệp hóa, hiện đại hóa đất nước.",
+      "Tiến hành công cuộc đổi mới toàn diện.",
+      "Hoàn thành tập thể hóa nông nghiệp.",
+      "Tập trung phát triển công nghiệp nặng.",
+    ],
+    answer: "Tiến hành công cuộc đổi mới toàn diện.",
+    id: "question_1278979_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-95972", "answer-16529", "answer-77892"],
+  },
+  {
+    title:
+      "Nội dung nào không nằm trong đường lối đổi mới về kinh tế của Đảng Cộng sản Việt Nam từ Đại hôi VI (12/1986).",
+    options: [
+      "Ưu tiên đầu tư phát triển công nghiệp nặng.",
+      "Xây dựng nền kinh tế với cơ cấu nhiều quy mô.",
+      "Mở rộng và phát triển quan hệ kinh tế đối ngoại.",
+      "Hình thành kinh tế thị trường định hướng XHCN.",
+    ],
+    answer: "Ưu tiên đầu tư phát triển công nghiệp nặng.",
+    id: "question_1278976_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-54375"],
+  },
+  {
+    title:
+      "Thành tựu nổi bật về lương thực-thực phẩm trong kế hoạch Nhà nước 5 năm 1986-1990 ở Việt Nam là gì?",
+    options: [
+      "Hàng hóa trên thị trường dồi dào, đa dạng.",
+      "Nhiều mặt hành có giá trị xuất khẩu lớn.",
+      "Đáp ứng nhu cầu trong nước, có dự trữ và xuất khẩu.",
+      "Bước đầu hình thành nền kinh tế nhiều thành phần.",
+    ],
+    answer: "Đáp ứng nhu cầu trong nước, có dự trữ và xuất khẩu.",
+    id: "question_1278988_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-81188", "answer-58382"],
+  },
+  {
+    title:
+      "Đại hội XIII nhận định chung về tình hình đất nước sau 35 năm đổi mới:",
+    options: [
+      "Đất nước ta chưa bao giờ có cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay.",
+      "Đất nước ta chưa bao giờ có cơ đồ, tiềm lực và uy tín quốc tế như ngày nay.",
+      "Đất nước ta chưa bao giờ có cơ đồ, vị thế và uy tín quốc tế như ngày nay.",
+      "Đất nước ta chưa bao giờ có cơ đồ, vị thế, tiềm lực và uy tín quốc tế như ngày nay.",
+    ],
+    answer:
+      "Đất nước ta chưa bao giờ có cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay.",
+    id: "question_1278999_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-72175"],
+  },
+  {
+    title:
+      "“Việt Nam là bạn, đối tác tin cậy của các nước trong cộng đồng quốc tế, tham gia tích cực vào tiến trình hợp tác quốc tế và khu vực” là chủ trương của đại hôi X trên lĩnh vực nào?",
+    options: ["Chính trị.", "Kinh tế.", "Đối ngoại.", "Văn hóa."],
+    answer: "Đối ngoại.",
+    id: "question_1278974_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-47587", "answer-78033", "answer-4515"],
+  },
+  {
+    title:
+      "Nhận định nào đúng về Đại hội đại biểu toàn quốc lần thứ VI của Đảng?",
+    options: [
+      "Đại hội khởi xướng đường lối đổi mới toàn diện, đánh dấu bước phát triển mới trong thời kỳ quá độ lên chủ nghĩa xã hội.",
+      "Đại hội của trí tuệ - đổi mới, dân chủ - kỷ cương - đoàn kết trách nhiệm trong mọi lĩnh vực.",
+      "Đại hội toàn thắng của sự nghiệp giải phóng dân tộc, thống nhất Tổ quốc, đưa cả nước tiến lên CNXH.",
+      "Đại hội có bước phát triển nhận thức mới, các bước đột phá tiếp tục đổi mới về kinh tế.",
+    ],
+    answer:
+      "Đại hội khởi xướng đường lối đổi mới toàn diện, đánh dấu bước phát triển mới trong thời kỳ quá độ lên chủ nghĩa xã hội.",
+    id: "question_1278995_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-48156"],
+  },
+  {
+    title:
+      "Tinh thần gì được phát huy qua hai cuộc Tổng tuyển cử bầu Quốc hội năm 1946 và 1976?",
+    options: [
+      "Đoàn kết với Lào và Campuchia.",
+      "Tinh thần đại đoàn kết dân tộc.",
+      "Tinh thần đoàn kết quốc tế vô sản.",
+      "Yêu nước chống ngoại xâm.",
+    ],
+    answer: "Tinh thần đại đoàn kết dân tộc.",
+    id: "question_1278990_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-79399", "answer-22497", "answer-74328"],
+  },
+  {
+    title:
+      "Khẩu hiệu “Đoàn kết - Dân chủ - Kỉ cương - Đổi mới” lần đầu tiên xuất hiện tại:",
+    options: [
+      "Đại hội đại biểu toàn quốc lần thứ XII.",
+      "Đại hội đại biểu toàn quốc lần thứ XIII.",
+      "Đại hội đại biểu toàn quốc lần thứ XI.",
+      "Đại hội đại biểu toàn quốc lần thứ X.",
+    ],
+    answer: "Đại hội đại biểu toàn quốc lần thứ XII.",
+    id: "question_1278965_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-36564"],
+  },
+  {
+    title: "Nội dung của Ba chương trình kinh tế lớn từ năm 1986 là:",
+    options: [
+      "Lương thực - thực phẩm, hàng tiêu dùng và máy móc.",
+      "Máy móc, lương thực - thực phẩm và hàng xuất khẩu.",
+      "Lương thực - thực phẩm, hàng tiêu dùng và hàng xuất khẩu.",
+      "Hàng hóa tiêu dùng, hàng xuất khẩu và máy móc.",
+    ],
+    answer: "Lương thực - thực phẩm, hàng tiêu dùng và hàng xuất khẩu.",
+    id: "question_1278954_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-56530",
+      "answer-14856",
+      "answer-81075",
+      "answer-12863",
+    ],
+  },
+  {
+    title:
+      "Văn kiện Đại hội XIII định hướng bảo vệ Tổ quốc giai đoạn 2021-2030 như thế nào?",
+    options: [
+      "Kiên quyết, kiên trì bảo vệ vững chắc độc lập, chủ quyền vùng trời, vùng biển của Tổ quốc.",
+      "Kiên quyết, kiên trì bảo vệ vững chắc độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ của Tổ quốc.",
+      "Kiên quyết, kiên trì bảo vệ vững chắc độc lập, tự do của Tổ quốc.",
+      "Kiên quyết, kiên trì bảo vệ vững chắc độc lập, chủ quyền biển đảo của Tổ quốc.",
+    ],
+    answer:
+      "Kiên quyết, kiên trì bảo vệ vững chắc độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ của Tổ quốc.",
+    id: "question_1278992_question_text",
+    isCorrect: true,
+    answerSelect: [
+      "answer-86682",
+      "answer-25401",
+      "answer-33061",
+      "answer-81630",
+    ],
+  },
+  {
+    title:
+      "Trong 15 năm (1986-2000) thực hiện đường lối đổi mới, những thành tựu về kinh tế- xã hội mà người Việt Nam đạt được có ý nghĩa như thế nào?",
+    options: [
+      "Củng cố vững chắc độc lập dân tộc và chế độ xã hội chủ nghĩa.",
+      "Đưa Việt Nam tham gia nhanh chóng vào xu thế trật tự đa cực.",
+      "Góp phần chấm dứt mưu đồ chống phá của các thế lực thù địch.",
+      "Định hướng con đường phát triển cho các quốc gia trên thế giới.",
+    ],
+    answer: "Củng cố vững chắc độc lập dân tộc và chế độ xã hội chủ nghĩa.",
+    id: "question_1278991_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-67568"],
+  },
+  {
+    title:
+      "Vấn đề hoàn thành thống nhất đất nước về mặt Nhà nước ở Việt Nam sau đại thắng mùa Xuân 1975 trở nên cấp thiết do:",
+    options: [
+      "Yêu cầu của cuộc đấu tranh chống tập đoàn Pôn - Pốt.",
+      "Yêu cầu của sự nghiệp xây dựng và bảo vệ Tổ quốc.",
+      "Ranh giới chia cắt hai miền đất nước chưa bị xóa bỏ.",
+      "Mĩ can thiệp vào công việc nội bộ của hai miền.",
+    ],
+    answer: "Yêu cầu của cuộc đấu tranh chống tập đoàn Pôn - Pốt.",
+    id: "question_1279000_question_text",
+    isCorrect: false,
+    answerSelect: ["answer-39778", "answer-93263"],
+  },
+  {
+    title:
+      "Phát biểu ý kiến của anh (chị) về nhận định sau: “thống nhất đất nước vừa là nguyện vọng tha thiết bậc nhất của nhân dân, vừa là quy luật khách quan của lịch sử Việt Nam”?",
+    options: [
+      "Sai, vì thực tế có hàng loạt người dân miền Nam đã di cư ra nước ngoài do không muốn thống nhất đất nước.",
+      "Đúng, vì thống nhất đất nước là nguyện vọng của những người lãnh đạo miền Bắc Việt Nam.",
+      "Đúng, vì thực tế lịch sử Việt Nam đã chứng minh quy luật thống nhất là đúng và đa số người dân đều ủng hộ thống nhất khi 98,8% cử tri đi bỏ phiếu.",
+      "Đúng, vì đều tiến hành sau thắng lợi của cuộc đấu tranh chống ngoại xâm.",
+    ],
+    answer:
+      "Đúng, vì thực tế lịch sử Việt Nam đã chứng minh quy luật thống nhất là đúng và đa số người dân đều ủng hộ thống nhất khi 98,8% cử tri đi bỏ phiếu.",
+    id: "question_1279003_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-57673", "answer-9184", "answer-18975"],
+  },
+  {
+    title:
+      "Về công tác xây dựng Đảng nhiệm kỳ 2021 – 2026, Nghị quyết Đại hội XIII của Đảng xác định có bao nhiêu nhiệm vụ trọng tâm và giải pháp đột phá?",
+    options: [
+      "4 nhiệm vụ trọng tâm và 4 giải pháp đột phá.",
+      "4 nhiệm vụ trọng tâm và 3 giải pháp đột phá.",
+      "3 nhiệm vụ trọng tâm và 4 giải pháp đột phá.",
+      "3 nhiệm vụ trọng tâm và 3 giải pháp đột phá.",
+    ],
+    answer: "4 nhiệm vụ trọng tâm và 4 giải pháp đột phá.",
+    id: "question_1278993_question_text",
+    isCorrect: false,
+    answerSelect: ["answer-90884", "answer-57804", "answer-2109"],
+  },
+  {
+    title:
+      "So với Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam (1991), Cương lĩnh bổ sung phát triển năm 2011 nêu thêm đặc trưng của chủ nghĩa xã hội mà nhân dân Việt Nam xây dựng là:",
+    options: [
+      "có nền văn hóa tiên tiến và đậm đà bản sắc dân tộc.",
+      "do nhân dân lao động làm chủ và có kinh tế phát triển.",
+      "dân giàu, nước mạnh, dân chủ, công bằng, văn minh.",
+      "có quan hệ hữu nghị hợp tác với các nước trên thế giới.",
+    ],
+    answer: "có nền văn hóa tiên tiến và đậm đà bản sắc dân tộc.",
+    id: "question_1279004_question_text",
+    isCorrect: false,
+    answerSelect: ["answer-22858", "answer-49066"],
+  },
+  {
+    title:
+      "Bài học kinh nghiệm lớn nhất được rút ra từ thắng lợi của cuộc Tổng tuyển cử bầu Quốc hội khóa I và khóa VI ở nước ta là gì?",
+    options: [
+      "Phát huy quyền làm chủ nhân dân, không ngừng chăm lo, bồi dưỡng sức dân.",
+      "Tăng cường xây dựng, nâng cao sức chiến đấu của Đảng.",
+      "Không ngừng xây dựng, củng cố chính quyền nhân dân các cấp.",
+      "Đẩy mạnh công tác tuyên truyền, giáo dục tư tưởng chính trị cho nhân dân.",
+    ],
+    answer:
+      "Phát huy quyền làm chủ nhân dân, không ngừng chăm lo, bồi dưỡng sức dân.",
+    id: "question_1279001_question_text",
+    isCorrect: true,
+    answerSelect: ["answer-47953"],
+  },
 ]
   .filter((qus) => {
     if (newMap.has(qus.id)) return false;
