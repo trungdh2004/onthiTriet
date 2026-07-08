@@ -1,0 +1,1123 @@
+export const questions2 = [
+  {
+    title: "Quản trị nhân lực là….",
+    options: [
+      "xây dựng, phát triển, sử dụng, đánh giá, bảo toàn và giữ gìn một lực lượng lao động phù hợp của tổ chức",
+      "việc tuyển dụng, duy trì, phát triển, sử dụng, động viên và đánh giá kết quả thực hiện công việc của các thành viên trong tổ chức",
+      "nghệ thuật lãnh đạo, nghệ thuật chỉ huy, nghệ thuật làm việc với con người",
+      "Tất cả các hoạt động nhằm thu hút, tuyển dụng, đào tạo, phát triển, sử dụng, đánh giá, bảo toàn và gìn giữ lực lượng lao động hợp lý về số lượng và chất lượng của một tổ chức, doanh nghiệp.",
+    ],
+    answer:
+      "Tất cả các hoạt động nhằm thu hút, tuyển dụng, đào tạo, phát triển, sử dụng, đánh giá, bảo toàn và gìn giữ lực lượng lao động hợp lý về số lượng và chất lượng của một tổ chức, doanh nghiệp.",
+    id: "7f8b9c0d-1e2f-4a5b-6c7d-8e9f0a1b2c3d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Nhân lực được hiểu là",
+    options: [
+      "Nguồn lực của con người trong tổ chức bao gồm thể lực, trí lực và tâm lực.",
+      "Số lượng người lao động tham gia trên thị trường lao động",
+      "Nguồn lực của con người trên thị trường lao động bao gồm thể lực, trí lực và tâm lực",
+      "Chất lượng của đội ngũ lao động",
+    ],
+    answer:
+      "Nguồn lực của con người trong tổ chức bao gồm thể lực, trí lực và tâm lực.",
+    id: "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Đối tượng của quản trị nhân lực là….",
+    options: [
+      "Người lao động trong tổ chức",
+      "Chỉ bao gồm những người lãnh đạo cấp cao trong tổ chức",
+      "Chỉ bao gồm những nhân viên cấp dưới",
+      "Người lao động trong tổ chức và các vấn đề liên quan đến họ.",
+    ],
+    answer: "Người lao động trong tổ chức và các vấn đề liên quan đến họ.",
+    id: "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Trí lực được hiểu là:",
+    options: [
+      "Yếu tố phản ánh nhận thức, tư duy và khả năng về trí tuệ giúp con người nắm bắt được tri thức và công nghệ",
+      "Trí thông minh của người lao động được sử dụng trong công việc;",
+      "Trình độ tay nghề của người lao động trong tổ chức",
+      "Trình độ chuyên môn của bộ phận lãnh đạo doanh nghiệp, tổ chức",
+    ],
+    answer:
+      "Yếu tố phản ánh nhận thức, tư duy và khả năng về trí tuệ giúp con người nắm bắt được tri thức và công nghệ",
+    id: "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Thể lực của người lao động phụ thuộc vào:",
+    options: [
+      "Độ tuổi, thời gian công tác và giới tính của người lao động",
+      "Độ tuổi của người lao động",
+      "Thâm niên làm việc của người lao động",
+      "Giới tính của người lao động",
+    ],
+    answer: "Độ tuổi, thời gian công tác và giới tính của người lao động",
+    id: "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Chức năng của quản trị nhân lực bao gồm:",
+    options: [
+      "Nhóm chức năng hình thành nguồn nhân lực",
+      "Nhóm chức năng đào tạo và phát triển",
+      "Nhóm chức năng duy trì nguồn nhân lực",
+      "Nhóm chức năng hình thành, chức năng đào tạo và phát triển, chức năng duy trì nguồn nhân lực",
+    ],
+    answer:
+      "Nhóm chức năng hình thành, chức năng đào tạo và phát triển, chức năng duy trì nguồn nhân lực",
+    id: "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Chức năng của quản trị nhân lực bao gồm, ngoại trừ:",
+    options: [
+      "Nhóm chức năng hình thành nguồn nhân lực",
+      "Nhóm chức năng đào tạo và phát triển",
+      "Nhóm chức năng duy trì nguồn nhân lực",
+      "Nhóm chức năng kiểm soát nguồn nhân lực",
+    ],
+    answer: "Nhóm chức năng kiểm soát nguồn nhân lực",
+    id: "f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Đâu không phải là chức năng của quản trị nhân lực:",
+    options: [
+      "Nhóm chức năng duy trì nguồn nhân lực",
+      "Nhóm chức năng đào tạo và phát triển",
+      "Chức năng hình thành nguồn nhân lực",
+      "Lập kế hoạch kinh doanh của doanh nghiệp",
+    ],
+    answer: "Lập kế hoạch kinh doanh của doanh nghiệp",
+    id: "a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Chức năng hình thành nguồn nhân lực bao gồm các hoạt động:",
+    options: [
+      "Phân tích và thiết kế công việc; lập kế hoạch tuyển dụng nhân lực",
+      "Tuyển dụng nhân lực, thiết kế công việc",
+      "Thiết kế công việc, phân tích công việc, lập kế hoạch nhân lực và tuyển dụng nhân lực",
+      "Phân tích công việc",
+    ],
+    answer:
+      "Thiết kế công việc, phân tích công việc, lập kế hoạch nhân lực và tuyển dụng nhân lực",
+    id: "b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Nhóm chức năng nào chú trọng vấn đề đảm bảo có đủ số lượng nhân viên với các phẩm chất phù hợp với công việc?",
+    options: [
+      "Nhóm chức năng thu hút nguồn nhân lực",
+      "Nhóm chức năng đào tạo và phát triển",
+      "Nhóm chức năng duy trì nguồn nhân lực",
+      "Nhóm chức năng bảo đảm công việc",
+    ],
+    answer: "Nhóm chức năng thu hút nguồn nhân lực",
+    id: "c9d0e1f2-a3b4-5c6d-7e8f-9a0b1c2d3e4f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Các hoạt động như phỏng vấn, trắc nghiệm trong quá trình tuyển dụng nhân viên thuộc chức năng nào của quản trị nhân lực?",
+    options: [
+      "Nhóm chức năng hình thành nguồn nhân lực",
+      "Nhóm chức năng đào tạo và phát triển",
+      "Nhóm chức năng duy trì nguồn nhân lực",
+      "Nhóm chức năng về tuyển dụng nhân viên",
+    ],
+    answer: "Nhóm chức năng hình thành nguồn nhân lực",
+    id: "d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Nhóm chức năng nào chú trọng nâng cao năng lực của nhân viên, đảm bảo cho nhân viên trong doanh nghiệp có các kỹ năng, trình độ nghề nghiệp cần thiết?",
+    options: [
+      "Nhóm chức năng hình thành nguồn nhân lực",
+      "Nhóm chức năng đào tạo và phát triển",
+      "Nhóm chức năng duy trì nguồn nhân lực",
+      "Nhóm chức năng đánh giá thực hiện công việc",
+    ],
+    answer: "Nhóm chức năng đào tạo và phát triển",
+    id: "e1f2a3b4-c5d6-7e8f-9a0b-1c2d3e4f5a6b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Doanh nghiệp kích thích và động viên nhân viên thuộc nhóm chức năng nào của quản trị nhân lực?",
+    options: [
+      "Nhóm chức năng thu hút nguồn nhân lực",
+      "Nhóm chức năng đào tạo và phát triển",
+      "Nhóm chức năng duy trì nguồn nhân lực",
+      "Nhóm chức năng mối quan hệ lao động",
+    ],
+    answer: "Nhóm chức năng duy trì nguồn nhân lực",
+    id: "f2a3b4c5-d6e7-8f9a-0b1c-2d3e4f5a6b7c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Thuyết X nhìn nhận con người như thế nào?",
+    options: [
+      "Lười biếng là bản tính của con người",
+      "Con người thiếu chí tiến thủ, không dám gánh vác trách nhiệm",
+      "Bản tính con người là chống lại sự đổi mới",
+      "Bản tính con người là chống lại sự đổi mới, con người thiếu chí tiến thủ, không dám gánh vác trách nhiệm, lười biếng là bản tính của con người",
+    ],
+    answer:
+      "Bản tính con người là chống lại sự đổi mới, con người thiếu chí tiến thủ, không dám gánh vác trách nhiệm, lười biếng là bản tính của con người",
+    id: "a3b4c5d6-e7f8-9a0b-1c2d-3e4f5a6b7c8d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Phương pháp quản lý con người theo Thuyết X, ngoại trừ:",
+    options: [
+      "Người quản lý cần phải kiểm tra, giám sát chặt chẽ cấp dưới và người lao động.",
+      "Phải để cấp dưới thực hiện một số quyền tự chủ nhất định và tự kiểm soát cá nhân trong quá trình làm việc",
+      "Phân chia công việc thành những phần nhỏ dễ làm, dễ thực hiện, lặp đi lặp lại nhiều lần các thao tác.",
+      "Áp dụng hệ thống trật tự rõ ràng và một chế độ khen thưởng hoặc trừng phạt nghiêm ngặt.",
+    ],
+    answer:
+      "Phải để cấp dưới thực hiện một số quyền tự chủ nhất định và tự kiểm soát cá nhân trong quá trình làm việc",
+    id: "b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Quan điểm của thuyết Y là:",
+    options: [
+      "Bản tính con người là cần cù, chịu khó",
+      "Lao động tri óc, lao động chân tay cũng như nghỉ ngơi, giải trí đều là hiện tượng của con người",
+      "Tiềm năng của con người luôn tiềm ẩn và cần được khia tác",
+      "Tất cả ý kiến trên",
+    ],
+    answer: "Tất cả ý kiến trên",
+    id: "c5d6e7f8-a9b0-1c2d-3e4f-5a6b7c8d9e0f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Đại học Phenikaa tuyển dụng giảng viên có trình độ Tiến sĩ cho khoa Quản trị kinh doanh, trường Kinh tế Phenikaa. Hoạt động này thuộc chức năng nào của quản trị nhân lực?",
+    options: [
+      "Bổ sung thêm đội ngũ giảng viên cho trường",
+      "Nâng chỉ tiêu tuyển sinh của nhà trường",
+      "Chức năng hình thành nhân lực",
+      "Đánh giá kết quả thực hiện công việc của người lao động",
+    ],
+    answer: "Chức năng hình thành nhân lực",
+    id: "d6e7f8a9-b0c1-2d3e-4f5a-6b7c8d9e0f1a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Để tăng thu nhập cho người lao động, Đại học Phenikaa đã ban hành quy chế lương mới áp dụng từ ngày 01/8/2025. Vấn đề này thuộc chức năng nào của quản trị nhân lực:",
+    options: [
+      "Quản trị & chiến lược",
+      "Công cụ & công nghệ",
+      "Chức năng duy trì nguồn nhân lực",
+      "Con người & nhiệm vụ",
+    ],
+    answer: "Chức năng duy trì nguồn nhân lực",
+    id: "e7f8a9b0-c1d2-3e4f-5a6b-7c8d9e0f1a2b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Năm 2025, Đại học Phenikaa tổ chức nhiều khóa đào tạo nội bộ cho cán bộ quản lý, giảng viên, chuyên viên. Hoạt động này thuộc chức năng nào dưới đây:",
+    options: [
+      "Chức năng đánh giá nhân lực",
+      "Chức năng đào tạo và phát triển nhân lực",
+      "Chức năng duy trì nhân lực",
+      "Chức năng đảm bảo nhân lực",
+    ],
+    answer: "Chức năng đào tạo và phát triển nhân lực",
+    id: "f8a9b0c1-d2e3-4f5a-6b7c-8d9e0f1a2b3c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Bệnh viện Phenikaa tiến hành tuyển dụng đội ngũ Bác sĩ, dược sĩ, y tá cho các phòng/ khoa của bệnh viện. Hoạt động này thuộc chức năng nào của quản trị nhân lực?",
+    options: [
+      "Bổ sung thêm đội ngũ giảng viên bệnh viên",
+      "Nâng cao chất lượng khám chữa bệnh",
+      "Chức năng hình thành nhân lực",
+      "Đảm bảo số bác sĩ/ số giường bệnh",
+    ],
+    answer: "Chức năng hình thành nhân lực",
+    id: "a9b0c1d2-e3f4-5a6b-7c8d-9e0f1a2b3c4d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Tập đoàn Phenikaa tuyển dụng vị trí chuyên viên cho các ban thuộc tập đoàn. Hoạt động này thuộc chức năng nào của quản trị nhân lực?",
+    options: [
+      "Bổ sung thêm đội ngũ chuyên viên cho các ban",
+      "Đảm bảo đủ số lượng nhân viên làm việc theo yêu cầu.",
+      "Chức năng hình thành nhân lực",
+      "Đảm bảo công việc của các phòng/ban",
+    ],
+    answer: "Chức năng hình thành nhân lực",
+    id: "b0c1d2e3-f4a5-6b7c-8d9e-0f1a2b3c4d5e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Năm 2025, Đại học Phenikaa bổ nhiệm các vị trí lãnh đạo Đại học, lãnh đạo trường thuộc, lãnh đạo các ban và lãnh đạo các khoa. Hoạt động này thuộc chức năng nào dưới đây:",
+    options: [
+      "Chức năng đánh giá nhân lực",
+      "Chức năng đào tạo và phát triển nhân lực",
+      "Chức năng duy trì nhân lực",
+      "Chức năng đảm bảo nhân lực",
+    ],
+    answer: "Chức năng duy trì nhân lực",
+    id: "c1d2e3f4-a5b6-7c8d-9e0f-1a2b3c4d5e6f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Năm 2025, Đại học Phenikaa tiến hành xét nâng lương trước hạn cho cán bộ quản lý, giảng viên, chuyên viên có thành tích xuất sắc trong công tác. Hoạt động này thuộc chức năng nào dưới đây:",
+    options: [
+      "Chức năng đánh giá nhân lực",
+      "Chức năng đào tạo và phát triển nhân lực",
+      "Chức năng duy trì nhân lực",
+      "Chức năng đảm bảo nhân lực",
+    ],
+    answer: "Chức năng duy trì nhân lực",
+    id: "d2e3f4a5-b6c7-8d9e-0f1a-2b3c4d5e6f7a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Để phục vụ cho công tác tuyển dụng nhân lực giai đoạn 2025-2030, ban tổ chức nhân sự - Đại học Phenikaa tiến hành phân tích công việc các vị trí phát sinh khi tái cấu trúc Đại học. Hoạt động này thuộc chức năng nào?",
+    options: [
+      "Chức năng đánh giá nhân lực",
+      "Chức năng đào tạo và phát triển nhân lực",
+      "Chức năng hình thành nhân lực",
+      "Chức năng đảm bảo nhân lực",
+    ],
+    answer: "Chức năng hình thành nhân lực",
+    id: "e3f4a5b6-c7d8-9e0f-1a2b-3c4d5e6f7a8b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Kế hoạch hóa nguồn nhân lực được hiểu là:",
+    options: [
+      "xây dựng, phát triển, sử dụng, đánh giá, bảo toàn và giữ gìn một lực lượng lao động phù hợp của tổ chức",
+      "Quá trình phân tích, đánh giá nhu cầu nhân lực và triển khai các kế hoạch nhằm đảm bảo tổ chức có đủ nhân lực được bố trí đúng nơi, đúng lúc và đúng chỗ",
+      "Các hoạt động để đánh giá nhu cầu nhân lực của tổ chức",
+      "Tất cả các hoạt động nhằm thu hút, tuyển dụng, đào tạo, phát triển, sử dụng, đánh giá, bảo toàn và gìn giữ lực lượng lao động hợp lý về số lượng và chất lượng của một tổ chức, doanh nghiệp",
+    ],
+    answer:
+      "Quá trình phân tích, đánh giá nhu cầu nhân lực và triển khai các kế hoạch nhằm đảm bảo tổ chức có đủ nhân lực được bố trí đúng nơi, đúng lúc và đúng chỗ",
+    id: "f4a5b6c7-d8e9-0f1a-2b3c-4d5e6f7a8b9c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Kế hoạch hóa nguồn nhân lực nhằm:",
+    options: [
+      "Doanh nghiệp kịp thời phát hiện kịp thời những khó khăn về nhân lực trong tương lại và đưa ra phương án giải quyết để đảm bảo số lượng nhân lực tổ chức cần.",
+      "Tìm ra những người giỏi và tìm cách giữ chân họ",
+      "Thu hút các ứng viên có trình độ cao vào làm việc",
+      "Nâng cao chất lượng của đội ngũ lao động của doanh nghiệp",
+    ],
+    answer:
+      "Doanh nghiệp kịp thời phát hiện kịp thời những khó khăn về nhân lực trong tương lại và đưa ra phương án giải quyết để đảm bảo số lượng nhân lực tổ chức cần.",
+    id: "a5b6c7d8-e9f0-1a2b-3c4d-5e6f7a8b9c0d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Kế hoạch hóa nguồn nhân lực nhằm:",
+    options: [
+      "Giúp doanh nghiệp tận dụng tốt nguồn lực có sẵn, đưa ra phương pháp tuyển dụng kịp thời đảm bảo quy mô và chất lượng lao động.",
+      "Đưa ra chiến lược thu hút nhân lực giỏi vào làm việc.",
+      "Thu hút các ứng viên có trình độ cao vào làm việc",
+      "Nâng cao chất lượng của đội ngũ lao động của doanh nghiệp",
+    ],
+    answer:
+      "Giúp doanh nghiệp tận dụng tốt nguồn lực có sẵn, đưa ra phương pháp tuyển dụng kịp thời đảm bảo quy mô và chất lượng lao động.",
+    id: "b6c7d8e9-f0a1-2b3c-4d5e-6f7a8b9c0d1e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Các yếu tố ảnh hưởng đến cung nhân lực của tổ chức:",
+    options: [
+      "Tình hình di dân",
+      "Nguồn lao động từ nước ngoài về",
+      "Thị trường lao động tại khu vực của doanh nghiệp",
+      "Tình hình di dân, nguồn lao động từ nước ngoài về, Thị trường lao động tại khu vực của doanh nghiệp",
+    ],
+    answer:
+      "Tình hình di dân, nguồn lao động từ nước ngoài về, Thị trường lao động tại khu vực của doanh nghiệp",
+    id: "c7d8e9f0-a1b2-3c4d-5e6f-7a8b9c0d1e2f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Khi hoạch định chính sách quản lý con người cần quan tâm đến những điều gì ?",
+    options: [
+      "Tôn trọng và quý mến người lao động.",
+      "Tạo ra những điều kiện để con người làm việc có năng suất lao động cao, đảm bảo yêu cầu của doanh nghiệp.",
+      "Làm cho con người ngày càng có giá trị trong xã hội.",
+      "Tôn trọng và quý mến người lao động, Tạo ra những điều kiện để con người làm việc có năng suất lao động cao, đảm bảo yêu cầu của doanh nghiệp, làm cho con người ngày càng có giá trị trong xã hội.",
+    ],
+    answer:
+      "Tôn trọng và quý mến người lao động, Tạo ra những điều kiện để con người làm việc có năng suất lao động cao, đảm bảo yêu cầu của doanh nghiệp, làm cho con người ngày càng có giá trị trong xã hội.",
+    id: "d8e9f0a1-b2c3-4d5e-6f7a-8b9c0d1e2f3a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Phương pháp tính theo tiêu chuẩn định biên thích hợp để dự báo cầu nhân lực năm kế hoạch của tổ chức thuộc ngành :",
+    options: [
+      "Cơ khí, dệt may",
+      "Giáo dục, y tế",
+      "Điện tử, viễn thông",
+      "Nông nghiệp, ngân hàng",
+    ],
+    answer: "Giáo dục, y tế",
+    id: "e9f0a1b2-c3d4-4e5f-6a7b-8c9d0e1f2a3b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "“…….” là số lượng và cơ cấu nhân lực cần thiết để hoàn thành số lượng sản phẩm, dịch vụ hoặc khối lượng công việc của tổ chức trong 1 thời kỳ nhất định.",
+    options: [
+      "Hoạch định nguồn nhân lực",
+      "Cung nhân lực",
+      "Cầu nhân lực",
+      "Nhu cầu nhân lực",
+    ],
+    answer: "Cầu nhân lực",
+    id: "f0a1b2c3-d4e5-6a7b-8c9d-0e1f2a3b4c5d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Phương pháp nào không được dùng để dự đoán cầu nhân lực trong ngắn hạn?",
+    options: [
+      "Phương pháp tính theo lượng lao động hao phí.",
+      "Phương pháp phân tích hồi quy tuyến tính.",
+      "Phương pháp tính theo NSLĐ.",
+      "Phương pháp tính theo tiêu chuẩn định biên",
+    ],
+    answer: "Phương pháp phân tích hồi quy tuyến tính.",
+    id: "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Nhu cầu nhân lực là:",
+    options: [
+      "Quy mô và cơ cấu lực lượng lao động cần thiết để thực hiện các nhiệm vụ của tổ chức doanh nghiệp trong khoảng thời gian nhất định.",
+      "Số lượng lao động mà tổ chức cần cho hoạt động kinh doanh.",
+      "Chất lượng đội ngũ lao động mà tổ chức, doanh nghiệp cần sử dụng để đáp ứng yêu cầu sản xuất kinh doanh.",
+      "Trình độ chuyên môn của bộ phận lãnh đạo doanh nghiệp, tổ chức",
+    ],
+    answer:
+      "Quy mô và cơ cấu lực lượng lao động cần thiết để thực hiện các nhiệm vụ của tổ chức doanh nghiệp trong khoảng thời gian nhất định.",
+    id: "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Dự báo cầu nhân lực trong ngắn hạn là:",
+    options: [
+      "Xác định quy mô và cơ cấu lao động cần thiết để thực hiện các nhiệm vụ của tổ chức, doanh nghiệp trong một khoảng thời gian, thường là 1 năm.",
+      "Xác định số lượng đội ngũ công chức, viên chức của đơn vị.",
+      "Xác định độ tuổi và giới tính của lao động trong tổ chức.",
+      "Xác định thâm niên công tác của người lao động trong tổ chức",
+    ],
+    answer:
+      "Xác định quy mô và cơ cấu lao động cần thiết để thực hiện các nhiệm vụ của tổ chức, doanh nghiệp trong một khoảng thời gian, thường là 1 năm.",
+    id: "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Phương pháp dự báo nhu cầu nhân lực ngắn hạn dựa vào định mức lao động được xác định bởi công thức sau:,,Hệ số Tn được hiểu là gì?",
+    options: [
+      "Thời gian để sản xuất ra một đơn vị sản phẩm",
+      "Sản lượng trong kỳ kế hoạch",
+      "Hệ số tăng năng suất lao động",
+      "Thời gian làm việc bình quân của một lao động trong kỳ kế hoạch",
+    ],
+    answer: "Hệ số tăng năng suất lao động",
+    id: "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Phương pháp dự báo nhu cầu nhân lực ngắn hạn dựa vào định mức lao động được xác định bởi công thức sau:,,Hệ số Km được hiểu là gì?",
+    options: [
+      "Thời gian để sản xuất ra một đơn vị sản phẩm",
+      "Sản lượng trong kỳ kế hoạch",
+      "Hệ số tăng năng suất lao động trong kỳ kế hoạch",
+      "Thời gian làm việc bình quân của một lao động trong kỳ kế hoạch",
+    ],
+    answer: "Hệ số tăng năng suất lao động trong kỳ kế hoạch",
+    id: "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "“………….” công việc là quá trình tìm hiểu và đánh giá các yếu tố cấu thành công việc bao gồm các nhiệm vụ, trách nhiệm, quyền hạn và điều kiện cần thiết để thực hiện công việc.",
+    options: ["Thiết kế", "Phân tích", "Lựa chọn", "Huấn luyện"],
+    answer: "Phân tích",
+    id: "f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Phân tích công việc là:",
+    options: [
+      "quá trình tìm hiểu và đánh giá các yếu tố cấu thành công việc bao gồm các nhiệm vụ, trách nhiệm, quyền hạn và điều kiện cần thiết để thực hiện công việc.",
+      "Quá trình đánh giá công việc bao gồm các nhiệm vụ của công việc.",
+      "Quá trình đánh giá công việc bao gồm các trách nhiệm và quyền hạn của công việc",
+      "Quá trình xác định các kỹ năng của người lao động trong tổ chức",
+    ],
+    answer:
+      "quá trình tìm hiểu và đánh giá các yếu tố cấu thành công việc bao gồm các nhiệm vụ, trách nhiệm, quyền hạn và điều kiện cần thiết để thực hiện công việc.",
+    id: "a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Khi nào thì doanh nghiệp tiến hành phân tích công việc:",
+    options: [
+      "Khi tổ chức, doanh nghiệp mới thành lập;",
+      "Khi cần bổ nhiệm người lao động",
+      "Khi cần trả lương người lao động",
+      "Khi cần đánh giá thực hiện công việc",
+    ],
+    answer: "Khi tổ chức, doanh nghiệp mới thành lập;",
+    id: "b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Khi nào thì doanh nghiệp tiến hành phân tích công việc:",
+    options: [
+      "Khi tổ chức, doanh nghiệp mới thành lập;",
+      "Khi xuất hiện công việc mới",
+      "Khi áp dụng công nghệ mới, phương pháp mới",
+      "Khi tổ chức, doanh nghiệp mới thành lập; xuất hiện công việc mới; áp dụng công nghệ mới, phương pháp mới",
+    ],
+    answer:
+      "Khi tổ chức, doanh nghiệp mới thành lập; xuất hiện công việc mới; áp dụng công nghệ mới, phương pháp mới",
+    id: "c9d0e1f2-a3b4-5c6d-7e8f-9a0b1c2d3e4f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Khi nào thì doanh nghiệp tiến hành phân tích công việc:",
+    options: [
+      "Khi tổ chức, doanh nghiệp mới thành lập;",
+      "Khi xuất hiện công việc mới",
+      "Khi áp dụng công nghệ mới, phương pháp mới",
+      "Khi tổ chức, doanh nghiệp cần rà soát chu kỳ hoạt động xuất hiện công việc mới; áp dụng công nghệ mới, phương pháp mới",
+    ],
+    answer:
+      "Khi tổ chức, doanh nghiệp cần rà soát chu kỳ hoạt động xuất hiện công việc mới; áp dụng công nghệ mới, phương pháp mới",
+    id: "d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Khi nào thì doanh nghiệp tiến hành phân tích công việc, ngoại trừ",
+    options: [
+      "Khi tổ chức, doanh nghiệp cần rà soát chu kỳ hoạt động;",
+      "Khi xuất hiện công việc mới",
+      "Khi áp dụng công nghệ mới, phương pháp mới",
+      "Công ty tuyên bố phá sản",
+    ],
+    answer: "Công ty tuyên bố phá sản",
+    id: "e1f2a3b4-c5d6-7e8f-9a0b-1c2d3e4f5a6b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Quy trình phân tích công việc gồm có mấy bước:",
+    options: ["4", "5", "6", "7"],
+    answer: "6",
+    id: "f2a3b4c5-d6e7-8f9a-0b1c-2d3e4f5a6b7c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Bước thứ 1 của quy trình phân tích công việc là:",
+    options: [
+      "Xác định mục đích sử dụng thông tin",
+      "Đánh giá công việc",
+      "Xác định giá trị công việc",
+      "Thiết kế công việc",
+    ],
+    answer: "Xác định mục đích sử dụng thông tin",
+    id: "a3b4c5d6-e7f8-9a0b-1c2d-3e4f5a6b7c8d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Bước thứ 2 của quy trình phân tích công việc là:",
+    options: [
+      "Xác định mục đích sử dụng thông tin",
+      "Thu thập các thông tin cơ bản",
+      "Xác định giá trị công việc",
+      "Xây dựng bản mô tả công việc",
+    ],
+    answer: "Thu thập các thông tin cơ bản",
+    id: "b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Bước thứ 3 của quy trình phân tích công việc là:",
+    options: [
+      "Xác định mục đích sử dụng thông tin",
+      "Thu thập các thông tin cơ bản",
+      "Chọn lựa các vị trí đặc trưng",
+      "Xây dựng bản mô tả công việc",
+    ],
+    answer: "Chọn lựa các vị trí đặc trưng",
+    id: "c5d6e7f8-a9b0-1c2d-3e4f-5a6b7c8d9e0f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Bước thứ 4 của quy trình phân tích công việc là:",
+    options: [
+      "Thu thập thông tin phân tích công việc",
+      "Thu thập các thông tin cơ bản",
+      "Chọn lựa các vị trí đặc trưng",
+      "Xây dựng bản mô tả công việc",
+    ],
+    answer: "Thu thập thông tin phân tích công việc",
+    id: "d6e7f8a9-b0c1-2d3e-4f5a-6b7c8d9e0f1a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Tuyển mộ nhân lực là:",
+    options: [
+      "Quá trình thu hút những người xin việc có trình độ từ lực lượng lao động xã hội",
+      "Quá trình thu hút những người xin việc từ lực lượng lao động bên trong tổ chức",
+      "Quá trình thu hút những người xin việc có trình độ từ lực lượng lao động bên ngoài tổ chức",
+      "Quá trình thu hút những người xin việc có trình độ từ các nguồn lao động khác nhau",
+    ],
+    answer:
+      "Quá trình thu hút những người xin việc có trình độ từ các nguồn lao động khác nhau",
+    id: "e7f8a9b0-c1d2-3e4f-5a6b-7c8d9e0f1a2b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Quá trình tuyển mộ chịu tác động của yếu tố nào?",
+    options: [
+      "Không chịu tác động của bất kỳ yếu tố nào",
+      "Yếu tố thuộc về tổ chức",
+      "Yếu tố thuộc về môi trường",
+      "Yếu tố thuộc về tổ chức và yếu tố thuộc về môi trường",
+    ],
+    answer: "Yếu tố thuộc về tổ chức và yếu tố thuộc về môi trường",
+    id: "f8a9b0c1-d2e3-4f5a-6b7c-8d9e0f1a2b3c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Ưu điểm của nguồn nhân lực bên ngoài tổ chức:",
+    options: [
+      "Đây là những người được trang bị những kiến thức tiên tiến và có hệ thống.",
+      "Những người này thường có cách nhìn mới đối với tổ chức.",
+      "Họ có khả năng làm thay đổi cách làm của tổ chức mà không sợ những người trong tổ chức phản ứng.",
+      "Tất cả các phương án trên",
+    ],
+    answer: "Tất cả các phương án trên",
+    id: "a9b0c1d2-e3f4-5a6b-7c8d-9e0f1a2b3c4d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Ưu điểm của nguồn nhân lực bên ngoài tổ chức, ngoại trừ:",
+    options: [
+      "Đây là những người được trang bị những kiến thức tiên tiến và có hệ thống.",
+      "Những người này thường có cách nhìn mới đối với tổ chức.",
+      "Họ có khả năng làm thay đổi cách làm của tổ chức mà không sợ những người trong tổ chức phản ứng.",
+      "Người lao động đã quen với môi trường làm việc của tổ chức.",
+    ],
+    answer: "Người lao động đã quen với môi trường làm việc của tổ chức.",
+    id: "b0c1d2e3-f4a5-6b7c-8d9e-0f1a2b3c4d5e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Tuyển dụng được hiểu là:",
+    options: [
+      "Là buổi gặp gỡ các nhà tuyển chọn với các ứng viên.",
+      "Quá trình thu hút những người xin việc có trình độ từ lực lượng lao động bên ngoài",
+      "Quá trình tìm kiếm, thu hút và sàng lọc, lựa chọn nhân lực phù hợp để thỏa mãn nhu cầu sử dụng và bổ sung lực lượng lao động cần thiết nhằm thực hiện mục tiêu của tổ chức, doanh nghiệp",
+      "Là quá trình thu hút những người xin việc có trình độ từ lực lượng lao động xã hội và lực lượng bên trong tổ chức",
+    ],
+    answer:
+      "Quá trình tìm kiếm, thu hút và sàng lọc, lựa chọn nhân lực phù hợp để thỏa mãn nhu cầu sử dụng và bổ sung lực lượng lao động cần thiết nhằm thực hiện mục tiêu của tổ chức, doanh nghiệp",
+    id: "c1d2e3f4-a5b6-7c8d-9e0f-1a2b3c4d5e6f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Tuyển chọn là:",
+    options: [
+      "Quá trình đánh giá các ứng viên theo nhiều khía cạnh khác nhau.",
+      "Là quá trình thu hút những người xin việc có trình độ từ lực lượng lao động xã hội và lực lượng bên trong tổ chức.",
+      "Là buổi gặp gỡ các nhà tuyển chọn với các ứng viên.",
+      "Là thu thập các thông tin về người xin việc.",
+    ],
+    answer: "Quá trình đánh giá các ứng viên theo nhiều khía cạnh khác nhau.",
+    id: "d2e3f4a5-b6c7-8d9e-0f1a-2b3c4d5e6f7a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Lựa chọn đáp án đúng với vai trò của tuyển dụng nhân lực đối với tổ chức:",
+    options: [
+      "Quyết định nhân sự dựa trên trực giác",
+      "Bổ sung nhân lực cho lãnh đạo doanh nghiệp",
+      "Quyết định nhân sự dựa trên áp lực chi phí",
+      "Bổ sung lực lượng lao động cần thiết cho tổ chức, doanh nghiệp",
+    ],
+    answer: "Bổ sung lực lượng lao động cần thiết cho tổ chức, doanh nghiệp",
+    id: "e3f4a5b6-c7d8-9e0f-1a2b-3c4d5e6f7a8b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Lựa chọn đáp án đúng với vai trò của tuyển dụng nhân lực đối với tổ chức:",
+    options: [
+      "Giúp nhà lãnh đạo ra quyết định hiệu quả",
+      "Tăng cường năng lực cạnh tranh của tổ chức thông qua phát triển và tối ưu hóa nguồn nhân lực",
+      "Quyết định nhân sự dựa trên áp lực chi phí",
+      "Bổ sung lực lượng lao động cần thiết cho tổ chức, doanh nghiệp",
+    ],
+    answer:
+      "Tăng cường năng lực cạnh tranh của tổ chức thông qua phát triển và tối ưu hóa nguồn nhân lực",
+    id: "f4a5b6c7-d8e9-0f1a-2b3c-4d5e6f7a8b9c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Lựa chọn đáp án đúng với vai trò của tuyển dụng nhân lực đối với tổ chức:",
+    options: [
+      "Giúp nhà lãnh đạo ra quyết định hiệu quả",
+      "Thúc đẩy sự phát triển kinh tế và xã hội",
+      "Giúp doanh nghiệp khai thác tối đa hiệu quả nguồn lực của doanh nghiệp",
+      "Tăng chất lượng nguồn nhân lực xã hội.",
+    ],
+    answer:
+      "Giúp doanh nghiệp khai thác tối đa hiệu quả nguồn lực của doanh nghiệp",
+    id: "a5b6c7d8-e9f0-1a2b-3c4d-5e6f7a8b9c0d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Lựa chọn đáp án đúng với vai trò của tuyển dụng nhân lực đối với tổ chức:",
+    options: [
+      "Tạo môi trường làm việc tích cực, thúc đẩy sự phát triển văn hóa doanh nghiệp",
+      "Thúc đẩy sự phát triển kinh tế và xã hội",
+      "Giúp doanh nghiệp khai thác tối đa hiệu quả nguồn lực của doanh nghiệp",
+      "Tăng chất lượng nguồn nhân lực xã hội.",
+    ],
+    answer:
+      "Tạo môi trường làm việc tích cực, thúc đẩy sự phát triển văn hóa doanh nghiệp",
+    id: "b6c7d8e9-f0a1-2b3c-4d5e-6f7a8b9c0d1e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Vai trò của tuyển dụng đối với người lao động là:",
+    options: [
+      "Tạo cho người lao động có cơ hội nghề nghiệp phù hợp với khả năng của bản thân.",
+      "Thúc đẩy sự phát triển kinh tế và xã hội",
+      "Giúp doanh nghiệp khai thác tối đa hiệu quả nguồn lực của doanh nghiệp",
+      "Tăng chất lượng nguồn nhân lực xã hội.",
+    ],
+    answer:
+      "Tạo cho người lao động có cơ hội nghề nghiệp phù hợp với khả năng của bản thân.",
+    id: "c7d8e9f0-a1b2-3c4d-5e6f-7a8b9c0d1e2f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Ưu điểm nguồn tuyển mộ nhân lực từ bên trong tổ chức là:",
+    options: [
+      "Đa dạng hóa đối tượng tuyển dụng",
+      "Người làm việc trên thị trường lao động",
+      "Tình hình phát triển văn hóa xã hội",
+      "Tạo động lực và sự gắn kết của người lao động đối với tổ chức",
+    ],
+    answer: "Tạo động lực và sự gắn kết của người lao động đối với tổ chức",
+    id: "d8e9f0a1-b2c3-4d5e-6f7a-8b9c0d1e2f3a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Hạn chế nguồn tuyển mộ nhân lực từ bên trong tổ chức là:",
+    options: [
+      "Đa dạng hóa đối tượng tuyển dụng",
+      "Người làm việc trên thị trường lao động",
+      "Thiếu sự đổi mới sáng tạo trong tổ chức",
+      "Tạo động lực và sự gắn kết của người lao động đối với tổ chức",
+    ],
+    answer: "Thiếu sự đổi mới sáng tạo trong tổ chức",
+    id: "e9f0a1b2-c3d4-4e5f-6a7b-8c9d0e1f2a3b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Hạn chế nguồn tuyển mộ nhân lực từ bên trong tổ chức là:",
+    options: [
+      "Đa dạng hóa đối tượng tuyển dụng",
+      "Người làm việc trên thị trường lao động",
+      "Thiếu sự thay đổi về quan điểm và phong cách lãnh đạo.",
+      "Tạo động lực và sự gắn kết của người lao động đối với tổ chức",
+    ],
+    answer: "Thiếu sự thay đổi về quan điểm và phong cách lãnh đạo.",
+    id: "f0a1b2c3-d4e5-6a7b-8c9d-0e1f2a3b4c5d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Nguồn tuyển mộ nhân lực từ bên ngoài tổ chức là:",
+    options: [
+      "Người đang bị nhà nước tạm giam, tạm giữ",
+      "Người đang làm việc trên thị trường lao động",
+      "Tình hình phát triển văn hóa xã hội",
+      "Những người đang làm việc trong tổ chức, doanh nghiệp",
+    ],
+    answer: "Người đang làm việc trên thị trường lao động",
+    id: "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Ưu điểm nguồn tuyển mộ nhân lực từ bên ngoài tổ chức là:",
+    options: [
+      "Đa dạng hóa đối tượng tuyển dụng của tổ chức",
+      "Người làm việc trên thị trường lao động",
+      "Tình hình phát triển văn hóa xã hội",
+      "Tạo động lực và sự gắn kết của người lao động đối với tổ chức",
+    ],
+    answer: "Đa dạng hóa đối tượng tuyển dụng của tổ chức",
+    id: "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Ưu điểm nguồn tuyển mộ nhân lực từ bên ngoài tổ chức là:",
+    options: [
+      "Không bị ràng buộc bởi các hạn chế nội bộ doanh nghiệp.",
+      "Người làm việc trên thị trường lao động",
+      "Tình hình phát triển văn hóa xã hội",
+      "Tạo động lực và sự gắn kết của người lao động đối với tổ chức",
+    ],
+    answer: "Không bị ràng buộc bởi các hạn chế nội bộ doanh nghiệp.",
+    id: "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Hạn chế nguồn tuyển mộ nhân lực từ bên ngoài tổ chức là:",
+    options: [
+      "Chi phí tuyển dụng cao",
+      "Người làm việc trên thị trường lao động",
+      "Tình hình phát triển văn hóa xã hội",
+      "Tạo động lực và sự gắn kết của người lao động đối với tổ chức",
+    ],
+    answer: "Chi phí tuyển dụng cao",
+    id: "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Hạn chế nguồn tuyển mộ nhân lực từ bên ngoài tổ chức là:",
+    options: [
+      "Thời gian tuyển dụng dài",
+      "Người làm việc trên thị trường lao động",
+      "Tình hình phát triển văn hóa xã hội",
+      "Tạo động lực và sự gắn kết của người lao động đối với tổ chức",
+    ],
+    answer: "Thời gian tuyển dụng dài",
+    id: "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Tại sao cần phải đào tạo và phát triển nguồn nhân lực?",
+    options: [
+      "Kết quả công việc hiện tại thấp hơn so với mức được thiết lập",
+      "Trang bị cho nhân viên kiến thức, kĩ năng để theo kịp với sự thay đổi công nghệ và thông tin",
+      "Góp phần vào việc thực hiện mục tiêu chiến lược của doanh nghiệp",
+      "Tất cả các câu trên.",
+    ],
+    answer: "Tất cả các câu trên.",
+    id: "f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Phát triển nguồn nhân lực được hiểu là?",
+    options: [
+      "Các hoạt động học tập nhằm giúp người lao động có thể thực hiện có hiệu quả hơn các chức năng và nhiệm vụ của mình.",
+      "Tổng thể các hoạt động học tập có tổ chức được tiến hành trong những khoảng thời gian nhất định nhằm tạo ra sự thay đổi hành vi nghề nghiệp của người lao động.",
+      "Các hoạt động để duy trì và nâng cao chất lượng nguồn nhân lực của tổ chức",
+      "Các hoạt động học tập vượt ra khỏi phạm vi công việc trước mắt của người lao động, nhằm mở ra cho họ những công việc mới dựa trên những định hướng tương lai của tổ chức",
+    ],
+    answer:
+      "Các hoạt động học tập vượt ra khỏi phạm vi công việc trước mắt của người lao động, nhằm mở ra cho họ những công việc mới dựa trên những định hướng tương lai của tổ chức",
+    id: "a7b8c9d0-e1f2-3a4b-5c6d-7e8f9a0b1c2d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Khái niệm đào tạo nào là chính xác nhất?",
+    options: [
+      "Đào tạo là các hoạt động rèn luyện nhằm giúp cho người lao động có thể thực hiện hiệu quả hơn chức năng, nhiệm vụ của mình.",
+      "Đào tạo là các hoạt động rèn luyện nhằm giúp cho người lao động có thể nâng cao năng lực.",
+      "Đào tạo là các hoạt động học tập nhằm giúp cho người lao động có thể thực hiện hiệu quả hơn chức năng, nhiệm vụ của mình.",
+      "Đào tạo là các hoạt động học tập nhằm giúp cho người lao động có thể nâng cao năng lực thực hiện chức năng nhiệm vụ công việc hiệu quả.",
+    ],
+    answer:
+      "Đào tạo là các hoạt động học tập nhằm giúp cho người lao động có thể thực hiện hiệu quả hơn chức năng, nhiệm vụ của mình.",
+    id: "b8c9d0e1-f2a3-4b5c-6d7e-8f9a0b1c2d3e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Đào tạo và phát triển nhân lực có vai trò gì đối với doanh nghiệp?",
+    options: [
+      "Tự động hóa toàn bộ quy trình tuyển dụng",
+      "Chỉ tập trung lưu trữ hồ sơ nhân viên",
+      "Giảm thiểu chi phí nhân sự bằng cách cắt giảm nhân viên",
+      "Đáp ứng yêu cầu tồn tại và phát triển của doanh nghiệp.",
+    ],
+    answer: "Đáp ứng yêu cầu tồn tại và phát triển của doanh nghiệp.",
+    id: "c9d0e1f2-a3b4-5c6d-7e8f-9a0b1c2d3e4f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Đào tạo và phát triển nhân lực có vai trò gì đối với doanh nghiệp?",
+    options: [
+      "Tự động hóa toàn bộ quy trình tuyển dụng",
+      "Chỉ tập trung lưu trữ hồ sơ nhân viên",
+      "Nâng cao năng suất lao động và hiệu quả làm việc.",
+      "Tạo điều kiện học tập cho người lao động của đối thủ cạnh tranh",
+    ],
+    answer: "Nâng cao năng suất lao động và hiệu quả làm việc.",
+    id: "d0e1f2a3-b4c5-6d7e-8f9a-0b1c2d3e4f5a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Lựa chọn giáo viên đào tạo dựa vào tiêu chí gì?",
+    options: [
+      "Căn cứ vào kinh nghiệm của đội ngũ giảng viên các trường đại học",
+      "Trình độ chuyên môn của giáo viên thuộc lĩnh vực đào tạo.",
+      "Nhu cầu của đối thủ cạnh tranh",
+      "Nhu cầu của thị trường lao động",
+    ],
+    answer: "Trình độ chuyên môn của giáo viên thuộc lĩnh vực đào tạo.",
+    id: "e1f2a3b4-c5d6-7e8f-9a0b-1c2d3e4f5a6b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Lựa chọn giáo viên đào tạo dựa vào tiêu chí gì?",
+    options: [
+      "Căn cứ vào độ tuổi của đội ngũ giảng viên",
+      "Kỹ năng giảng dạy của giáo viên thuộc lĩnh vực đào tạo.",
+      "Nhu cầu của đối thủ cạnh tranh",
+      "Nhu cầu của thị trường lao động",
+    ],
+    answer: "Kỹ năng giảng dạy của giáo viên thuộc lĩnh vực đào tạo.",
+    id: "f2a3b4c5-d6e7-8f9a-0b1c-2d3e4f5a6b7c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Chi phí đào tạo bao gồm:",
+    options: [
+      "Chi phí giáo viên và chi phí tài liệu",
+      "Chi phí điện nước",
+      "Chi phí giáo viên, chi phí tài liệu công cụ, chi phí địa điểm và các chi phí khác",
+      "Chi phí in tài liệu",
+    ],
+    answer:
+      "Chi phí giáo viên, chi phí tài liệu công cụ, chi phí địa điểm và các chi phí khác",
+    id: "a3b4c5d6-e7f8-9a0b-1c2d-3e4f5a6b7c8d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Công ty cổ phần X, đánh giá nhân viên kinh doanh dựa vào kết quả ghi chép của người quản lý hàng ngày. Đây là phương pháp đánh giá:",
+    options: [
+      "Trải nghiệm khách hàng",
+      "Nhật ký công việc",
+      "Trải nghiệm nhà quản lý",
+      "Trải nghiệm phòng ban tài chính",
+    ],
+    answer: "Nhật ký công việc",
+    id: "b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Trường Đại học Phenikaa đánh giá kết quả làm việc của cán bộ nghiên cứu dựa vào chỉ tiêu số bài báo đã đăng ký với nhà trường. Đây là phương pháp đánh giá:",
+    options: [
+      "Trải nghiệm khách hàng",
+      "Nhật ký công việc",
+      "Theo KPI",
+      "Theo mục tiêu",
+    ],
+    answer: "Theo mục tiêu",
+    id: "c5d6e7f8-a9b0-1c2d-3e4f-5a6b7c8d9e0f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Công ty cổ phần X, đánh giá nhân viên tuyển dụng dựa vào số lượng người lao động được tuyển vào làm việc trong doanh nghiệp và được đăng ký từ đầu năm. Đây là phương pháp đánh giá:",
+    options: [
+      "Trải nghiệm khách hàng",
+      "Theo mục tiêu",
+      "Trải nghiệm nhà quản lý",
+      "Theo thang đo đánh giá đồ họa",
+    ],
+    answer: "Theo mục tiêu",
+    id: "d6e7f8a9-b0c1-2d3e-4f5a-6b7c8d9e0f1a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Lãnh đạo công ty Y đánh giá tất cả các nhân viên trong doanh nghiệp đều hoàn thành tốt nhiệm vụ. Đây thuộc lỗi gì trong đánh giá.",
+    options: [
+      "Lỗi định kiến",
+      "Lỗi khắt khe hay quá dễ dãi",
+      "Lỗi khuynh hướng bình quân chủ nghĩa",
+      "Lỗi thiên vị",
+    ],
+    answer: "Lỗi khắt khe hay quá dễ dãi",
+    id: "e7f8a9b0-c1d2-3e4f-5a6b-7c8d9e0f1a2b",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Người đánh giá để các yếu tố như tuổi tác, màu da, giới tính ảnh hưởng đến quá trình đánh giá thực hiện công việc thì người đánh giá đã mắc phải lỗi:",
+    options: [
+      "Thiên kiến",
+      "Định kiến về phong tục tập quán",
+      "Tiêu chuẩn không rõ ràng",
+      "Xu hướng cực đoan",
+    ],
+    answer: "Thiên kiến",
+    id: "f8a9b0c1-d2e3-4f5a-6b7c-8d9e0f1a2b3c",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Tiền lương thực tế được hiểu là:",
+    options: [
+      "Số tiền người sử dụng lao động trả cho người lao động khi người lao động đã thực hiện công việc được giao và theo mức độ đóng góp của họ.",
+      "Số lượng hàng hóa và dịch vụ người lao động có thể mua được bằng tiền lương danh nghĩa sau khi đã đóng góp các khoản thuế, phí theo quy định của pháp luật và tổ chức, doanh nghiệp sử dụng lao động.",
+      "Giá cả của sức lao động, được hình thành trên cơ sở thỏa thuận giữa người lao động và người sử dụng lao động, phụ thuộc quan hệ cung – cầu về sức lao động trên thị trường lao động và phù hợp với các quy định của pháp luật.",
+      "Tổng số hàng hóa và dịch vụ nhận được từ người sử dụng lao động thông qua thực hiện công việc được giao và mức độ hoàn thành công việc.",
+    ],
+    answer:
+      "Số lượng hàng hóa và dịch vụ người lao động có thể mua được bằng tiền lương danh nghĩa sau khi đã đóng góp các khoản thuế, phí theo quy định của pháp luật và tổ chức, doanh nghiệp sử dụng lao động.",
+    id: "a9b0c1d2-e3f4-5a6b-7c8d-9e0f1a2b3c4d",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Tiền lương thực tế của người lao động tăng lên khi:",
+    options: [
+      "Tiền lương danh nghĩa tăng, giá cả hàng hóa tăng nhanh hơn tốc độ tăng của tiền lương danh nghĩa",
+      "Tiền lương danh nghĩa tăng, giá cả hàng hóa không thay đổi hoặc tăng chậm hơn so với tăng tiền lương danh nghĩa",
+      "Tiền lương danh nghĩa không thay đổi, giá cả các mặt hàng hóa và dịch vụ tăng lên.",
+      "Tiền lương danh nghĩa giảm, giá của các mặt hàng hóa và dịch vụ tăng lên.",
+    ],
+    answer:
+      "Tiền lương danh nghĩa tăng, giá cả hàng hóa không thay đổi hoặc tăng chậm hơn so với tăng tiền lương danh nghĩa",
+    id: "b0c1d2e3-f4a5-6b7c-8d9e-0f1a2b3c4d5e",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title:
+      "Khuyến khích tài chính đối với người lao động, thúc đẩy họ nâng cao năng suất lao động.",
+    options: [
+      "Kích thích người công nhân cố gắng nâng cao năng suất lao động nhằm nâng cao thu nhập.",
+      "Dễ hiểu dễ quản lý tạo điều kiện cho cả người quản lý và công nhân có thể tính toán tiền công một cách dễ dàng.",
+      "Khuyến khích công nhân trong tổ, nhóm nâng cao trách nhiệm trước tập thể, quan tâm đến kết quả cuối cùng của tổ, nhóm.",
+    ],
+    answer:
+      "Kích thích người công nhân cố gắng nâng cao năng suất lao động nhằm nâng cao thu nhập.",
+    id: "c1d2e3f4-a5b6-7c8d-9e0f-1a2b3c4d5e6f",
+    isCorrect: true,
+    answerSelect: [],
+  },
+  {
+    title: "Tiền lương có mấy chức năng:",
+    options: ["4", "5", "6", "7"],
+    answer: "4",
+    id: "d2e3f4a5-b6c7-8d9e-0f1a-2b3c4d5e6f7a",
+    isCorrect: true,
+    answerSelect: [],
+  },
+];
